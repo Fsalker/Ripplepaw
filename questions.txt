@@ -1,0 +1,7 @@
+1. Why does
+    let stream = fs.createWriteStream("./server/logs/log.txt", {flags: "a"})
+   ALWAYS write correctly into the /server/logs folder?
+    ie: 'server.js' writes a log("hello"). log writes into ./server/logs/log.txt = /server/logs/log.txt
+        but then 'api.js' writes a log("yo") into ./server/logs/log.txt = /server/server/logs/log.txt
+            why???
+        the reason i think it should write into folder /server/server/logs is that 'api.js' is already in directory /server...

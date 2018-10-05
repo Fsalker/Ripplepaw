@@ -1,0 +1,16 @@
+{
+  "name": "ripplepaw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Andrei",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "mysql": "^2.16.0"
+  }
+}

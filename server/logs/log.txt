@@ -1,0 +1,1813 @@
+[2018/08/26 - 15:06:18] Running server...
+[2018/08/26 - 15:06:19] Connecting to DB...
+[2018/08/26 - 15:06:19] Connected to DB!
+[2018/08/26 - 15:06:19] Running server...
+[2018/08/26 - 15:06:19] Connecting to DB...
+[2018/08/26 - 15:06:19] Connected to DB!
+[2018/08/26 - 15:06:24] Running server...
+[2018/08/26 - 15:06:25] Connecting to DB...
+[2018/08/26 - 15:06:25] Connected to DB!
+[2018/08/26 - 15:06:33] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:06:48] Running server...
+[2018/08/26 - 15:06:48] Connecting to DB...
+[2018/08/26 - 15:06:48] Connected to DB!
+[2018/08/26 - 15:06:55] Running server...
+[2018/08/26 - 15:06:55] Connecting to DB...
+[2018/08/26 - 15:06:55] Connected to DB!
+[2018/08/26 - 15:07:07] Running server...
+[2018/08/26 - 15:07:07] Connecting to DB...
+[2018/08/26 - 15:07:07] Connected to DB!
+[2018/08/26 - 15:07:09] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:07:09] hi
+[2018/08/26 - 15:08:19] Running server...
+[2018/08/26 - 15:08:19] Connecting to DB...
+[2018/08/26 - 15:08:19] Connected to DB!
+[2018/08/26 - 15:08:25] hi
+[2018/08/26 - 15:08:25] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:12:14] Running server...
+[2018/08/26 - 15:12:15] Connecting to DB...
+[2018/08/26 - 15:12:15] Connected to DB!
+[2018/08/26 - 15:12:29] Running server...
+[2018/08/26 - 15:12:29] Connecting to DB...
+[2018/08/26 - 15:12:29] Connected to DB!
+[2018/08/26 - 15:12:42] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:12:43] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2018/08/26 - 15:14:52] Running server...
+[2018/08/26 - 15:14:52] Connecting to DB...
+[2018/08/26 - 15:14:52] Connected to DB!
+[2018/08/26 - 15:15:27] Running server...
+[2018/08/26 - 15:15:27] Connecting to DB...
+[2018/08/26 - 15:15:27] Connected to DB!
+[2018/08/26 - 15:16:09] Running server...
+[2018/08/26 - 15:16:09] Connecting to DB...
+[2018/08/26 - 15:16:09] Connected to DB!
+[2018/08/26 - 15:16:55] Running server...
+[2018/08/26 - 15:16:55] Connecting to DB...
+[2018/08/26 - 15:16:55] Connected to DB!
+[2018/08/26 - 15:17:03] Running server...
+[2018/08/26 - 15:17:03] Connecting to DB...
+[2018/08/26 - 15:17:03] Connected to DB!
+[2018/08/26 - 15:17:09] Running server...
+[2018/08/26 - 15:17:09] Connecting to DB...
+[2018/08/26 - 15:17:09] Connected to DB!
+[2018/08/26 - 15:17:17] Running server...
+[2018/08/26 - 15:17:17] Connecting to DB...
+[2018/08/26 - 15:17:17] Connected to DB!
+[2018/08/26 - 15:17:21] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:17:50] Running server...
+[2018/08/26 - 15:17:50] Connecting to DB...
+[2018/08/26 - 15:17:50] Connected to DB!
+[2018/08/26 - 15:17:52] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:21:40] Running server...
+[2018/08/26 - 15:21:40] Connecting to DB...
+[2018/08/26 - 15:21:40] Connected to DB!
+[2018/08/26 - 15:21:42] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:21:42] fuck
+[2018/08/26 - 15:21:58] Running server...
+[2018/08/26 - 15:21:58] Connecting to DB...
+[2018/08/26 - 15:21:58] Connected to DB!
+[2018/08/26 - 15:21:59] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:21:59] fucks
+[2018/08/26 - 15:22:06] Running server...
+[2018/08/26 - 15:22:06] Connecting to DB...
+[2018/08/26 - 15:22:06] Connected to DB!
+[2018/08/26 - 15:22:15] Running server...
+[2018/08/26 - 15:22:15] Connecting to DB...
+[2018/08/26 - 15:22:15] Connected to DB!
+[2018/08/26 - 15:22:17] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:22:17] fuck
+[2018/08/26 - 15:22:40] Running server...
+[2018/08/26 - 15:22:40] Connecting to DB...
+[2018/08/26 - 15:22:40] Connected to DB!
+[2018/08/26 - 15:22:46] Running server...
+[2018/08/26 - 15:22:46] Connecting to DB...
+[2018/08/26 - 15:22:46] Connected to DB!
+[2018/08/26 - 15:22:59] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:22:59] fuck
+[2018/08/26 - 15:23:04] Running server...
+[2018/08/26 - 15:23:04] Connecting to DB...
+[2018/08/26 - 15:23:04] Connected to DB!
+[2018/08/26 - 15:23:05] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:23:05] bad input
+[2018/08/26 - 15:23:18] SyntaxError: Unexpected token n in JSON at position 23
+[2018/08/26 - 15:23:18] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:23:25] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:23:25] [object Object]
+[2018/08/26 - 15:23:37] Running server...
+[2018/08/26 - 15:23:37] Connecting to DB...
+[2018/08/26 - 15:23:37] Connected to DB!
+[2018/08/26 - 15:23:39] Running server...
+[2018/08/26 - 15:23:39] Connecting to DB...
+[2018/08/26 - 15:23:39] Connected to DB!
+[2018/08/26 - 15:23:44] a9f555bb0a2a08d48f8c795dd5f6a97ec4016220fb9ff5796881248dd17f2417
+[2018/08/26 - 15:23:44] Running server...
+[2018/08/26 - 15:23:44] Connecting to DB...
+[2018/08/26 - 15:23:44] Connected to DB!
+[2018/08/26 - 15:24:10] ��U�
+*ԏ�y]���~�b ���yh�$��$
+[2018/08/26 - 15:24:10] Running server...
+[2018/08/26 - 15:24:11] Connecting to DB...
+[2018/08/26 - 15:24:11] Connected to DB!
+[2018/08/26 - 15:24:16] Running server...
+[2018/08/26 - 15:24:16] a9f555bb0a2a08d48f8c795dd5f6a97ec4016220fb9ff5796881248dd17f2417
+[2018/08/26 - 15:24:16] Connecting to DB...
+[2018/08/26 - 15:24:16] Connected to DB!
+[2018/08/26 - 15:25:05] Running server...
+[2018/08/26 - 15:25:05] Connecting to DB...
+[2018/08/26 - 15:25:05] Connected to DB!
+[2018/08/26 - 15:25:11] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:25:11] 8ced40e5c67bb7659c131c7f6746941a91a3512af1922a3fa5be317b88380cf3
+[2018/08/26 - 15:25:21] Running server...
+[2018/08/26 - 15:25:21] Connecting to DB...
+[2018/08/26 - 15:25:21] Connected to DB!
+[2018/08/26 - 15:25:22] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:25:22] bad username
+[2018/08/26 - 15:25:26] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:25:26] bad username
+[2018/08/26 - 15:25:35] Running server...
+[2018/08/26 - 15:25:35] Connecting to DB...
+[2018/08/26 - 15:25:35] Connected to DB!
+[2018/08/26 - 15:25:36] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:25:36] Andrei
+[2018/08/26 - 15:25:36] bad username
+[2018/08/26 - 15:25:45] Running server...
+[2018/08/26 - 15:25:45] Connecting to DB...
+[2018/08/26 - 15:25:45] Connected to DB!
+[2018/08/26 - 15:25:47] 8ced40e5c67bb7659c131c7f6746941a91a3512af1922a3fa5be317b88380cf3
+[2018/08/26 - 15:25:47] Andrei
+[2018/08/26 - 15:25:47] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:25:50] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:25:50] Andrei!
+[2018/08/26 - 15:25:50] bad username
+[2018/08/26 - 15:26:36] Running server...
+[2018/08/26 - 15:26:37] Connecting to DB...
+[2018/08/26 - 15:26:37] Connected to DB!
+[2018/08/26 - 15:27:03] Connecting to DB...
+[2018/08/26 - 15:27:03] Running server...
+[2018/08/26 - 15:27:03] Connected to DB!
+[2018/08/26 - 15:27:14] Running server...
+[2018/08/26 - 15:27:14] Connecting to DB...
+[2018/08/26 - 15:27:14] Connected to DB!
+[2018/08/26 - 15:27:27] Running server...
+[2018/08/26 - 15:27:27] Connecting to DB...
+[2018/08/26 - 15:27:27] Connected to DB!
+[2018/08/26 - 15:27:35] Running server...
+[2018/08/26 - 15:27:36] Connecting to DB...
+[2018/08/26 - 15:27:36] Connected to DB!
+[2018/08/26 - 15:34:21] Running server...
+[2018/08/26 - 15:34:21] Connecting to DB...
+[2018/08/26 - 15:34:21] Connected to DB!
+[2018/08/26 - 15:34:24] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:34:24] Andrei!
+[2018/08/26 - 15:34:24] bad username: Andrei!
+[2018/08/26 - 15:34:39] Running server...
+[2018/08/26 - 15:34:39] Connecting to DB...
+[2018/08/26 - 15:34:39] Connected to DB!
+[2018/08/26 - 15:34:42] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:34:42] bad username: Andrei!
+[2018/08/26 - 15:34:42] Andrei!
+[2018/08/26 - 15:35:11] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:35:11] bad input
+[2018/08/26 - 15:39:45] Running server...
+[2018/08/26 - 15:39:45] Connecting to DB...
+[2018/08/26 - 15:39:45] Connected to DB!
+[2018/08/26 - 15:40:05] Running server...
+[2018/08/26 - 15:40:05] Connecting to DB...
+[2018/08/26 - 15:40:05] Connected to DB!
+[2018/08/26 - 15:40:59] Running server...
+[2018/08/26 - 15:41:00] Connecting to DB...
+[2018/08/26 - 15:41:00] Connected to DB!
+[2018/08/26 - 15:41:07] Running server...
+[2018/08/26 - 15:41:07] Connecting to DB...
+[2018/08/26 - 15:41:07] Connected to DB!
+[2018/08/26 - 15:41:20] bad input
+[2018/08/26 - 15:41:20] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:43:48] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:43:48] Andrei!
+[2018/08/26 - 15:43:48] bad username: Andrei!
+[2018/08/26 - 15:43:52] boss
+[2018/08/26 - 15:43:52] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:43:52] Andrei
+[2018/08/26 - 15:43:52] Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INSERTt INTO Users(username, nickname, password) VALUES('Andrei', 'boss', 'hola'' at line 1
+[2018/08/26 - 15:43:58] Running server...
+[2018/08/26 - 15:43:58] Connecting to DB...
+[2018/08/26 - 15:43:58] Connected to DB!
+[2018/08/26 - 15:43:59] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:43:59] Andrei
+[2018/08/26 - 15:43:59] boss
+[2018/08/26 - 15:43:59] Error: ER_BAD_FIELD_ERROR: Unknown column 'password' in 'field list'
+[2018/08/26 - 15:44:18] Running server...
+[2018/08/26 - 15:44:18] Connecting to DB...
+[2018/08/26 - 15:44:18] Connected to DB!
+[2018/08/26 - 15:44:20] boss
+[2018/08/26 - 15:44:20] Andrei
+[2018/08/26 - 15:44:20] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:44:21] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:44:21] Andrei
+[2018/08/26 - 15:44:21] boss
+[2018/08/26 - 15:44:31] Running server...
+[2018/08/26 - 15:44:31] Connecting to DB...
+[2018/08/26 - 15:44:31] Connected to DB!
+[2018/08/26 - 15:45:07] Running server...
+[2018/08/26 - 15:45:07] Connecting to DB...
+[2018/08/26 - 15:45:07] Connected to DB!
+[2018/08/26 - 15:45:08] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:45:08] Andrei
+[2018/08/26 - 15:45:08] boss
+[2018/08/26 - 15:45:09] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:45:09] Andrei
+[2018/08/26 - 15:45:09] boss
+[2018/08/26 - 15:45:09] Error: ER_DUP_ENTRY: Duplicate entry 'Andrei' for key 'username'
+[2018/08/26 - 15:49:03] Running server...
+[2018/08/26 - 15:49:03] Connecting to DB...
+[2018/08/26 - 15:49:03] Connected to DB!
+[2018/08/26 - 15:49:23] Running server...
+[2018/08/26 - 15:49:23] Connecting to DB...
+[2018/08/26 - 15:49:23] Connected to DB!
+[2018/08/26 - 15:49:39] Running server...
+[2018/08/26 - 15:49:39] Connecting to DB...
+[2018/08/26 - 15:49:39] Connected to DB!
+[2018/08/26 - 15:51:11] Running server...
+[2018/08/26 - 15:51:11] Connecting to DB...
+[2018/08/26 - 15:51:11] Connected to DB!
+[2018/08/26 - 15:51:16] Running server...
+[2018/08/26 - 15:51:16] Connecting to DB...
+[2018/08/26 - 15:51:16] Connected to DB!
+[2018/08/26 - 15:52:27] Running server...
+[2018/08/26 - 15:52:27] Connecting to DB...
+[2018/08/26 - 15:52:27] Connected to DB!
+[2018/08/26 - 15:54:56] Running server...
+[2018/08/26 - 15:54:56] Connecting to DB...
+[2018/08/26 - 15:54:56] Connected to DB!
+[2018/08/26 - 15:57:11] Running server...
+[2018/08/26 - 15:57:11] Connecting to DB...
+[2018/08/26 - 15:57:11] Connected to DB!
+[2018/08/26 - 15:57:33] Running server...
+[2018/08/26 - 15:57:33] Connecting to DB...
+[2018/08/26 - 15:57:33] Connected to DB!
+[2018/08/26 - 15:57:52] Running server...
+[2018/08/26 - 15:57:52] Connecting to DB...
+[2018/08/26 - 15:57:52] Connected to DB!
+[2018/08/26 - 15:57:57] Running server...
+[2018/08/26 - 15:57:57] Connecting to DB...
+[2018/08/26 - 15:57:57] Connected to DB!
+[2018/08/26 - 15:58:27] Running server...
+[2018/08/26 - 15:58:27] Connecting to DB...
+[2018/08/26 - 15:58:27] Connected to DB!
+[2018/08/26 - 15:58:30] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:58:30] Andrei
+[2018/08/26 - 15:58:30] boss
+[2018/08/26 - 15:58:30] [object Object],[object Object]
+[2018/08/26 - 15:58:34] Running server...
+[2018/08/26 - 15:58:35] Connecting to DB...
+[2018/08/26 - 15:58:35] Connected to DB!
+[2018/08/26 - 15:58:37] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:58:37] Andrei
+[2018/08/26 - 15:58:37] boss
+[2018/08/26 - 15:58:37] [object Object]
+[2018/08/26 - 15:58:49] Running server...
+[2018/08/26 - 15:58:49] Connecting to DB...
+[2018/08/26 - 15:58:49] Connected to DB!
+[2018/08/26 - 15:58:51] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:58:51] Andrei
+[2018/08/26 - 15:58:51] boss
+[2018/08/26 - 15:58:51] undefined
+[2018/08/26 - 15:59:06] Running server...
+[2018/08/26 - 15:59:06] Connecting to DB...
+[2018/08/26 - 15:59:06] Connected to DB!
+[2018/08/26 - 15:59:07] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:59:07] Andrei
+[2018/08/26 - 15:59:07] boss
+[2018/08/26 - 15:59:07] 1
+[2018/08/26 - 15:59:26] Running server...
+[2018/08/26 - 15:59:26] Connecting to DB...
+[2018/08/26 - 15:59:26] Connected to DB!
+[2018/08/26 - 15:59:27] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:59:27] boss
+[2018/08/26 - 15:59:27] Andrei
+[2018/08/26 - 15:59:28] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 15:59:28] boss
+[2018/08/26 - 15:59:28] Andrei
+[2018/08/26 - 15:59:28] TypeError: hash is not a function
+[2018/08/26 - 16:00:20] Running server...
+[2018/08/26 - 16:00:20] Connecting to DB...
+[2018/08/26 - 16:00:20] Connected to DB!
+[2018/08/26 - 16:02:13] Running server...
+[2018/08/26 - 16:02:14] Connecting to DB...
+[2018/08/26 - 16:02:14] Connected to DB!
+[2018/08/26 - 16:02:38] hewwo we have a request from ::1 for path: /login
+[2018/08/26 - 16:02:38] [object Object]
+[2018/08/26 - 16:02:42] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 16:02:42] Andrei
+[2018/08/26 - 16:02:42] boss
+[2018/08/26 - 16:03:01] Running server...
+[2018/08/26 - 16:03:01] Connecting to DB...
+[2018/08/26 - 16:03:01] Connected to DB!
+[2018/08/26 - 16:04:27] Running server...
+[2018/08/26 - 16:04:27] Connecting to DB...
+[2018/08/26 - 16:04:27] Connected to DB!
+[2018/08/26 - 16:05:57] Running server...
+[2018/08/26 - 16:05:57] Connecting to DB...
+[2018/08/26 - 16:05:58] Connected to DB!
+[2018/08/26 - 16:05:59] boss
+[2018/08/26 - 16:05:59] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 16:05:59] Andrei
+[2018/08/26 - 16:05:59] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 16:05:59] Andrei
+[2018/08/26 - 16:05:59] boss
+[2018/08/26 - 16:05:59] TypeError: hash is not a function
+[2018/08/26 - 16:06:11] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 16:06:11] Andrei
+[2018/08/26 - 16:06:11] boss
+[2018/08/26 - 16:06:11] TypeError: hash is not a function
+[2018/08/26 - 16:06:55] Running server...
+[2018/08/26 - 16:06:55] Connecting to DB...
+[2018/08/26 - 16:06:55] Connected to DB!
+[2018/08/26 - 16:06:58] Andrei
+[2018/08/26 - 16:06:58] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 16:06:58] boss
+[2018/08/26 - 16:06:58] Error: ER_DUP_ENTRY: Duplicate entry 'Andrei' for key 'username'
+[2018/08/26 - 16:07:00] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 16:07:00] Andrei
+[2018/08/26 - 16:07:00] boss
+[2018/08/26 - 16:07:00] Error: ER_DUP_ENTRY: Duplicate entry 'Andrei' for key 'username'
+[2018/08/26 - 16:07:06] Running server...
+[2018/08/26 - 16:07:07] Connecting to DB...
+[2018/08/26 - 16:07:07] Connected to DB!
+[2018/08/26 - 16:07:09] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 16:07:09] Andrei2
+[2018/08/26 - 16:07:09] boss
+[2018/08/26 - 16:07:11] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 16:07:11] boss
+[2018/08/26 - 16:07:11] Andrei2
+[2018/08/26 - 16:07:11] Error: ER_DUP_ENTRY: Duplicate entry 'Andrei2' for key 'username'
+[2018/08/26 - 16:07:13] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 16:07:13] Andrei3
+[2018/08/26 - 16:07:13] boss
+[2018/08/26 - 16:07:15] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 16:07:15] Andrei4
+[2018/08/26 - 16:07:15] boss
+[2018/08/26 - 16:07:37] Running server...
+[2018/08/26 - 16:07:38] Connecting to DB...
+[2018/08/26 - 16:07:38] Connected to DB!
+[2018/08/26 - 16:07:39] Andrei4
+[2018/08/26 - 16:07:39] word = hola
+[2018/08/26 - 16:07:39] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 16:07:39] boss
+[2018/08/26 - 16:07:39] Error: ER_DUP_ENTRY: Duplicate entry 'Andrei4' for key 'username'
+[2018/08/26 - 16:07:43] boss
+[2018/08/26 - 16:07:43] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 16:07:43] word = hola
+[2018/08/26 - 16:07:43] Andrei5
+[2018/08/26 - 16:07:43] word = function toString() { [native code] }
+[2018/08/26 - 16:07:51] Running server...
+[2018/08/26 - 16:07:52] Connecting to DB...
+[2018/08/26 - 16:07:52] Connected to DB!
+[2018/08/26 - 16:07:56] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 16:07:56] Andrei6
+[2018/08/26 - 16:07:56] boss
+[2018/08/26 - 16:07:56] word = hola
+[2018/08/26 - 16:07:56] word = 0.36915177710819425
+[2018/08/26 - 16:08:04] hewwo we have a request from ::1 for path: /register
+[2018/08/26 - 16:08:04] Andrei7
+[2018/08/26 - 16:08:04] boss
+[2018/08/26 - 16:08:04] word = hola
+[2018/08/26 - 16:08:04] word = 0.49629443129218664
+[2018/08/26 - 16:08:16] Running server...
+[2018/08/26 - 16:08:16] Connecting to DB...
+[2018/08/26 - 16:08:16] Connected to DB!
+[2018/08/26 - 16:08:19] hewwo we have a request from ::1 for path: /login
+[2018/08/26 - 16:08:19] [object Object]
+[2018/08/26 - 16:08:21] hewwo we have a request from ::1 for path: /login
+[2018/08/26 - 16:08:21] [object Object]
+[2018/08/26 - 16:08:23] hewwo we have a request from ::1 for path: /login
+[2018/08/26 - 16:08:23] [object Object]
+[2018/08/26 - 16:08:31] Running server...
+[2018/08/26 - 16:08:32] Connecting to DB...
+[2018/08/26 - 16:08:32] Connected to DB!
+[2018/08/26 - 16:08:33] hewwo we have a request from ::1 for path: /login
+[2018/08/26 - 16:08:33] 1
+[2018/08/26 - 16:08:35] hewwo we have a request from ::1 for path: /login
+[2018/08/26 - 16:08:35] 0
+[2018/08/26 - 16:09:23] Running server...
+[2018/08/26 - 16:09:23] Connecting to DB...
+[2018/08/26 - 16:09:23] Connected to DB!
+[2018/08/26 - 16:09:25] hewwo we have a request from ::1 for path: /login
+[2018/08/26 - 16:09:25] invalid auth for user Andrei
+[2018/08/26 - 16:09:27] hewwo we have a request from ::1 for path: /login
+[2018/08/26 - 16:09:27] ReferenceError: userId is not defined
+[2018/08/26 - 16:10:05] Running server...
+[2018/08/26 - 16:10:05] Connecting to DB...
+[2018/08/26 - 16:10:05] Connected to DB!
+[2018/08/26 - 16:10:08] Running server...
+[2018/08/26 - 16:10:08] Connecting to DB...
+[2018/08/26 - 16:10:08] Connected to DB!
+[2018/08/26 - 16:10:53] Running server...
+[2018/08/26 - 16:10:53] Connecting to DB...
+[2018/08/26 - 16:10:53] Connected to DB!
+[2018/08/26 - 16:10:56] hewwo we have a request from ::1 for path: /login
+[2018/08/26 - 16:11:17] hewwo we have a request from ::1 for path: /login
+[2018/08/26 - 16:11:19] hewwo we have a request from ::1 for path: /login
+[2018/08/26 - 16:11:20] hewwo we have a request from ::1 for path: /login
+[2018/08/26 - 16:11:33] hewwo we have a request from ::1 for path: /login
+[2018/08/26 - 21:23:01] Running server...
+[2018/08/26 - 21:23:01] Connecting to DB...
+[2018/08/26 - 21:23:01] Connected to DB!
+[2018/08/26 - 21:50:44] Running server...
+[2018/08/26 - 21:50:44] Connecting to DB...
+[2018/08/26 - 21:50:44] Connected to DB!
+[2018/08/26 - 21:56:28] Connecting to DB...
+[2018/08/26 - 21:56:28] Running server...
+[2018/08/26 - 21:56:28] Connected to DB!
+[2018/08/26 - 21:57:00] Connecting to DB...
+[2018/08/26 - 21:57:00] Running server...
+[2018/08/26 - 21:57:00] Connected to DB!
+[2018/08/26 - 21:59:58] Running server...
+[2018/08/26 - 21:59:58] Connecting to DB...
+[2018/08/26 - 21:59:58] Connected to DB!
+[2018/08/26 - 22:17:21] Running server...
+[2018/08/26 - 22:17:21] Connecting to DB...
+[2018/08/26 - 22:17:21] Connected to DB!
+[2018/08/26 - 22:17:47] Running server...
+[2018/08/26 - 22:17:47] Connecting to DB...
+[2018/08/26 - 22:17:47] Connected to DB!
+[2018/09/03 - 02:11:06] Running server...
+[2018/09/03 - 02:11:06] Connecting to DB...
+[2018/09/03 - 02:11:06] Connected to DB!
+[2018/09/03 - 02:23:53] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 02:23:53] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:23:53] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 02:24:12] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 02:24:12] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:24:12] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 02:24:12] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 02:24:12] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:24:12] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 02:26:11] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 02:26:11] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:26:17] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 02:26:17] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:26:17] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 02:26:25] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 02:26:25] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:26:25] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 02:27:12] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:27:20] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 02:27:20] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:27:27] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 02:27:27] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:30:18] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 02:30:18] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:30:27] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:31:16] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 02:31:16] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:31:20] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 02:31:20] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:31:23] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 02:31:23] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:31:27] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 02:31:27] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:31:29] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:31:39] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 02:31:39] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:31:53] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 02:31:53] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:34:02] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 02:34:02] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:34:02] hewwo we have a request from ::1 for path: /_vendor/jquery/dist/jquery.min.js
+[2018/09/03 - 02:34:02] hewwo we have a request from ::1 for path: /_vendor/popper.js/dist/umd/popper.min.js
+[2018/09/03 - 02:34:02] hewwo we have a request from ::1 for path: /_vendor/bootstrap/dist/js/bootstrap.min.js
+[2018/09/03 - 02:34:03] hewwo we have a request from ::1 for path: /_assets/js/custom.js
+[2018/09/03 - 02:35:07] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 02:35:07] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:36:57] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 02:36:57] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:36:57] hewwo we have a request from ::1 for path: /jquery-3.3.1.min
+[2018/09/03 - 02:36:59] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 02:36:59] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:36:59] hewwo we have a request from ::1 for path: /jquery-3.3.1.min
+[2018/09/03 - 02:37:20] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 02:37:20] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:37:20] hewwo we have a request from ::1 for path: /jquery-3.3.1.min
+[2018/09/03 - 02:37:48] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 02:37:48] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:37:48] hewwo we have a request from ::1 for path: /jquery-3.3.1.min.js
+[2018/09/03 - 02:47:56] Running server...
+[2018/09/03 - 02:47:56] Connecting to DB...
+[2018/09/03 - 02:47:56] Connected to DB!
+[2018/09/03 - 02:48:02] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 02:48:02] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:48:02] hewwo we have a request from ::1 for path: /jquery-3.3.1.min.js
+[2018/09/03 - 02:48:09] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 02:48:09] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:48:09] hewwo we have a request from ::1 for path: /jquery-3.3.1.min.js
+[2018/09/03 - 02:48:48] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 02:48:48] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:48:48] hewwo we have a request from ::1 for path: /jquery-3.3.1.min.js
+[2018/09/03 - 02:48:48] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 02:51:47] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 02:51:47] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:51:47] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 02:51:47] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 02:52:33] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 02:52:33] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:52:33] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 02:52:33] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 02:52:44] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 02:52:44] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:52:44] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 02:52:44] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 02:52:51] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 02:52:51] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:52:51] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 02:52:51] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 02:53:03] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 02:53:03] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:53:03] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 02:53:03] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 02:53:11] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 02:53:11] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 02:53:11] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 02:53:11] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 03:07:58] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:07:58] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:07:58] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:07:58] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/03 - 03:07:58] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 03:08:17] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:08:17] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:08:17] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:08:17] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/03 - 03:08:17] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:08:17] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 03:09:36] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:09:36] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:09:36] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:09:36] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:09:36] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/03 - 03:09:36] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 03:09:39] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:10:06] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:10:06] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:10:06] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:10:06] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/03 - 03:10:20] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:10:20] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:10:33] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:10:33] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:10:53] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:10:53] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:10:53] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:10:53] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/03 - 03:11:01] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:11:01] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:11:01] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/03 - 03:11:08] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:11:09] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:11:09] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:11:47] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:11:47] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:11:47] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:11:47] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/03 - 03:11:59] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:11:59] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:11:59] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:11:59] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/03 - 03:11:59] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 03:12:14] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:12:14] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:12:14] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:12:14] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:12:14] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/03 - 03:12:14] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 03:12:19] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:12:19] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:12:19] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:12:19] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:12:19] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/03 - 03:12:19] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 03:12:38] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:12:38] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:12:38] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:12:38] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:12:38] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 03:12:48] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:12:49] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:12:49] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:12:49] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:12:49] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 03:13:44] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/03 - 03:14:02] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:14:56] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/03 - 03:14:56] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 03:15:00] Running server...
+[2018/09/03 - 03:15:00] Connecting to DB...
+[2018/09/03 - 03:15:00] Connected to DB!
+[2018/09/03 - 03:15:01] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/03 - 03:15:02] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 03:15:02] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/03 - 03:15:02] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 03:15:33] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/03 - 03:15:33] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 03:15:35] Running server...
+[2018/09/03 - 03:15:35] Connecting to DB...
+[2018/09/03 - 03:15:36] Connected to DB!
+[2018/09/03 - 03:15:36] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/03 - 03:15:37] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 03:15:43] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:15:43] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:15:43] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:15:43] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:21:29] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:21:29] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:21:29] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:21:29] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:21:29] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 03:21:47] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:21:47] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:21:47] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:21:47] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:21:47] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 03:21:50] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:21:50] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:21:50] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:21:50] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:21:50] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 03:22:09] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:22:09] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:22:09] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:22:09] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:22:10] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 03:26:04] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:26:04] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:26:04] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:26:04] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:26:04] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 03:33:18] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:33:19] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:33:19] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:33:19] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:33:19] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 03:34:15] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:34:15] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:34:15] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:34:15] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:34:16] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 03:34:29] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:34:29] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:34:29] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:34:29] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:34:29] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 03:34:34] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:34:34] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:34:34] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:34:34] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:34:34] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 03:43:17] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:43:17] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:43:17] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:43:17] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:43:17] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 03:43:20] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:43:32] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:43:32] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:43:32] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:43:32] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:43:50] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:43:50] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:43:50] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:43:50] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:44:16] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:44:16] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:44:16] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:44:16] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:44:34] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:44:34] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:44:34] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:44:34] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:46:39] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:46:39] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:46:39] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:46:39] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:48:18] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:48:18] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:48:18] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:48:18] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:48:26] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:48:26] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:48:26] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:48:26] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:48:37] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:48:37] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:48:37] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:48:37] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:48:46] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:48:46] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:48:46] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:48:46] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:49:49] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:49:51] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:49:51] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:49:51] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:49:51] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:49:59] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:49:59] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:49:59] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:49:59] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:54:30] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:54:30] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:54:30] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:54:30] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:54:37] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:54:37] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:54:37] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:54:37] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:54:44] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:54:44] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:54:44] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:54:44] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:54:47] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:54:47] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:54:47] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:54:47] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:54:47] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:54:47] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:54:47] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:54:47] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:55:49] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:55:52] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:55:52] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:55:52] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:55:52] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:55:52] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 03:55:53] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:58:10] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:58:10] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:58:10] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:58:10] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:58:10] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 03:59:02] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:59:02] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:59:02] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:59:02] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:59:03] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 03:59:09] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:59:09] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:59:09] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:59:09] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:59:09] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 03:59:15] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:59:15] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:59:15] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:59:15] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:59:15] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 03:59:27] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 03:59:27] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 03:59:27] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 03:59:27] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 03:59:28] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 03:59:28] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:01:52] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:01:52] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:01:52] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:01:52] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:01:56] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 04:01:56] bad username: hdf
+[2018/09/03 - 04:02:22] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 04:02:28] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 04:02:28] Error: ER_DUP_ENTRY: Duplicate entry 'hdsfh' for key 'username'
+[2018/09/03 - 04:02:29] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 04:02:29] Error: ER_DUP_ENTRY: Duplicate entry 'hdsfh' for key 'username'
+[2018/09/03 - 04:02:29] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 04:02:29] Error: ER_DUP_ENTRY: Duplicate entry 'hdsfh' for key 'username'
+[2018/09/03 - 04:02:29] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 04:02:29] Error: ER_DUP_ENTRY: Duplicate entry 'hdsfh' for key 'username'
+[2018/09/03 - 04:02:35] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 04:02:35] Error: ER_DUP_ENTRY: Duplicate entry 'hdsfh' for key 'username'
+[2018/09/03 - 04:10:42] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:10:42] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:10:42] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:10:42] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:11:01] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:11:01] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:11:01] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:11:01] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:11:15] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:11:15] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:11:15] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:11:15] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:11:31] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:11:31] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:11:31] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:11:31] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:11:40] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:11:40] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:11:40] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:11:40] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:12:18] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:12:18] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:12:18] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:12:18] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:12:20] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 04:12:20] bad username: 
+[2018/09/03 - 04:14:20] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:14:48] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:14:48] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:14:48] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:14:48] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:14:51] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:14:51] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:14:51] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:14:51] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:18:55] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:18:55] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:18:55] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:18:55] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:31:24] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:31:24] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:31:24] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:31:24] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:31:56] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:31:56] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:31:56] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:31:56] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:32:03] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:32:03] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:32:03] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:32:03] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:34:03] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:34:03] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:34:03] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:34:03] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:34:19] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:34:19] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:34:19] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:34:19] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:34:35] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:34:35] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:34:35] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:34:35] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:34:45] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:34:45] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:34:45] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:34:45] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:34:49] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:34:49] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:34:49] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:34:49] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:35:22] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:35:22] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:35:22] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:35:22] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:36:06] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:36:06] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:36:06] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:36:06] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:36:13] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:36:13] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:36:13] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:36:13] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:36:15] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 04:36:15] bad username: 
+[2018/09/03 - 04:36:16] bad username: 
+[2018/09/03 - 04:36:16] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 04:36:56] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:36:56] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:36:56] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:36:56] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:37:43] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:37:43] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:37:43] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:37:43] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:37:46] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 04:37:46] bad username: 
+[2018/09/03 - 04:37:47] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 04:37:47] bad username: 
+[2018/09/03 - 04:38:24] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:38:24] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:38:24] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:38:24] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:38:26] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 04:38:26] bad username: 
+[2018/09/03 - 04:38:42] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:38:42] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:38:42] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:38:42] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:38:43] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 04:38:43] bad username: 
+[2018/09/03 - 04:38:57] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:38:57] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:38:57] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:38:57] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:38:58] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 04:38:58] bad username: 
+[2018/09/03 - 04:39:23] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:39:23] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:39:23] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:39:23] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:39:24] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 04:39:24] bad username: 
+[2018/09/03 - 04:39:29] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 04:39:31] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 04:39:31] Error: ER_DUP_ENTRY: Duplicate entry 'fhfd' for key 'username'
+[2018/09/03 - 04:45:52] Running server...
+[2018/09/03 - 04:45:53] Connecting to DB...
+[2018/09/03 - 04:45:53] Connected to DB!
+[2018/09/03 - 04:47:15] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 04:47:15] TypeError: Cannot read property 'COUNT(*)' of undefined
+[2018/09/03 - 04:47:27] TypeError: Cannot read property 'COUNT(*)' of undefined
+[2018/09/03 - 04:47:27] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 04:47:49] Running server...
+[2018/09/03 - 04:47:49] Connecting to DB...
+[2018/09/03 - 04:47:49] Connected to DB!
+[2018/09/03 - 04:47:57] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 04:47:57] TypeError: Cannot read property 'COUNT(*)' of undefined
+[2018/09/03 - 04:48:53] Running server...
+[2018/09/03 - 04:48:53] Connecting to DB...
+[2018/09/03 - 04:48:53] Connected to DB!
+[2018/09/03 - 04:48:54] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 04:49:27] Running server...
+[2018/09/03 - 04:49:28] Connecting to DB...
+[2018/09/03 - 04:49:28] Connected to DB!
+[2018/09/03 - 04:49:29] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 04:49:29] username Andreigsdg is not available
+[2018/09/03 - 04:49:44] Running server...
+[2018/09/03 - 04:49:44] Connecting to DB...
+[2018/09/03 - 04:49:44] Connected to DB!
+[2018/09/03 - 04:49:45] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 04:49:50] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 04:49:56] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 04:49:56] username Andrei is not available
+[2018/09/03 - 04:50:39] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 04:50:47] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 04:50:47] bad username: 555
+[2018/09/03 - 04:50:49] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 04:50:49] bad username: 123
+[2018/09/03 - 04:51:57] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 04:51:58] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 04:51:58] Error: ER_DUP_ENTRY: Duplicate entry '5555' for key 'username'
+[2018/09/03 - 04:53:37] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:53:37] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:53:37] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:53:37] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:53:45] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:53:45] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:53:45] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:53:45] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:53:52] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:53:52] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:53:52] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:53:52] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:55:34] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:55:34] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:55:34] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:55:34] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:55:36] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 04:55:36] bad username: gds
+[2018/09/03 - 04:55:38] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 04:55:38] bad username: dsg
+[2018/09/03 - 04:55:40] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 04:57:16] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:57:17] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:57:17] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:57:17] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:57:26] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 04:57:26] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 04:57:26] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 04:57:26] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 04:57:28] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 04:57:29] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 04:57:29] Error: ER_DUP_ENTRY: Duplicate entry 'gdsg' for key 'username'
+[2018/09/03 - 04:57:32] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 04:57:32] bad username: gd
+[2018/09/03 - 04:57:33] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 04:57:33] Error: ER_DUP_ENTRY: Duplicate entry 'gdsg' for key 'username'
+[2018/09/03 - 04:57:34] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:01:04] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:01:04] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:01:04] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:01:04] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:01:08] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:02:39] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:02:39] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:02:39] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:02:39] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:02:58] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:03:54] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:03:54] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:03:54] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:03:54] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:03:57] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:04:10] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:04:10] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:04:10] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:04:10] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:04:13] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:04:14] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:04:14] Error: ER_DUP_ENTRY: Duplicate entry 'hdsfhf' for key 'username'
+[2018/09/03 - 05:04:17] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:04:17] Error: ER_DUP_ENTRY: Duplicate entry 'hdsfhf' for key 'username'
+[2018/09/03 - 05:04:18] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:04:35] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:04:35] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:04:35] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:04:35] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:04:38] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:05:06] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:05:06] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:05:06] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:05:06] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:05:09] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:07:10] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:07:10] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:07:10] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:07:10] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:07:13] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:08:12] Running server...
+[2018/09/03 - 05:08:12] Connecting to DB...
+[2018/09/03 - 05:08:12] Connected to DB!
+[2018/09/03 - 05:08:13] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:08:13] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:08:13] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:08:13] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:08:16] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:08:37] Running server...
+[2018/09/03 - 05:08:38] Connecting to DB...
+[2018/09/03 - 05:08:38] Connected to DB!
+[2018/09/03 - 05:08:40] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:08:40] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:08:40] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:08:40] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:08:43] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:09:16] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:09:16] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:09:16] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:09:16] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:09:20] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:09:48] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:09:48] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:09:48] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:09:48] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:09:51] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:09:58] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:09:58] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:09:58] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:09:58] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:10:00] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:10:11] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:10:11] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:10:11] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:10:11] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:10:15] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:10:45] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:10:45] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:10:45] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:10:45] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:10:48] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:11:19] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:11:19] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:11:19] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:11:19] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:11:24] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:11:24] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:11:24] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:11:24] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:11:47] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:11:47] bad name: hdg
+[2018/09/03 - 05:11:48] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:12:13] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:12:13] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:12:13] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:12:13] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:12:16] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:12:53] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:12:53] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:12:53] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:12:53] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:13:01] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:13:01] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:13:01] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:13:01] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:13:02] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 05:13:03] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:13:13] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:13:13] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:13:13] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:13:13] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:13:14] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 05:13:15] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:15:15] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:15:15] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:15:15] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:15:15] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:15:34] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:15:34] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:15:34] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:15:34] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:15:43] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:17:12] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:17:12] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:17:12] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:17:12] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:17:40] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:17:40] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:17:40] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:17:40] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:17:44] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:17:46] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:17:46] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:17:46] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:17:46] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:17:47] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:17:47] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:17:47] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:17:47] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:17:50] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:17:50] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:17:50] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:17:50] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:17:51] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:17:51] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:17:51] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:17:51] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:19:17] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:19:17] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:19:17] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:19:17] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:23:05] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:23:05] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:23:05] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:23:05] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:23:10] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:23:13] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:23:13] invalid auth for user swagz
+[2018/09/03 - 05:24:05] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:24:51] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:24:51] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:24:51] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:24:51] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:24:57] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:24:59] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:25:02] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:25:02] invalid auth for user swagge
+[2018/09/03 - 05:28:57] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:28:57] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:28:57] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:28:57] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:29:22] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:29:22] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:29:22] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:29:22] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:29:38] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:29:38] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:29:38] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:29:38] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:29:49] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:29:49] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:29:49] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:29:49] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:29:54] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:29:55] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:29:55] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:29:55] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:29:55] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:10] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:30:10] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:30:10] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:30:10] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:30:13] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:13] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:13] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:13] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:14] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:15] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:16] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:25] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:25] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:30:25] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:30:25] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:30:25] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:30:27] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:27] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:27] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:27] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:28] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:28] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:40] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:40] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:30:40] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:30:40] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:30:40] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:30:48] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:48] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:49] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:49] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:50] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:50] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:50] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:50] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:50] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:50] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:51] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:51] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:51] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:51] username andrei is not available
+[2018/09/03 - 05:30:53] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:53] username andrei is not available
+[2018/09/03 - 05:30:54] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:56] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:56] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:56] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:56] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:56] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:30:58] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:31:00] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:31:54] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:31:54] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:31:54] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:31:55] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:31:57] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:31:57] username andrei is not available
+[2018/09/03 - 05:32:06] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:32:06] username andrei is not available
+[2018/09/03 - 05:32:13] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:32:13] username andrei is not available
+[2018/09/03 - 05:32:15] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:32:15] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:32:15] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:32:15] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:32:17] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:32:17] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:32:17] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:32:17] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:32:18] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:32:18] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:32:18] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:32:18] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:32:18] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:32:19] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:32:20] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:32:20] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:32:20] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:32:20] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:32:20] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:32:22] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:32:22] username andrei is not available
+[2018/09/03 - 05:32:23] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:32:24] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:33:07] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:33:07] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:33:07] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:33:07] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:33:07] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:33:10] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:33:11] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:33:11] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:33:11] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:33:11] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:33:11] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:33:12] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:33:13] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:33:13] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:33:14] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:33:16] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:33:16] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:33:16] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:33:16] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:33:16] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:33:17] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:33:18] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:33:18] username andrei is not available
+[2018/09/03 - 05:33:19] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:33:20] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:33:21] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:33:21] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:33:21] username andrei is not available
+[2018/09/03 - 05:33:22] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:33:24] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:33:54] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:33:54] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:33:54] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:33:54] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:33:54] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:33:57] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:33:58] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:33:58] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:33:59] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:33:59] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:33:59] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:34:02] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:34:02] username andrei is not available
+[2018/09/03 - 05:34:13] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:34:13] username andrei is not available
+[2018/09/03 - 05:34:13] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:34:13] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:34:13] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:34:13] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:34:15] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:34:15] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:34:16] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:34:18] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:34:19] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:34:20] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:34:22] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:34:23] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:34:24] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:34:24] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:34:26] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:34:26] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:34:34] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:34:43] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:34:45] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:22] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:22] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:35:22] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:35:22] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:35:22] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:35:24] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:24] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:24] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:25] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:25] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:25] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:25] username andrei is not available
+[2018/09/03 - 05:35:26] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:27] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:27] username andrei is not available
+[2018/09/03 - 05:35:27] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:28] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:28] username andrei is not available
+[2018/09/03 - 05:35:28] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:28] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:28] username andrei is not available
+[2018/09/03 - 05:35:29] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:29] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:29] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:29] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:30] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:30] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:30] username andrei is not available
+[2018/09/03 - 05:35:31] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:31] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:31] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:32] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:32] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:33] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:33] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:33] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:33] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:34] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:34] username andrei is not available
+[2018/09/03 - 05:35:34] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:34] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:35] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:35] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:35] username andrei is not available
+[2018/09/03 - 05:35:35] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:36] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:39] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:45] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:45] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:35:45] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:35:45] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:35:45] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:35:47] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:47] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:47] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:48] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:48] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:48] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:48] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:48] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:48] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:48] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:48] username andrei is not available
+[2018/09/03 - 05:35:49] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:49] username andrei is not available
+[2018/09/03 - 05:35:49] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:49] username andrei is not available
+[2018/09/03 - 05:35:49] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:50] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:54] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:54] username andrei is not available
+[2018/09/03 - 05:35:57] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:35:57] username andrei is not available
+[2018/09/03 - 05:36:01] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:36:01] username andrei is not available
+[2018/09/03 - 05:36:04] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:36:04] username andrei is not available
+[2018/09/03 - 05:36:15] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:36:15] username andrei is not available
+[2018/09/03 - 05:36:15] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:36:15] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:36:15] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:36:15] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:36:18] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:36:19] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:36:27] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:36:28] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:36:28] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:36:28] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:36:28] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:36:29] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:36:29] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:36:29] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:36:30] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:36:30] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:36:30] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:36:30] username andrei is not available
+[2018/09/03 - 05:36:31] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:36:31] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:36:31] username andrei is not available
+[2018/09/03 - 05:36:32] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:36:33] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:36:33] username andrei is not available
+[2018/09/03 - 05:36:33] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:36:34] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:36:34] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:36:35] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:36:35] username andrei is not available
+[2018/09/03 - 05:36:36] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:36:36] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:36:36] username andrei is not available
+[2018/09/03 - 05:37:46] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:37:46] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:37:46] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:37:46] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:37:48] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:37:48] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:37:48] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:37:49] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:37:49] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:37:49] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:37:50] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:37:50] username andrei is not available
+[2018/09/03 - 05:38:25] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:38:25] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:38:25] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:38:25] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:38:27] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:38:27] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:38:27] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:38:27] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:38:27] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:38:27] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:38:27] username andrei is not available
+[2018/09/03 - 05:38:28] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:38:29] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:38:29] username andrei is not available
+[2018/09/03 - 05:38:29] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:38:29] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:38:29] username andrei is not available
+[2018/09/03 - 05:38:30] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:38:30] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:38:30] username andrei is not available
+[2018/09/03 - 05:39:15] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:39:15] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:39:15] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:39:15] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:39:57] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:39:57] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:39:57] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:39:57] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:40:05] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:40:05] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:40:05] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:40:05] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:40:25] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:40:25] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:40:25] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:40:25] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:40:27] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:40:28] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:40:28] bad name: a
+[2018/09/03 - 05:40:36] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:40:36] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:40:36] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:40:36] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:40:38] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:40:50] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:40:50] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:40:50] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:40:50] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:40:53] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:40:58] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:40:58] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:40:58] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:41:09] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:41:09] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:41:15] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:41:15] invalid auth for user 2223
+[2018/09/03 - 05:41:17] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:41:17] invalid auth for user 2223
+[2018/09/03 - 05:41:20] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:41:20] invalid auth for user 2223
+[2018/09/03 - 05:41:23] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:41:23] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:41:23] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:41:23] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:41:25] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:41:30] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:43:29] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:43:29] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:43:29] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:43:29] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:43:41] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:43:41] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:43:41] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:43:41] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:43:55] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:43:55] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:43:55] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:43:55] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:43:59] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:43:59] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:43:59] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:43:59] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:44:01] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:44:04] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:44:04] invalid auth for user xxxx
+[2018/09/03 - 05:44:05] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:44:32] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:44:32] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:44:32] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:44:32] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:44:41] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:44:41] invalid auth for user vvvv
+[2018/09/03 - 05:44:45] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:44:45] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:44:45] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:44:45] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:44:46] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:44:46] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:44:46] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:44:46] bad name: fds
+[2018/09/03 - 05:45:00] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:45:00] invalid auth for user vvvv
+[2018/09/03 - 05:45:01] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:45:01] invalid auth for user vvvv
+[2018/09/03 - 05:45:05] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:45:05] invalid auth for user vvvv
+[2018/09/03 - 05:45:12] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:45:12] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:45:13] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:45:13] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:45:17] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:45:35] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:45:35] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:45:35] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:45:35] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:45:45] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:45:46] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:45:46] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:45:46] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:45:54] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:45:54] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:45:54] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:45:54] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:46:17] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:46:17] invalid auth for user hfdh
+[2018/09/03 - 05:46:19] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:46:19] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:46:19] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:46:19] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:46:20] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 05:46:27] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:46:32] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:46:32] invalid auth for user 1234
+[2018/09/03 - 05:46:40] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:47:35] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:47:35] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:47:35] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:47:35] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:47:36] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:47:37] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:47:37] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:47:38] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:47:38] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:47:38] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:47:38] username andrei is not available
+[2018/09/03 - 05:47:39] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:47:39] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:47:39] username andrei is not available
+[2018/09/03 - 05:47:40] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:47:44] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:47:44] username andrei is not available
+[2018/09/03 - 05:47:44] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:47:44] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:47:45] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:47:45] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:47:46] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:47:47] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:47:47] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:47:47] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:47:47] username andrei is not available
+[2018/09/03 - 05:48:47] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:48:57] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:49:17] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:49:24] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:49:43] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:50:18] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:50:29] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:50:56] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:50:59] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:50:59] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:50:59] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:50:59] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:51:02] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:51:23] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:51:23] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:51:23] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:51:23] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:51:26] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:51:26] invalid auth for user 1234
+[2018/09/03 - 05:51:27] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:51:33] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:51:33] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:51:33] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:51:33] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:51:57] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:51:57] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:51:57] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:51:57] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:52:01] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:52:45] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:52:45] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:52:45] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:52:45] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:52:47] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 05:52:51] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:52:54] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:52:54] invalid auth for user 
+[2018/09/03 - 05:52:55] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:52:55] invalid auth for user f
+[2018/09/03 - 05:52:59] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:53:15] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:53:21] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:54:02] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:54:02] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:54:02] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 05:54:02] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:54:06] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:54:16] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 05:56:26] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 05:56:26] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 05:56:26] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 05:56:26] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 06:34:20] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 06:34:20] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 06:34:20] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 06:34:20] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 06:34:23] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 06:34:29] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 06:34:52] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 06:34:52] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 06:34:52] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 06:34:52] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 06:34:55] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 06:35:13] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 06:35:13] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 06:35:13] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 06:35:13] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 06:35:15] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 06:35:20] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 06:35:36] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 06:35:36] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 06:35:36] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 06:35:36] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 06:35:38] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 19:05:32] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 19:05:32] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 19:05:32] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 19:05:32] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 19:05:36] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 19:06:09] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 19:06:09] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 19:06:09] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 19:06:09] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 19:06:13] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 19:06:43] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 19:06:43] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 19:06:43] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 19:06:43] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 19:06:50] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 19:06:50] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 19:06:50] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 19:06:50] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 19:06:54] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 19:07:08] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 19:07:45] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 19:07:45] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 19:07:45] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 19:07:45] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 19:07:49] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 19:08:27] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 19:08:50] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 19:08:50] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 19:08:50] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 19:08:50] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 19:08:55] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 19:10:06] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 19:10:06] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 19:10:06] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 19:10:06] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 19:10:09] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 19:10:32] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 19:10:32] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 19:10:32] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 19:10:32] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 19:12:02] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 19:12:02] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 19:12:02] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 19:12:02] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 19:12:04] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 19:12:04] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 19:12:04] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 19:12:04] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 19:12:09] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 19:12:09] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 19:12:09] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 19:12:09] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 19:12:20] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 19:12:20] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 19:12:20] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 19:12:20] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 19:12:46] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 19:12:46] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 19:12:46] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 19:12:46] hewwo we have a request from ::1 for path: /polyfill.min.js
+[2018/09/03 - 19:12:51] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 19:12:51] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 19:12:51] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 19:12:55] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 19:13:08] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 19:13:08] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 19:13:08] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 19:13:08] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/03 - 19:13:08] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/03 - 19:13:08] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/03 - 19:13:10] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 19:13:59] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 19:13:59] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 19:13:59] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 19:13:59] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/03 - 19:13:59] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/03 - 19:13:59] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/03 - 19:14:09] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 19:14:09] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 19:14:09] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 19:14:09] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/03 - 19:14:09] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/03 - 19:14:09] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/03 - 19:14:31] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 19:14:31] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 19:14:31] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 19:14:31] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/03 - 19:14:31] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/03 - 19:14:31] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/03 - 19:14:41] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 19:14:41] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 19:14:41] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 19:14:41] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/03 - 19:14:41] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/03 - 19:14:41] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/03 - 19:14:52] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 19:14:52] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 19:14:52] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 19:14:52] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/03 - 19:14:52] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/03 - 19:14:52] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/03 - 19:15:46] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 19:15:46] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 19:15:46] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 19:15:46] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/03 - 19:15:46] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 19:15:48] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 19:15:48] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/03 - 19:15:48] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/03 - 19:16:00] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 19:16:44] hewwo we have a request from ::1 for path: /login
+[2018/09/03 - 19:17:57] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 19:17:57] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 19:17:57] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 19:17:57] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/03 - 19:17:57] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/03 - 19:18:06] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 19:18:06] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 19:18:06] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 19:18:06] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 19:18:06] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/03 - 19:18:13] hewwo we have a request from ::1 for path: /register
+[2018/09/03 - 19:18:13] bad name: hfd
+[2018/09/03 - 19:18:31] hewwo we have a request from ::1 for path: /
+[2018/09/03 - 19:18:31] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/03 - 19:18:31] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/03 - 19:18:31] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/03 - 19:18:31] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/05 - 16:34:03] Running server...
+[2018/09/05 - 16:34:03] Connecting to DB...
+[2018/09/05 - 16:34:25] Running server...
+[2018/09/05 - 16:34:25] Connecting to DB...
+[2018/09/05 - 16:35:20] Running server...
+[2018/09/05 - 16:35:20] Connecting to DB...
+[2018/09/05 - 16:35:20] Connected to DB!

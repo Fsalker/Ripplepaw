@@ -1,0 +1,214 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <script src="vue.js"></script>
+    <!--<script src="polyfill.min.js"></script>-->
+    <!-- <script src="bootstrap-vue.js"></script> -->
+    <script src="bootstrap-vue.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">Ripplepaw</a>
+
+            <template v-if="!loggedin">
+                <div class="ml-auto">
+                    <button id="register_btn" class="btn btn-info">Register</button>
+                    <button id="login_btn" class="btn btn-info">Login</button>
+
+                    <b-popover target="register_btn" triggers="focus" placement="bottom" title="Register">
+                        <alert-object id="registerAlert" :data="registerData"></alert-object>
+
+                        <div class="form-row">
+                            <div class="col-4 col-form-label">
+                                <label for="register_nick">Nickname</label>
+                            </div>
+                            <input id="register_nick" type="text" class="col form-control" @keydown.enter="register"></input>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-4 col-form-label">
+                                <label for="register_user">Username</label>
+                            </div>
+                            <input id="register_user" type="text" class="col form-control" @input="register_username_changed"></input>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-4 col-form-label">
+                                <label for="register_pass">Password</label>
+                            </div>
+                            <input id="register_pass" type="password" class="col form-control" @keydown.enter="register"></input>
+                        </div>
+                        <div class="mt-2">
+                            <button class="btn btn-success" @click="register">Register</button>
+                        </div>
+                    </b-popover>
+
+                    <b-popover target="login_btn" triggers="focus" placement="bottom" title="Login">
+                        <alert-object id="loginAlert" :data="loginData"></alert-object>
+                        <div class="form-row">
+                            <div class="col-4 col-form-label">
+                                <label for="login_user">Username</label>
+                            </div>
+                            <input id="login_user" type="text" class="col form-control" @keydown.enter="login"></input>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-4 col-form-label">
+                                <label for="login_pass">Password</label>
+                            </div>
+                            <input id="login_pass" type="password" class="col form-control" @keydown.enter="login"></input>
+                        </div>
+                        <div class="mt-2">
+                            <button class="btn btn-success" @click="login">Login</button>
+                        </div>
+                    </b-popover>
+                </div>
+            </template>
+            <template v-else>
+                <div class="ml-auto">
+                    <button class="btn btn-info" @click="logout">Logout</button>
+                </div>
+            </template>
+        </nav>
+    </div>
+
+    <script>
+        // Cookies
+        function setCookie(cname, cvalue, exdays) {
+            var d = new Date();
+            d.setTime(d.getTime() + (exdays*24*60*60*1000));
+            var expires = "expires="+ d.toUTCString();
+            document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+        }
+
+        function setCookieCool(cname, cvalue){
+            const COOL_BECAUSE_I_CAN_AVOID_1_PARAMETER_HEHE_EXPIRATION_DAYS = 30
+            setCookie(cname, cvalue, COOL_BECAUSE_I_CAN_AVOID_1_PARAMETER_HEHE_EXPIRATION_DAYS)
+        }
+
+        function getCookie(cname) {
+            var name = cname + "=";
+            var decodedCookie = decodeURIComponent(document.cookie);
+            var ca = decodedCookie.split(';');
+            for(var i = 0; i <ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return undefined;
+        }
+
+        function deleteCookie(cname){
+            setCookie(cname, "", 0)
+        }
+
+        //
+        function setAlertData(alertData, variant, text){
+            alertData.variant = variant
+            alertData.text = text
+        }
+
+        function resetAlertData(alertData){
+            alertData.variant = ""
+            alertData.text = ""
+        }
+
+        function ajaxRequest(api, data, successCallback, failureCallback){
+            var req = new XMLHttpRequest()
+            req.open("POST", api)
+            req.setRequestHeader("content-type", "application/json")
+            req.send(JSON.stringify(data))
+            req.onreadystatechange = () => {
+                if(req.readyState == 4) {
+                    console.log(req.status)
+                    if(req.status == 200) successCallback(req.response)
+                    else failureCallback(req.response)
+                }
+            }
+        }
+
+        function loginFrontend(userId, hash){ // sets userId and sessionHash on the frontend (both in 'app' and in the cookies)
+            setCookieCool("userId", userId)
+            setCookieCool("sessionHash", hash)
+            app.userId = userId
+            app.sessionHash = hash
+            resetAlertData(app.registerData)
+            resetAlertData(app.loginData)
+        }
+
+        // Vue
+        Vue.component("alert-object", {
+            props: ["data"],
+            template: `<b-alert :show="data.text!=''" :variant="data.variant">
+                            {{data.text}}
+                       </b-alert>`
+        })
+
+        var app = new Vue({
+            el: "#app",
+            data: {
+                userId: getCookie("userId"),
+                sessionHash: getCookie("sessionHash"),
+
+                registerData: {variant: "", text: ""},
+                loginData: {variant: "", text: ""}
+            },
+            computed: {
+                loggedin: function() {
+                    let ans = (this.userId && this.sessionHash) ? true : false
+                    return ans
+                }
+            },
+            methods: {
+                register: () => {
+                    let data = {
+                        nickname: document.getElementById("register_nick").value,
+                        username: document.getElementById("register_user").value,
+                        password: document.getElementById("register_pass").value
+                    }
+
+                    if(data.nickname.length <= 3 || data.nickname.length > 20 || data.nickname.match(/[^a-zA-Z0-9]/)) return setAlertData(app.registerData, "warning", "Nickname must contain between 4 and 20 alphanumeric characters.")
+                    if(data.username.length <= 3 || data.username.length > 20 || data.username.match(/[^a-zA-Z0-9]/)) return setAlertData(app.registerData, "warning", "Username must contain between 4 and 20 alphanumeric characters.")
+
+                    let successCallback = (data) => {data = JSON.parse(data); loginFrontend(data.userId, data.hash)}
+                    let failureCallback = () => setAlertData(app.registerData, "danger", "Register failed.")
+                    ajaxRequest("register", data, successCallback, failureCallback)
+                },
+
+                login: () => {
+                    let data = {
+                        username: document.getElementById("login_user").value,
+                        password: document.getElementById("login_pass").value
+                    }
+                    let successCallback = (data) => {data = JSON.parse(data); loginFrontend(data.userId, data.hash)}
+                    let failureCallback = () => setAlertData(app.loginData, "danger", "Authentification failed.")
+                    ajaxRequest("login", data, successCallback, failureCallback)
+                },
+
+                register_username_changed: (event) => {
+                    if(event.key == "Enter")
+                        app.register()
+                    else {
+                        let username = document.getElementById("register_user").value
+                        console.log("Checking username: "+username)
+                        let successCallback = () => {
+                            if(app.registerData.text == "Username is already taken.")
+                                setAlertData(app.registerData, "", "")
+                        }
+                        let failureCallback = () => setAlertData(app.registerData, "info", "Username is already taken.")
+                        ajaxRequest("usernameAvailable", {username: username}, successCallback, failureCallback)
+                    }
+                },
+
+                logout: () => {
+                    deleteCookie("userId")
+                    deleteCookie("sessionHash")
+                    app.userId = undefined
+                    app.sessionHash = undefined
+                }
+            }
+        })
+    </script>
+</body>
