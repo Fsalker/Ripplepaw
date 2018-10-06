@@ -1,4 +1,27 @@
-    Bugs
+        Bugs
 #1 Login -> Logout
 this causes the focus to be set on Register (the leftmost button, top button in html)
     why???????????????????????
+
+
+
+        Warnings
+#1 Stupid warning. or am i misunderstanding?
+
+<tr v-for="room in roomArr">
+    {{room}}
+    <td v-for="key in room">
+        {{key}}
+    </td>
+</tr>
+
+[Vue warn]: Property or method "room" is not defined on the instance but referenced during render. Make sure that this property is reactive, either in the data option, or for class-based components, by initializing the property. See: https://vuejs.org/v2/guide/reactivity.html#Declaring-Reactive-Properties.
+(found in <Root>)
+
+
+
+        Flaws
+#1 every single time we use "await query(con, 'select bla bla...'", query returns a promise.
+    the promise can be rejected.
+    the rejection SOMEHOW gets caught in serverHandler's block:
+            API_HANDLER_FUNCTIONS[api_name](con, res, body).catch(e => { ... } )

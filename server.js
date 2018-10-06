@@ -23,7 +23,7 @@ function serverHandler(req, res){
         if(url.indexOf(".") != -1){ // Requesting a file: /image.png, /video.mp4 etc
             let fileName = url.substring(1)
 
-            if(fileName.match(/[^a-zA-Z0-9.\-]/)) res.end() // dumb request
+            if(fileName.match(/[^a-zA-Z0-9.\-/]/)) res.end() // dumb request
             else {
                 fs.readFile("./public/"+fileName, (err, data) => {
                     if(err) {
@@ -74,27 +74,32 @@ function main(){
 
     log("Connecting to DB...")
     con.getConnection(async(err) => {
-        if(err) throw err;
-        try{
-            log("Connected to DB!")
+        if(err) {
+            console.log(err)
+            return
+        }
 
-            if(RESETTING_DATABASE)
-                await init_database(con)
+        log("Connected to DB!")
+
+        if(RESETTING_DATABASE)
+            await init_database(con)
 
 
-            let io = socket(server)
-            io.on("connection", (socket) => {
-                ip = socket.handshake.address
+        let io = socket(server)
+        io.on("connection", (socket) => {
+            try{
+                let ip = socket.handshake.address
                 console.log(`User ${ip} connected`)
+                io.emit("swag", Math.random())
 
                 socket.on("disconnect", () => {
                     console.log(`User ${ip} disconnected!`)
                 })
-            })
+            }
+            catch(e) {console.log(e)}
+        })
 
-            server.listen(PORT)
-        }
-        catch(e) {throw e}
+        server.listen(PORT)
     })
 }
 

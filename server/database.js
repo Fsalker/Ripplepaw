@@ -17,7 +17,9 @@ module.exports = {
                     email varchar(60),
                     birthDate DATETIME,
                     location varchar(30),
-                    bio varchar(100)
+                    bio varchar(100),
+                    guestMode varchar(10) DEFAULT 'false',
+                    ts datetime DEFAULT CURRENT_TIMESTAMP
         );`
 
         sql += `CREATE TABLE Rooms(
@@ -27,18 +29,23 @@ module.exports = {
                     maxplayers int NOT NULL,
                     boardWidth int NOT NULL,
                     boardHeight int NOT NULL,
-                    password varchar(30) NOT NULL
+                    password varchar(30) NOT NULL,
+                    language varchar(30) NOT NULL /* Romanian, English */,
+                    closed varchar(10) DEFAULT 'false',
+                    ts datetime DEFAULT CURRENT_TIMESTAMP
         );`
 
         sql += `CREATE TABLE Words(
                     id int PRIMARY KEY AUTO_INCREMENT,
-                    word varchar(20) NOT NULL
+                    word varchar(20) NOT NULL,
+                    language varchar(20) DEFAULT 'english'
         );`
 
         sql += `CREATE TABLE Sessions(
                     id int PRIMARY KEY AUTO_INCREMENT,
                     hash varchar(64) NOT NULL,
-                    userId int NOT NULL
+                    userId int NOT NULL,
+                    ts datetime DEFAULT CURRENT_TIMESTAMP
         );`
 
         sql += `CREATE TABLE UserToRoom(

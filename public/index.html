@@ -1,41 +1,53 @@
 <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="vue.js"></script>
     <!--<script src="polyfill.min.js"></script>-->
-    <!-- <script src="bootstrap-vue.js"></script> -->
     <script src="bootstrap-vue.js"></script>
+
+    <style>
+        table>tbody>tr:nth-child(n+2){
+            transition: 0.3s;
+            cursor: pointer;
+        }
+        table>tbody>tr:hover:nth-child(n+2){
+            background-color: #375a7f;
+        }
+    </style>
 </head>
 
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+        <nav class="navbar navbar-dark bg-primary">
             <a class="navbar-brand" href="#">Ripplepaw</a>
 
             <template v-if="!loggedin">
                 <div class="ml-auto">
+                    <button id="login_btn" class="btn btn-primary">Login</button>
                     <button id="register_btn" class="btn btn-info">Register</button>
-                    <button id="login_btn" class="btn btn-info">Login</button>
+                    <button id="register_guest_btn" class="btn btn-warning">Play as a guest</button>
+
+                    <b-popover target="register_guest_btn" triggers="focus" placement="bottom" title="Guest mode">
+                        <alert-object :data="registerGuestData"></alert-object>
+                        <input id="register_guest_nick" class="form-control" placeholder="Guest Nickname" @keydown.enter="register_guest">
+                        <button class="mt-2 btn btn-success" @click="register_guest">Go</button>
+                    </b-popover>
 
                     <b-popover target="register_btn" triggers="focus" placement="bottom" title="Register">
-                        <alert-object id="registerAlert" :data="registerData"></alert-object>
+                        <alert-object :data="registerData"></alert-object>
 
-                        <div class="form-row">
-                            <div class="col-4 col-form-label">
-                                <label for="register_nick">Nickname</label>
-                            </div>
-                            <input id="register_nick" type="text" class="col form-control" @keydown.enter="register"></input>
+                        <div class="form-row mb-1">
+                            <label class="col-4 col-form-label" for="register_nick">Nickname</label>
+                            <input id="register_nick" type="text" class="col form-control" @keydown.enter="register">
+                        </div>
+                        <div class="form-row mb-1">
+                            <label class="col-4 col-form-label" for="register_user">Username</label>
+                            <input id="register_user" type="text" class="col form-control" @input="register_username_changed" @keydown.enter="register">
                         </div>
                         <div class="form-row">
-                            <div class="col-4 col-form-label">
-                                <label for="register_user">Username</label>
-                            </div>
-                            <input id="register_user" type="text" class="col form-control" @input="register_username_changed"></input>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-4 col-form-label">
-                                <label for="register_pass">Password</label>
-                            </div>
-                            <input id="register_pass" type="password" class="col form-control" @keydown.enter="register"></input>
+                            <label class="col-4 col-form-label" for="register_pass">Password</label>
+                            <input id="register_pass" type="password" class="col form-control" @keydown.enter="register">
                         </div>
                         <div class="mt-2">
                             <button class="btn btn-success" @click="register">Register</button>
@@ -43,18 +55,14 @@
                     </b-popover>
 
                     <b-popover target="login_btn" triggers="focus" placement="bottom" title="Login">
-                        <alert-object id="loginAlert" :data="loginData"></alert-object>
-                        <div class="form-row">
-                            <div class="col-4 col-form-label">
-                                <label for="login_user">Username</label>
-                            </div>
-                            <input id="login_user" type="text" class="col form-control" @keydown.enter="login"></input>
+                        <alert-object :data="loginData"></alert-object>
+                        <div class="form-row mb-1">
+                            <label class="col-4 col-form-label" for="login_user">Username</label>
+                            <input id="login_user" type="text" class="col form-control" @keydown.enter="login">
                         </div>
                         <div class="form-row">
-                            <div class="col-4 col-form-label">
-                                <label for="login_pass">Password</label>
-                            </div>
-                            <input id="login_pass" type="password" class="col form-control" @keydown.enter="login"></input>
+                            <label class="col-4 col-form-label" for="login_pass">Password</label>
+                            <input id="login_pass" type="password" class="col form-control" @keydown.enter="login">
                         </div>
                         <div class="mt-2">
                             <button class="btn btn-success" @click="login">Login</button>
@@ -64,45 +72,94 @@
             </template>
             <template v-else>
                 <div class="ml-auto">
+                    <span class="mr-1">Logged in as {{nickname}}</span>
                     <button class="btn btn-info" @click="logout">Logout</button>
                 </div>
             </template>
         </nav>
+
+        <div class="container my-4">
+            <div>
+                <nav class="navbar navbar-dark">
+                    <h1 style="display: inline-block; margin: 0">Lobbies</h1>
+                    
+                    <div class="ml-auto">
+                        <button class="btn btn-info" @click="getRoomList">Refresh</button>
+                        <b-btn class="btn btn-info ml-1" :disabled="!loggedin" v-b-modal.create-lobby-modal>Create lobby</b-btn>
+
+                        <b-modal id="create-lobby-modal" title="Lobby configuration" ok-title="Create" ok-variant="success" @ok="createRoom">
+                            <alert-object :data="createRoomData"></alert-object>
+                            <div class="form-row mb-1">
+                                <label class="col-3 col-form-label" for="room_name">Name</label>
+                                <input id="room_name" class="form-control col-6" @keydown.enter="createRoom" v-model="randomRoomName" maxlength="30">
+                                <button class="btn btn-info ml-1" @click="changeRoomName"><i class="fa fa-repeat"></i></button>
+                            </div>
+                            <div class="form-row mb-1">
+                                <label class="col-3 col-form-label" for="room_maxPlayers">Players</label>
+                                <input class="form-control col-6" id="room_maxPlayers" type="number" min="4" max="16" value="4" @keydown.enter="createRoom">
+                            </div>
+                            <div class="form-row mb-1">
+                                <label class="col-3 col-form-label" for="room_name">Board Width</label>
+                                <input class="form-control col-6" id="room_boardWidth" type="number" min="1" max="10" value="5" @keydown.enter="createRoom">
+                            </div>
+                            <div class="form-row mb-1">
+                                <label class="col-3 col-form-label" for="room_name">Board Height</label>
+                                <input class="form-control col-6" id="room_boardHeight" type="number" min="1" max="10" value="5" @keydown.enter="createRoom">
+                            </div>
+                            <div class="form-row mb-1">
+                                <label class="col-3 col-form-label" for="room_password">Password</label>
+                                <input class="form-control col-6" id="room_password" placeholder="Your password" @keydown.enter="createRoom">
+                            </div>
+                            <div class="form-row">
+                                <label class="col-3 col-form-label" for="room_name">Language</label>
+                                <select id="room_language" name="language" class="form-control col-6">
+                                    <option value="english">English</option>
+                                    <option value="romanian">Română</option>
+                                </select>
+                            </div>
+                        </b-modal>
+                    </div>
+                </nav>
+            </div>
+
+            <alert-object :data="lobbyListData"></alert-object>
+
+            <template v-if="roomArr.length > 0">
+                <table class="table my-4" style="text-align: center">
+                    <tr>
+                        <th width="5%" hidden>{{roomColumns[0]}}</th>
+                        <th width="5%">{{roomColumns[1]}}</th>
+                        <th width="20%">{{roomColumns[2]}}</th>
+                        <th width="10%">{{roomColumns[3]}}</th>
+                        <th width="10%">{{roomColumns[4]}}</th>
+                        <th width="10%">{{roomColumns[5]}}</th>
+                        <th width="10%">{{roomColumns[6]}}</th>
+                        <th width="5%">{{roomColumns[7]}}</th>
+                    </tr>
+                        <tr v-for="room in roomArr">
+                            {{room}}
+                            <td v-for="col of roomColumns" v-bind:style="{display: col != roomColumns[0] ? 'table-cell' : 'none'}">
+                                {{room[col]}}
+                            </td>
+                        </tr>
+                </table>
+            </template>
+            <template v-else>
+                <div style="text-align: center">
+                    <p>Unfortunately, there are no open lobbies right now. Go ahead and create your own room!</p>
+                </div>
+            </template>
+        </div>
     </div>
 
+    <script src="/socket.io/socket.io.js"></script>
     <script>
-        // Cookies
-        function setCookie(cname, cvalue, exdays) {
-            var d = new Date();
-            d.setTime(d.getTime() + (exdays*24*60*60*1000));
-            var expires = "expires="+ d.toUTCString();
-            document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-        }
+        // Socket IO
+        var socket = io();
 
-        function setCookieCool(cname, cvalue){
-            const COOL_BECAUSE_I_CAN_AVOID_1_PARAMETER_HEHE_EXPIRATION_DAYS = 30
-            setCookie(cname, cvalue, COOL_BECAUSE_I_CAN_AVOID_1_PARAMETER_HEHE_EXPIRATION_DAYS)
-        }
-
-        function getCookie(cname) {
-            var name = cname + "=";
-            var decodedCookie = decodeURIComponent(document.cookie);
-            var ca = decodedCookie.split(';');
-            for(var i = 0; i <ca.length; i++) {
-                var c = ca[i];
-                while (c.charAt(0) == ' ') {
-                    c = c.substring(1);
-                }
-                if (c.indexOf(name) == 0) {
-                    return c.substring(name.length, c.length);
-                }
-            }
-            return undefined;
-        }
-
-        function deleteCookie(cname){
-            setCookie(cname, "", 0)
-        }
+        socket.on("swag", (x) => {
+            //console.log("Got swag: "+x)
+        })
 
         //
         function setAlertData(alertData, variant, text){
@@ -122,20 +179,29 @@
             req.send(JSON.stringify(data))
             req.onreadystatechange = () => {
                 if(req.readyState == 4) {
-                    console.log(req.status)
                     if(req.status == 200) successCallback(req.response)
                     else failureCallback(req.response)
                 }
             }
         }
 
-        function loginFrontend(userId, hash){ // sets userId and sessionHash on the frontend (both in 'app' and in the cookies)
-            setCookieCool("userId", userId)
-            setCookieCool("sessionHash", hash)
+        function loginFrontend(userId, hash, nickname, storageType = "local"){ // sets userId and sessionHash on the frontend (both in 'app' and in the cookies)
+            if(storageType == "local"){
+                localStorage.setItem("userId", userId)
+                localStorage.setItem("sessionHash", hash)
+                localStorage.setItem("nickname", nickname)
+            }
+            else {
+                sessionStorage.setItem("userId", userId)
+                sessionStorage.setItem("sessionHash", hash)
+                sessionStorage.setItem("nickname", nickname)
+            }
             app.userId = userId
             app.sessionHash = hash
+            app.nickname = nickname
             resetAlertData(app.registerData)
             resetAlertData(app.loginData)
+            resetAlertData(app.registerGuestData)
         }
 
         // Vue
@@ -149,11 +215,29 @@
         var app = new Vue({
             el: "#app",
             data: {
+                nickname: localStorage.getItem("nickname") || sessionStorage.getItem("nickname"),
+                userId: localStorage.getItem("userId") || sessionStorage.getItem("userId"),
+                sessionHash: localStorage.getItem("sessionHash") || sessionStorage.getItem("sessionHash"),
+                /*nickname: getCookie("nickname"),
                 userId: getCookie("userId"),
-                sessionHash: getCookie("sessionHash"),
+                sessionHash: getCookie("sessionHash"),*/
+                guestMode: false,
+
+                roomColumns: ["Id", "Passworded", "Name", "Owner", "Players", "Board Width", "Board Height", "Language"],
+                roomArr: [],
 
                 registerData: {variant: "", text: ""},
-                loginData: {variant: "", text: ""}
+                registerGuestData: {variant: "", text: ""},
+                loginData: {variant: "", text: ""},
+                createRoomData: {variant: "", text: ""},
+                lobbyListData: {variant: "", text: ""},
+
+                randomRoomName: undefined
+            },
+            mounted: function() {
+                //this.randomRoomName = this.generateRoomName()
+                this.changeRoomName()
+                this.getRoomList()
             },
             computed: {
                 loggedin: function() {
@@ -172,9 +256,23 @@
                     if(data.nickname.length <= 3 || data.nickname.length > 20 || data.nickname.match(/[^a-zA-Z0-9]/)) return setAlertData(app.registerData, "warning", "Nickname must contain between 4 and 20 alphanumeric characters.")
                     if(data.username.length <= 3 || data.username.length > 20 || data.username.match(/[^a-zA-Z0-9]/)) return setAlertData(app.registerData, "warning", "Username must contain between 4 and 20 alphanumeric characters.")
 
-                    let successCallback = (data) => {data = JSON.parse(data); loginFrontend(data.userId, data.hash)}
+                    let successCallback = (data) => {data = JSON.parse(data); loginFrontend(data.userId, data.hash, data.nickname);}
                     let failureCallback = () => setAlertData(app.registerData, "danger", "Register failed.")
                     ajaxRequest("register", data, successCallback, failureCallback)
+                },
+
+                register_guest: () => {
+                    let data = { nickname: document.getElementById("register_guest_nick").value }
+
+                    if(data.nickname.length <= 3 || data.nickname.length > 20 || data.nickname.match(/[^a-zA-Z0-9]/)) return setAlertData(app.registerGuestData, "warning", "Nickname must contain between 4 and 20 alphanumeric characters.")
+
+                    let successCallback = (data) => {
+                        data = JSON.parse(data); 
+                        loginFrontend(data.userId, data.hash, data.nickname, "session"); 
+                        app.guestMode = true
+                    }
+                    let failureCallback = () => setAlertData(app.registerGuestData, "danger", "Failed to create guest account.")
+                    ajaxRequest("registerGuest", data, successCallback, failureCallback)  
                 },
 
                 login: () => {
@@ -182,7 +280,7 @@
                         username: document.getElementById("login_user").value,
                         password: document.getElementById("login_pass").value
                     }
-                    let successCallback = (data) => {data = JSON.parse(data); loginFrontend(data.userId, data.hash)}
+                    let successCallback = (data) => {data = JSON.parse(data); loginFrontend(data.userId, data.hash, data.nickname);}
                     let failureCallback = () => setAlertData(app.loginData, "danger", "Authentification failed.")
                     ajaxRequest("login", data, successCallback, failureCallback)
                 },
@@ -192,7 +290,6 @@
                         app.register()
                     else {
                         let username = document.getElementById("register_user").value
-                        console.log("Checking username: "+username)
                         let successCallback = () => {
                             if(app.registerData.text == "Username is already taken.")
                                 setAlertData(app.registerData, "", "")
@@ -203,10 +300,92 @@
                 },
 
                 logout: () => {
-                    deleteCookie("userId")
+                    localStorage.removeItem("userId")
+                    localStorage.removeItem("sessionHash")
+                    localStorage.removeItem("nickname")
+                    /*deleteCookie("userId")
                     deleteCookie("sessionHash")
+                    deleteCookie("nickname")*/
                     app.userId = undefined
                     app.sessionHash = undefined
+                },
+
+                getRoomList: () => {
+                    let successCallback = (data) => {
+                        data = JSON.parse(data);
+                        resetAlertData(app.lobbyListData)
+                        app.roomArr = []
+                        for(room of data) {
+                            crtRoom = {}
+                            crtRoom["Id"] = room.id
+                            crtRoom["Passworded"] = room.hasPassword ? "Yes" : "No"
+                            crtRoom["Name"] = room.name
+                            crtRoom["Owner"] = room.owner
+                            crtRoom["Players"] = room.players+" / "+room.maxplayers
+                            crtRoom["Board Width"] = room.boardWidth
+                            crtRoom["Board Height"] = room.boardHeight
+                            crtRoom["Language"] = room.language.charAt(0).toUpperCase() + room.language.slice(1)
+                            app.roomArr.push(crtRoom)
+                        }
+                    }
+                    let failureCallback = () => setAlertData(app.lobbyListData, "danger", "An error has occurred when fetching the room lobbies.")
+                    ajaxRequest("viewRooms", {}, successCallback, failureCallback)
+                },
+
+                joinRoom: () => {
+                },
+
+                createRoom: function(event) {
+                    let data = {
+                        userId: app.userId,
+                        hash: app.sessionHash,
+                        name: document.getElementById("room_name").value,
+                        maxplayers: document.getElementById("room_maxPlayers").value,
+                        boardWidth: document.getElementById("room_boardWidth").value,
+                        boardHeight: document.getElementById("room_boardHeight").value,
+                        password: document.getElementById("room_password").value,
+                        language: document.getElementById("room_language").value
+                    }
+
+                    errorMsg = ""
+                    if(data.maxplayers < 4 || data.maxplayers > 16) errorMsg = "Maximum amount of players must be between 4 and 16."
+                    else if(data.boardWidth < 1 || data.boardWidth > 10) errorMsg = "Board width must be between 1 and 10."
+                    else if(data.boardHeight < 1 || data.boardHeight > 10) errorMsg = "Board height must be between 1 and 10."
+                    if(errorMsg) {
+                        if(event && event.preventDefault)
+                            event.preventDefault()
+
+                        return setAlertData(app.createRoomData, "warning", errorMsg)
+                    }
+
+                    let successCallback = (data) => {
+                        data = JSON.parse(data);
+                        app.getRoomList()
+                        app.changeRoomName()
+                    }
+                    let failureCallback = () => setAlertData(app.loginData, "danger", "Authentification failed.")
+
+                    ajaxRequest("createRoom", data, successCallback, failureCallback)
+                },
+
+                generateRoomName: () => {
+                    let adjectiveList = ["green", "impressive", "formidable", "nice", "pretty", "beautiful", "wonderful", "funny", "splendid", "clean", "wicked", "sly", "candid", "fluffy", "green", "fresh", "fancy", "slick", "cool", "mysterious", "challenging", "brave"]
+                    let nounList = ["penguin", "coconut", "lasagna", "alcove", "island", "teapot", "donut", "rainbow", "waffle", "unicorn", "monkey", "burger", "teaspoon", "cloud", "pizza", "orange", "cucumber", "flute"]
+
+                    adjectiveList = adjectiveList.map (word => word.charAt(0).toUpperCase() + word.slice(1))
+                    nounList = nounList.map (word => word.charAt(0).toUpperCase() + word.slice(1))
+
+                    let index_1 = Math.floor(Math.random() * adjectiveList.length)
+                    let word_1 = adjectiveList[index_1]
+                    adjectiveList.splice(index_1, 1)
+                    let index_2 = Math.floor(Math.random() * adjectiveList.length)
+                    let index_3 = Math.floor(Math.random() * nounList.length)
+
+                    return `${word_1} ${adjectiveList[index_2]} ${nounList[index_3]}`
+                },
+
+                changeRoomName: function() {
+                    this.randomRoomName = this.generateRoomName()
                 }
             }
         })
