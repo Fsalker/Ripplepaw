@@ -141,8 +141,8 @@ module.exports = {
         await validate_legal_frontend_string(data.name, true)
 
         if(data.name.length > 30) throw "name is too long"
-        if(data.boardWidth < 1 || data.boardWidth > 10) throw "bad board width"
-        if(data.boardHeight < 1 || data.boardHeight > 10) throw "bad board height"
+        if(data.boardWidth < 2 || data.boardWidth > 10) throw "bad board width"
+        if(data.boardHeight < 2 || data.boardHeight > 10) throw "bad board height"
         if(ALLOWED_ROOM_LANGUAGES.indexOf(data.language) == -1) throw "bad language"
 
         r = await query(con, "INSERT INTO Rooms(ownerId, name, maxplayers, boardWidth, boardHeight, password, language) VALUES (?,?,?,?,?,?,?); SELECT LAST_INSERT_ID()",
@@ -150,6 +150,48 @@ module.exports = {
         roomId = r[1][0]["LAST_INSERT_ID()"]
 
         // Assign Words
+        words = await query(con, "SELECT id FROM Words WHERE language = ? ORDER BY RAND() LIMIT ?", [data.language, data.boardWidth * data.boardHeight])
+
+        let numBlueCards = parseInt(words.length * 0.32);
+        let numRedCards = numBlueCards;
+        let numBlackCards = 1;
+        let numGrayCards = words.length - numBlueCards - numRedCards - numBlackCards
+
+        console.log(words.length)
+        console.log(numBlackCards)
+        console.log(numRedCards)
+        console.log(numBlueCards)
+        console.log(numGrayCards)
+        if(words.length != numBlueCards + numRedCards + numBlackCards + numGrayCards) throw "invalid amount of cards lol"
+
+        let wordsToRoom = words.map( (word, index) => {
+            let wordId = word["id"]
+            let color;
+            let position = index / words.length // the word's position from 1 to 25 (default) in % => ie: index 5 => position 20%
+
+            if(numBlueCards){
+                color = "Blue"
+                --numBlueCards
+            }
+            else if(numRedCards){
+                color = "Red"
+                --numRedCards
+            }
+            else if(numBlackCards){
+                color = "Black"
+                --numBlackCards
+            }
+            else if(numGrayCards){
+                color = "Gray"
+                --numGrayCards
+            }
+
+            return [wordId, roomId, color]
+        })
+        if(numBlueCards || numRedCards || numBlackCards || numGrayCards) throw "There still are cards to fill in..."
+
+        console.log(wordsToRoom)
+        await query(con, "INSERT INTO WordToRoom(wordId, roomId, color) VALUES ?", [wordsToRoom])
 
         log("Created room with id "+roomId)
 
@@ -177,18 +219,7 @@ module.exports = {
         r = await query(con, "SELECT COUNT(*) FROM UserToRoom WHERE userId = ? AND roomId = ?", [data.userId, data.roomId])
         if(r[0]["COUNT(*)"] > 0) return res.end(200)
 
-        room = (await query(con, "SELECT * FROM Rooms WHERE id = ?", data.roomId))[0]
-        words = await query(con, "SELECT id FROM Words WHERE language = ? ORDER BY RAND() LIMIT ?", [room.language, room.boardWidth * room.boardHeight])
-
-        wordsToRoom = words.map( (word, index) => {
-            let color;
-            let position = index / words.length // the word's position from 1 to 25 (default) in % => ie: index 5 => position 20%
-            if(position <= 0.32) color = 'red'
-            else if(position <= 0.64) color
-
-        })
-
-        await query("INSERT INTO UserToRoom(userId, roomId) VALUES ?", [wordsToRoom])
+        await query("INSERT INTO UserToRoom(userId, roomId) VALUES (?,?)", [data.userId, data.roomId])
 
         res.end()
     },
@@ -203,4 +234,16 @@ module.exports = {
 
         res.end()
     },
+
+    // userId, hash, roomId
+    //  (user must already be in that room)
+    // {roomName,}
+    getRoomData: async(con, res, data) => {
+        validate_input(data, ["userId", "hash", "roomId"])
+        await validate_auth(con, data.userId, data.hash)
+
+        words = await query(`SELECT c.word, a.color FROM
+                            (SELECT * FROM WordToRoom WHERE roomId = ?) a
+                            JOIN Words c ON a.wordId = c.id`, data.roomId)
+    }
 }

@@ -25,3 +25,6 @@ this causes the focus to be set on Register (the leftmost button, top button in 
     the promise can be rejected.
     the rejection SOMEHOW gets caught in serverHandler's block:
             API_HANDLER_FUNCTIONS[api_name](con, res, body).catch(e => { ... } )
+
+#2 inputs appear before bootstrap-vue.js has been loaded. so, it takes about half a second before
+the inputs move where they should be. damn...

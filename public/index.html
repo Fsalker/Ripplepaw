@@ -3,8 +3,8 @@
     <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="vue.js"></script>
-    <!--<script src="polyfill.min.js"></script>-->
     <script src="bootstrap-vue.js"></script>
+    <!--<script src="polyfill.min.js"></script>-->
 
     <style>
         table>tbody>tr:nth-child(n+2){
@@ -100,11 +100,11 @@
                             </div>
                             <div class="form-row mb-1">
                                 <label class="col-3 col-form-label" for="room_name">Board Width</label>
-                                <input class="form-control col-6" id="room_boardWidth" type="number" min="1" max="10" value="5" @keydown.enter="createRoom">
+                                <input class="form-control col-6" id="room_boardWidth" type="number" min="2" max="10" value="5" @keydown.enter="createRoom">
                             </div>
                             <div class="form-row mb-1">
                                 <label class="col-3 col-form-label" for="room_name">Board Height</label>
-                                <input class="form-control col-6" id="room_boardHeight" type="number" min="1" max="10" value="5" @keydown.enter="createRoom">
+                                <input class="form-control col-6" id="room_boardHeight" type="number" min="2" max="10" value="5" @keydown.enter="createRoom">
                             </div>
                             <div class="form-row mb-1">
                                 <label class="col-3 col-form-label" for="room_password">Password</label>
@@ -335,7 +335,7 @@
                 joinRoom: () => {
                 },
 
-                createRoom: function(event) {
+                createRoom (event) {
                     let data = {
                         userId: app.userId,
                         hash: app.sessionHash,
@@ -349,8 +349,8 @@
 
                     errorMsg = ""
                     if(data.maxplayers < 4 || data.maxplayers > 16) errorMsg = "Maximum amount of players must be between 4 and 16."
-                    else if(data.boardWidth < 1 || data.boardWidth > 10) errorMsg = "Board width must be between 1 and 10."
-                    else if(data.boardHeight < 1 || data.boardHeight > 10) errorMsg = "Board height must be between 1 and 10."
+                    else if(data.boardWidth < 1 || data.boardWidth > 10) errorMsg = "Board width must be between 2 and 10."
+                    else if(data.boardHeight < 1 || data.boardHeight > 10) errorMsg = "Board height must be between 2 and 10."
                     if(errorMsg) {
                         if(event && event.preventDefault)
                             event.preventDefault()
@@ -384,7 +384,7 @@
                     return `${word_1} ${adjectiveList[index_2]} ${nounList[index_3]}`
                 },
 
-                changeRoomName: function() {
+                changeRoomName () {
                     this.randomRoomName = this.generateRoomName()
                 }
             }
