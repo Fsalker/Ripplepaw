@@ -10,7 +10,7 @@ const PORT = 80
 const CONNECTION_JSON = require("./server/secrets.js").CONNECTION_JSON
 const log = require("./server/log.js").log
 
-const RESETTING_DATABASE = false;
+const RESETTING_DATABASE = true;
 
 let con;
 

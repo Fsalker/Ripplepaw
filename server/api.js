@@ -149,6 +149,8 @@ module.exports = {
             [data.userId, data.name, data.maxplayers, data.boardWidth, data.boardHeight, data.password, data.language])
         roomId = r[1][0]["LAST_INSERT_ID()"]
 
+        // Assign Words
+
         log("Created room with id "+roomId)
 
         res.end(JSON.stringify({roomId: roomId}))
@@ -164,5 +166,41 @@ module.exports = {
                         ORDER BY a.ts DESC 
                         /*WHERE (SELECT COUNT(*) FROM UserToRoom b where a.id = b.roomId) > 0*/`)
         res.end(JSON.stringify(r))
-    }
+    },
+
+    // userId, hash, roomId
+    // -> 200 / 500
+    joinRoom: async(con, res, data) => {
+        validate_input(data, ["userId", "hash", "roomId"])
+        await validate_auth(con, data.userId, data.hash)
+
+        r = await query(con, "SELECT COUNT(*) FROM UserToRoom WHERE userId = ? AND roomId = ?", [data.userId, data.roomId])
+        if(r[0]["COUNT(*)"] > 0) return res.end(200)
+
+        room = (await query(con, "SELECT * FROM Rooms WHERE id = ?", data.roomId))[0]
+        words = await query(con, "SELECT id FROM Words WHERE language = ? ORDER BY RAND() LIMIT ?", [room.language, room.boardWidth * room.boardHeight])
+
+        wordsToRoom = words.map( (word, index) => {
+            let color;
+            let position = index / words.length // the word's position from 1 to 25 (default) in % => ie: index 5 => position 20%
+            if(position <= 0.32) color = 'red'
+            else if(position <= 0.64) color
+
+        })
+
+        await query("INSERT INTO UserToRoom(userId, roomId) VALUES ?", [wordsToRoom])
+
+        res.end()
+    },
+
+    // userId, hash, roomId
+    // -> 200 / 500
+    leaveRoom: async(con, res, data) => {
+        validate_input(data, ["userId", "hash", "roomId"])
+        await validate_auth(con, data.userId, data.hash)
+
+        r = await query(con, "DELETE FROM UserToRoom WHERE userId = ? AND roomId = ?", [data.userId, data.roomId])
+
+        res.end()
+    },
 }
