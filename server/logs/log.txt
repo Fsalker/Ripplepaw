@@ -8506,3 +8506,25 @@
 [2018/09/10 - 21:11:09] hewwo we have a request from ::1 for path: /viewRooms
 [2018/09/10 - 21:11:09] hewwo we have a request from ::1 for path: /getJoinedRooms
 [2018/09/10 - 21:11:09] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/10 - 21:11:53] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 21:11:54] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/10 - 21:11:54] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/10 - 21:11:54] hewwo we have a request from ::1 for path: /
+[2018/09/10 - 21:11:54] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 21:11:54] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/10 - 21:11:54] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/10 - 21:11:54] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/10 - 21:11:54] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/10 - 21:11:54] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 21:11:54] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 21:12:07] hewwo we have a request from ::1 for path: /
+[2018/09/10 - 21:12:07] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 21:12:07] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/10 - 21:12:07] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/10 - 21:12:07] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/10 - 21:12:07] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/10 - 21:12:07] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 21:12:07] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 21:12:10] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/10 - 21:12:11] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 21:12:11] hewwo we have a request from ::1 for path: /viewRooms

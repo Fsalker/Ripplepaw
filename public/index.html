@@ -444,8 +444,8 @@
                     let targetRow = e.target.parentElement
 
                     let playersVal = targetRow.children[app.roomColumns.indexOf("Players")].innerText
-                    let players = playersVal.split("/")[0]
-                    let maxPlayers = playersVal.split("/")[1]
+                    let players = parseInt(playersVal.split("/")[0])
+                    let maxPlayers = parseInt(playersVal.split("/")[1])
 
                     if(players >= maxPlayers) return setAlertData(app.lobbyData, "danger", "Lobby is full!")
 
