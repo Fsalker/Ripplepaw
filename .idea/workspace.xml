@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9b873c7-e004-4337-bc09-8d31a41b146f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Ideas" afterPath="$PROJECT_DIR$/Ideas" />
-      <change beforePath="$PROJECT_DIR$/mind blowing.txt" afterPath="$PROJECT_DIR$/mind blowing.txt" />
       <change beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change beforePath="$PROJECT_DIR$/server/api.js" afterPath="$PROJECT_DIR$/server/api.js" />
       <change beforePath="$PROJECT_DIR$/server/logs/log.txt" afterPath="$PROJECT_DIR$/server/logs/log.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,15 +42,15 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="214">
-                  <caret line="205" column="97" lean-forward="false" selection-start-line="205" selection-start-column="97" selection-end-line="205" selection-end-column="97" />
+                <state relative-caret-position="435">
+                  <caret line="397" column="62" lean-forward="false" selection-start-line="397" selection-start-column="62" selection-end-line="397" selection-end-column="62" />
                   <folding>
                     <element signature="n#style#0;n#h1#0;n#nav#0;n#div#0;n#template#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#table#0;n#template#1;n#template#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#template#2;n#template#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#h1#0;n#template#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                    <marker date="1539194040218" expanded="true" signature="12579:12600" ph="..." />
-                    <marker date="1539194040218" expanded="true" signature="12654:12723" ph="..." />
+                    <marker date="1539195064798" expanded="true" signature="12787:12808" ph="..." />
+                    <marker date="1539195064798" expanded="true" signature="12862:12931" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -100,23 +96,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;b-modal</find>
-      <find>createroom ()</find>
-      <find>@click=</find>
-      <find>changecreated</find>
-      <find>joinroom</find>
-      <find>displayRoom</find>
-      <find>openroom</find>
-      <find>join</find>
-      <find>joinableRoom</find>
-      <find>b-table</find>
-      <find>&lt;table</find>
-      <find>an error has occ</find>
-      <find>An error occurred when joining the lobby.</find>
-      <find>joinableroom</find>
       <find>r</find>
       <find>roomArr</find>
-      <find>roomarr</find>
       <find>roomarr.push</find>
       <find>@click</find>
       <find>joinable</find>
@@ -130,6 +111,21 @@
       <find>console.lo</find>
       <find>fade</find>
       <find>settimeout</find>
+      <find>&lt;th</find>
+      <find>(eve</find>
+      <find>event.</find>
+      <find>(e)</find>
+      <find>e.</find>
+      <find>roomarr</find>
+      <find>sortroom</find>
+      <find>lobbyheader</find>
+      <find>sortrooms</find>
+      <find>sortRooms</find>
+      <find>mounted:</find>
+      <find>sortedcol</find>
+      <find>sortrooms(</find>
+      <find>this.sortrooms</find>
+      <find>getrooml</find>
     </findStrings>
     <replaceStrings>
       <replace>register</replace>
@@ -168,7 +164,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1522" />
@@ -256,15 +252,15 @@
       <updated>1538521815535</updated>
       <workItem from="1538521816973" duration="18135000" />
       <workItem from="1538746486508" duration="44806000" />
-      <workItem from="1539192292694" duration="1750000" />
+      <workItem from="1539192292694" duration="2771000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64691000" />
+    <option name="totallyTimeSpent" value="65712000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1546875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -341,8 +337,8 @@
             <element signature="n#style#0;n#table#0;n#template#1;n#template#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#template#2;n#template#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#template#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <marker date="1539194040218" expanded="true" signature="12579:12600" ph="..." />
-            <marker date="1539194040218" expanded="true" signature="12654:12723" ph="..." />
+            <marker date="1539195064798" expanded="true" signature="12787:12808" ph="..." />
+            <marker date="1539195064798" expanded="true" signature="12862:12931" ph="..." />
           </folding>
         </state>
       </provider>
@@ -372,8 +368,8 @@
             <element signature="n#style#0;n#table#0;n#template#1;n#template#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#template#2;n#template#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#template#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <marker date="1539194040218" expanded="true" signature="12579:12600" ph="..." />
-            <marker date="1539194040218" expanded="true" signature="12654:12723" ph="..." />
+            <marker date="1539195064798" expanded="true" signature="12787:12808" ph="..." />
+            <marker date="1539195064798" expanded="true" signature="12862:12931" ph="..." />
           </folding>
         </state>
       </provider>
@@ -465,15 +461,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="205" column="97" lean-forward="false" selection-start-line="205" selection-start-column="97" selection-end-line="205" selection-end-column="97" />
+        <state relative-caret-position="435">
+          <caret line="397" column="62" lean-forward="false" selection-start-line="397" selection-start-column="62" selection-end-line="397" selection-end-column="62" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#nav#0;n#div#0;n#template#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#table#0;n#template#1;n#template#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#template#2;n#template#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#template#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <marker date="1539194040218" expanded="true" signature="12579:12600" ph="..." />
-            <marker date="1539194040218" expanded="true" signature="12654:12723" ph="..." />
+            <marker date="1539195064798" expanded="true" signature="12787:12808" ph="..." />
+            <marker date="1539195064798" expanded="true" signature="12862:12931" ph="..." />
           </folding>
         </state>
       </provider>

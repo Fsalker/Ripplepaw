@@ -7,6 +7,15 @@
     <!--<script src="polyfill.min.js"></script>-->
 
     <style>
+        .lobbyCol{
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .lobbyCol:hover{
+            background-color: #375a7f;
+        }
+
         .fade-enter-active, .fade-leave-active {
             transition: opacity .5s;
         }
@@ -159,7 +168,7 @@
                 <template v-if="roomArr.length > 0">
                     <table class="table my-4" style="text-align: center">
                         <tr>
-                            <th v-for="col in roomColumns">
+                            <th v-for="col in roomColumns" @click="sortRooms($event)" class="lobbyCol">
                                 {{col}}
                             </th>
                             <!--<th width="10%">{{roomColumns[0]}}</th>
@@ -275,6 +284,7 @@
                 roomName: undefined, //localStorage.getItem("roomName"),
                 randomRoomName: undefined,
                 joinedRooms: undefined,
+                sortedCol: undefined,
 
                 // Alert Data
                 registerData: {variant: "", text: ""},
@@ -289,6 +299,7 @@
                 if(this.loggedin) {
                     this.getJoinedRooms()
                 }
+                //this.sortRooms("Players")
             },
             computed: {
                 loggedin: function() {
@@ -382,6 +393,9 @@
 
                             app.roomArr.push(crtRoom)
                         }
+                        app.sortedCol = undefined
+                        app.sortRooms("Players")
+                        app.sortRooms("Players") // Descending
                     }
                     let failureCallback = () => setAlertData(app.lobbyData, "danger", "An error has occurred when fetching the lobby lobbies.")
                     ajaxRequest("viewRooms", {}, successCallback, failureCallback)
@@ -510,6 +524,24 @@
                     let players = parseInt(room["Players"].split("/")[0])
                     let maxPlayers = parseInt(room["Players"].split("/")[1])
                     return players < maxPlayers
+                },
+
+                sortRooms(e){
+                    let col;
+                    if(e.target) // Triggered by click
+                        col = e.target.innerText
+                    else // Triggered by a call (arbitrary col passed)
+                        col = e
+                    let SECRET_PREFIX = "____"
+
+                    if(this.sortedCol == undefined || this.sortedCol == SECRET_PREFIX + col) {
+                        this.roomArr = this.roomArr.sort((a, b) => a[col].localeCompare(b[col]))
+                        this.sortedCol = col
+                    }
+                    else {
+                        this.sortedCol = SECRET_PREFIX + col
+                        this.roomArr = this.roomArr.sort((a, b) => b[col].localeCompare(a[col]))
+                    }
                 }
             }
         })
