@@ -157,11 +157,6 @@ module.exports = {
         let numBlackCards = 1;
         let numGrayCards = words.length - numBlueCards - numRedCards - numBlackCards
 
-        console.log(words.length)
-        console.log(numBlackCards)
-        console.log(numRedCards)
-        console.log(numBlueCards)
-        console.log(numGrayCards)
         if(words.length != numBlueCards + numRedCards + numBlackCards + numGrayCards) throw "invalid amount of cards lol"
 
         let wordsToRoom = words.map( (word, index) => {
@@ -190,7 +185,6 @@ module.exports = {
         })
         if(numBlueCards || numRedCards || numBlackCards || numGrayCards) throw "There still are cards to fill in..."
 
-        console.log(wordsToRoom)
         await query(con, "INSERT INTO WordToRoom(wordId, roomId, color) VALUES ?", [wordsToRoom])
 
         log("Created room with id "+roomId)
@@ -216,10 +210,13 @@ module.exports = {
         validate_input(data, ["userId", "hash", "roomId"])
         await validate_auth(con, data.userId, data.hash)
 
-        r = await query(con, "SELECT COUNT(*) FROM UserToRoom WHERE userId = ? AND roomId = ?", [data.userId, data.roomId])
-        if(r[0]["COUNT(*)"] > 0) return res.end(200)
+        remainingSlots = (await query(con, "SELECT (SELECT maxplayers FROM Rooms WHERE id = ?) - COUNT(*) as `remainingSlots` FROM UserToRoom WHERE roomId = ?", [data.roomId, data.roomId]))[0]["remainingSlots"]
+        if(remainingSlots <= 0) throw "room is full"
 
-        await query("INSERT INTO UserToRoom(userId, roomId) VALUES (?,?)", [data.userId, data.roomId])
+        r = await query(con, "SELECT COUNT(*) FROM UserToRoom WHERE userId = ? AND roomId = ?", [data.userId, data.roomId])
+        if(r[0]["COUNT(*)"] > 0) return res.end()
+
+        await query(con, "INSERT INTO UserToRoom(userId, roomId) VALUES (?,?)", [data.userId, data.roomId])
 
         res.end()
     },
@@ -237,13 +234,23 @@ module.exports = {
 
     // userId, hash, roomId
     //  (user must already be in that room)
-    // {roomName,}
     getRoomData: async(con, res, data) => {
-        validate_input(data, ["userId", "hash", "roomId"])
+        /*validate_input(data, ["userId", "hash", "roomId"])
         await validate_auth(con, data.userId, data.hash)
 
         words = await query(`SELECT c.word, a.color FROM
                             (SELECT * FROM WordToRoom WHERE roomId = ?) a
                             JOIN Words c ON a.wordId = c.id`, data.roomId)
-    }
+        */
+    },
+
+    // userId, hash
+    // -> [{roomId, roomName}]
+    getJoinedRooms: async(con, res, data) => {
+        validate_input(data, ["userId", "hash"])
+        await validate_auth(con, data.userId, data.hash)
+
+        rooms = await query(con, "SELECT a.id, a.name FROM Rooms a JOIN UserToRoom b ON a.id = b.roomId WHERE b.userId = ?", data.userId)
+        res.end(JSON.stringify(rooms))
+    },
 }

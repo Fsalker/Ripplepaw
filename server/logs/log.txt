@@ -5941,3 +5941,2374 @@
 [2018/09/08 - 01:39:59] Running server...
 [2018/09/08 - 01:40:00] Connecting to DB...
 [2018/09/08 - 01:40:00] Connected to DB!
+[2018/09/08 - 02:35:01] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:35:01] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:35:01] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:35:06] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:35:06] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:35:06] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:35:06] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:35:07] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:35:07] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:35:07] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:35:11] hewwo we have a request from ::1 for path: /registerGuest
+[2018/09/08 - 02:35:25] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:35:25] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:35:25] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:35:25] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:35:26] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:35:26] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:35:26] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:35:57] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:35:57] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:35:57] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:35:57] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:35:57] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:35:57] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:35:57] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:36:22] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:36:22] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:36:22] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:36:22] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:36:22] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:36:22] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:36:23] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:36:23] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:36:50] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:36:50] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:36:50] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:36:50] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:36:50] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:36:50] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:36:50] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:36:50] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:37:01] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:37:01] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:37:01] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:37:01] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:37:01] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:37:01] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:37:01] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:37:01] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:37:07] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:37:07] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:37:07] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:37:07] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:37:07] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:37:07] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:37:07] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:37:07] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:37:48] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:37:48] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:37:48] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:37:48] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:37:48] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:37:48] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:37:49] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:37:49] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:37:50] Running server...
+[2018/09/08 - 02:37:50] Connecting to DB...
+[2018/09/08 - 02:37:50] Connected to DB!
+[2018/09/08 - 02:37:52] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:37:52] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:37:52] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:37:52] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:37:53] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:37:53] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:37:53] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:37:53] bad input
+[2018/09/08 - 02:37:53] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:38:07] hewwo we have a request from ::1 for path: /registerGuest
+[2018/09/08 - 02:38:07] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:38:07] bad input
+[2018/09/08 - 02:38:19] Running server...
+[2018/09/08 - 02:38:19] Connecting to DB...
+[2018/09/08 - 02:38:19] Connected to DB!
+[2018/09/08 - 02:38:23] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:38:23] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:38:23] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:38:23] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:38:24] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:38:24] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:38:24] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:39:22] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:39:22] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:39:22] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:39:22] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:39:22] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:39:22] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:39:22] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:39:30] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:39:30] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:39:30] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:39:30] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:39:31] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:39:31] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:39:31] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:40:05] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:40:05] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:40:05] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:40:05] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:40:06] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:40:06] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:40:06] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:40:14] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:40:14] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:40:14] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:40:14] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:40:14] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:40:14] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:40:14] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:40:14] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:40:14] auth invalid
+[2018/09/08 - 02:40:39] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:40:39] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:40:39] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:40:39] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:40:39] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:40:39] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:40:40] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:40:40] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:40:40] auth invalid
+[2018/09/08 - 02:40:48] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:40:48] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:40:48] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:40:48] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:40:49] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:40:49] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:40:49] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:40:49] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:40:49] ReferenceError: words is not defined
+[2018/09/08 - 02:41:00] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:41:00] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:41:00] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:41:00] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:41:00] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:41:00] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:41:00] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:41:00] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:41:00] ReferenceError: words is not defined
+[2018/09/08 - 02:41:03] Running server...
+[2018/09/08 - 02:41:03] Connecting to DB...
+[2018/09/08 - 02:41:03] Connected to DB!
+[2018/09/08 - 02:41:03] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:41:04] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:41:04] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:41:04] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:41:04] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:41:04] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:41:04] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:41:04] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:41:04] ReferenceError: words is not defined
+[2018/09/08 - 02:41:11] Running server...
+[2018/09/08 - 02:41:11] Connecting to DB...
+[2018/09/08 - 02:41:11] Connected to DB!
+[2018/09/08 - 02:41:13] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:41:13] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:41:13] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:41:13] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:41:13] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:41:13] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:41:13] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:41:13] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:41:49] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:41:49] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:41:49] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:41:49] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:41:50] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:41:50] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:41:50] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:41:50] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:42:59] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:42:59] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:42:59] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:42:59] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:42:59] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:42:59] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:42:59] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:42:59] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:43:06] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:43:06] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:43:06] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:43:06] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:43:07] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:43:07] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:43:07] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 02:44:24] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:44:24] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:44:24] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:44:24] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:44:25] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:44:25] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:44:25] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:44:25] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:44:26] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:44:31] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:45:04] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:45:04] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:45:04] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:45:04] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:45:05] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:45:05] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:45:05] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:45:05] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:46:16] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:46:16] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:46:16] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:46:16] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:46:17] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:46:17] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:46:17] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:46:17] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:46:17] auth invalid
+[2018/09/08 - 02:46:43] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:46:43] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:46:43] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:46:43] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:46:44] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:46:44] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:46:44] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:46:44] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:46:44] auth invalid
+[2018/09/08 - 02:46:47] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:46:47] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:46:47] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:46:47] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:46:48] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:46:48] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:46:48] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:46:48] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:46:48] auth invalid
+[2018/09/08 - 02:46:52] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:46:52] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:46:52] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:46:52] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:46:52] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:46:52] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:46:52] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:46:52] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:46:52] auth invalid
+[2018/09/08 - 02:47:01] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:47:01] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:47:01] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:47:01] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:47:02] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:47:02] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:47:02] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:47:02] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:47:15] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:47:15] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:47:15] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:47:15] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:47:15] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:47:15] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:47:15] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:47:15] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:47:15] auth invalid
+[2018/09/08 - 02:47:47] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:47:47] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:47:47] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:47:47] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:47:47] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:47:47] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:47:47] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:47:47] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:47:59] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:47:59] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:47:59] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:47:59] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:47:59] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:47:59] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:47:59] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:47:59] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:47:59] auth invalid
+[2018/09/08 - 02:48:10] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:48:10] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:48:10] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:48:10] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:48:10] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:48:10] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:48:11] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:48:11] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:48:11] auth invalid
+[2018/09/08 - 02:48:41] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:48:41] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:48:41] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:48:41] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:48:41] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:48:41] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:48:41] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:48:41] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:48:41] auth invalid
+[2018/09/08 - 02:48:49] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:48:49] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:48:49] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:48:49] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:48:50] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:48:50] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:48:50] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:48:50] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:48:50] auth invalid
+[2018/09/08 - 02:48:56] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:48:56] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:48:56] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:48:56] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:48:57] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:48:57] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:48:57] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:48:57] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:48:57] auth invalid
+[2018/09/08 - 02:49:01] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:49:01] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:49:01] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:49:01] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:49:02] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:49:02] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:49:02] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:49:02] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:49:02] auth invalid
+[2018/09/08 - 02:49:03] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:49:03] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:49:03] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:49:03] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:49:03] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:49:03] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:49:03] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:49:03] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:49:03] auth invalid
+[2018/09/08 - 02:50:00] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:50:00] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:50:00] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:50:00] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:50:00] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:50:00] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:50:12] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:50:12] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:50:12] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:50:12] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:50:13] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:50:13] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:50:13] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:50:13] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:50:13] auth invalid
+[2018/09/08 - 02:50:26] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:50:26] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:50:26] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:50:26] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:50:27] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:50:27] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:50:27] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:50:27] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:50:27] auth invalid
+[2018/09/08 - 02:50:54] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:50:54] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:50:54] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:50:54] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:50:54] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:50:54] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:50:54] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:50:54] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:50:54] auth invalid
+[2018/09/08 - 02:51:43] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:51:43] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:51:43] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:51:43] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:51:44] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:51:44] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:51:44] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:51:44] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:51:44] auth invalid
+[2018/09/08 - 02:52:03] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:52:03] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:52:03] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:52:03] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:52:04] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:52:04] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:52:04] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:52:04] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:52:04] auth invalid
+[2018/09/08 - 02:52:11] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:52:11] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:52:11] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:52:11] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:52:11] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:52:11] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:52:11] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:52:17] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:52:17] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:52:17] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:52:17] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:52:18] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:52:18] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:52:18] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:52:19] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:52:19] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:52:19] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:52:19] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:52:19] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:52:19] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:52:19] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:52:38] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:52:38] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:52:38] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:52:38] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:52:38] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:52:38] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:52:38] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:52:57] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:52:57] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:52:57] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:52:57] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:52:57] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:52:57] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:52:58] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:53:10] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:53:10] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:53:10] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:53:10] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:53:10] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:53:10] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:53:10] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:53:11] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:53:11] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:53:11] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:53:11] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:53:11] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:53:11] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:53:11] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:53:12] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:53:12] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:53:12] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:53:12] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:53:12] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:53:12] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:53:12] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:53:13] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:53:13] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:53:13] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:53:13] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:53:13] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:53:13] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:53:13] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:53:13] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:53:13] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:53:13] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:53:13] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:53:14] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:53:14] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:53:14] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:53:14] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:53:14] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:53:14] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:53:14] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:53:15] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:53:15] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:53:15] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:53:15] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:53:15] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:53:15] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:53:15] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:53:15] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:53:15] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:53:15] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:54:57] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:54:57] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:54:57] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:54:57] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:54:58] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:54:58] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:54:58] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:55:03] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:55:03] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:55:03] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:55:03] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:55:03] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:55:03] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:55:03] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:55:11] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:55:11] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:55:11] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:55:11] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:55:11] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:55:11] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:55:12] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:55:12] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:55:12] auth invalid
+[2018/09/08 - 02:55:16] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:55:16] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:55:16] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:55:16] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:55:16] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:55:16] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:55:16] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:55:16] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:55:35] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:55:35] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:55:35] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:55:35] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:55:35] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:55:35] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:55:35] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:55:35] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:55:37] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:55:45] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:55:45] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:57:59] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:57:59] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:57:59] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:57:59] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:57:59] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:57:59] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:57:59] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:57:59] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:58:00] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 02:58:00] auth invalid
+[2018/09/08 - 02:58:01] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 02:58:01] auth invalid
+[2018/09/08 - 02:58:02] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 02:58:02] auth invalid
+[2018/09/08 - 02:58:21] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:58:21] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:58:21] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:58:21] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:58:21] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:58:21] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:58:22] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:58:22] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:58:22] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 02:58:22] auth invalid
+[2018/09/08 - 02:58:23] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 02:58:23] auth invalid
+[2018/09/08 - 02:58:33] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:58:33] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:58:33] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:58:33] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:58:33] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:58:33] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:58:33] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 02:58:34] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 02:58:34] auth invalid
+[2018/09/08 - 02:58:34] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:58:34] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:58:34] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:58:38] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:58:38] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:58:38] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:58:38] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:58:38] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:58:38] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:58:39] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:58:39] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:58:40] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 02:58:40] TypeError: con.query is not a function
+[2018/09/08 - 02:58:51] Running server...
+[2018/09/08 - 02:58:51] Connecting to DB...
+[2018/09/08 - 02:58:51] Connected to DB!
+[2018/09/08 - 02:58:57] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 02:58:57] TypeError: con.query is not a function
+[2018/09/08 - 02:59:09] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 02:59:09] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 02:59:09] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 02:59:09] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 02:59:09] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 02:59:09] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 02:59:09] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 02:59:09] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 02:59:11] Running server...
+[2018/09/08 - 02:59:11] Connecting to DB...
+[2018/09/08 - 02:59:11] Connected to DB!
+[2018/09/08 - 02:59:14] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:00:25] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:00:25] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:00:25] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:00:25] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:00:26] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:00:26] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:00:26] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:00:26] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:00:28] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:00:28] TypeError: First argument must be a string or Buffer
+[2018/09/08 - 03:00:35] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:00:35] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:00:35] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:00:35] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:00:36] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:00:36] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:00:36] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:00:36] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:01:36] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:01:36] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:01:36] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:01:36] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:01:37] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:01:37] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:01:37] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:01:37] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:02:01] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:02:01] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:02:01] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:02:01] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:02:01] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:02:01] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:02:02] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:02:02] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:02:04] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:02:05] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:02:05] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:02:05] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:02:05] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:02:57] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:02:57] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:02:57] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:02:57] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:02:57] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:02:57] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:02:58] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:03:01] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:03:01] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:03:01] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:03:01] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:03:02] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:03:02] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:03:02] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:03:15] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:03:15] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:03:15] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:03:15] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:03:15] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:03:15] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:03:15] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:03:20] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:03:20] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:03:20] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:03:24] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:03:24] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:03:35] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:03:35] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:03:35] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:03:35] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:03:35] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:03:35] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:03:35] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:03:35] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:03:40] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:03:40] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:03:40] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:03:40] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:03:41] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:03:41] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:03:41] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:03:41] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:04:01] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:04:01] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:04:01] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:04:01] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:04:01] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:04:01] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:04:01] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:04:01] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:04:09] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:04:09] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:04:09] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:04:09] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:04:10] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:04:10] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:04:10] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:04:10] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:04:14] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:04:14] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:04:14] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:04:14] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:04:14] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:04:14] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:04:14] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:04:14] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:04:16] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:04:16] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:04:16] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:04:19] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:04:19] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:04:38] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:04:38] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:04:38] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:04:38] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:04:38] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:04:38] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:04:38] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:04:38] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:04:59] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:04:59] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:04:59] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:04:59] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:04:59] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:04:59] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:04:59] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:05:07] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:05:07] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:05:07] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:05:07] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:05:07] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:05:07] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:05:07] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:05:24] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:05:24] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:05:24] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:05:24] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:05:24] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:05:27] hewwo we have a request from ::1 for path: /registerGuest
+[2018/09/08 - 03:05:27] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:05:31] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:05:31] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:05:31] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:05:31] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:05:31] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:05:31] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:05:32] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:05:33] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:05:33] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:05:33] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:05:33] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:05:33] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:05:34] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:05:35] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:05:35] TypeError: First argument must be a string or Buffer
+[2018/09/08 - 03:05:36] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:05:36] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:05:36] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:05:36] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:05:36] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:05:36] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:05:38] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:05:38] TypeError: First argument must be a string or Buffer
+[2018/09/08 - 03:05:39] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:05:40] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:05:40] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:05:40] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:05:40] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:05:40] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:05:40] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:05:51] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:05:52] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:05:52] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:05:52] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:05:52] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:05:52] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:05:56] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:05:56] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:05:56] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:05:57] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:05:57] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:05:57] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:05:57] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:05:57] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:05:57] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:05:57] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:06:02] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:06:02] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:06:02] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:06:02] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:06:03] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:06:03] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:13:35] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:13:35] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:13:35] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:13:35] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:13:36] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:13:37] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:13:37] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:13:37] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:13:42] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:13:43] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:13:43] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:13:43] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:13:43] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:13:43] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:13:43] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:13:43] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:13:44] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:13:54] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:13:54] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:13:54] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:13:54] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:13:54] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:13:54] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:13:54] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:13:54] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:13:55] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:13:57] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:14:44] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:14:44] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:14:44] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:14:44] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:14:45] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:14:45] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:14:45] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:14:45] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:14:46] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:14:51] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:14:51] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:14:51] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:14:51] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:14:51] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:14:51] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:14:51] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:14:51] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:14:52] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:15:14] hewwo we have a request from ::1 for path: /createRoom
+[2018/09/08 - 03:15:14] Created room with id 7
+[2018/09/08 - 03:15:14] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:15:16] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:15:27] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:15:27] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:15:27] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:15:27] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:15:27] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:15:27] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:15:28] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:15:28] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:15:29] hewwo we have a request from ::1 for path: /createRoom
+[2018/09/08 - 03:15:29] Created room with id 8
+[2018/09/08 - 03:15:29] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:15:30] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:16:51] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:16:51] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:16:51] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:16:51] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:16:52] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:16:52] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:16:52] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:16:52] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:18:14] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:18:14] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:18:14] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:18:14] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:18:15] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:18:15] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:18:15] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:18:15] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:20:17] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:20:17] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:20:17] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:20:17] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:20:17] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:20:17] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:20:17] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:20:17] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:20:20] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:20:20] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:20:20] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:20:20] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:20:21] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:20:21] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:20:21] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:20:34] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:20:34] TypeError: First argument must be a string or Buffer
+[2018/09/08 - 03:20:37] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:20:37] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:20:37] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:20:59] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:20:59] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:20:59] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:20:59] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:20:59] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:20:59] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:20:59] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:20:59] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:21:02] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:21:02] TypeError: First argument must be a string or Buffer
+[2018/09/08 - 03:21:02] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:21:02] TypeError: First argument must be a string or Buffer
+[2018/09/08 - 03:21:03] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:21:03] TypeError: First argument must be a string or Buffer
+[2018/09/08 - 03:21:13] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:21:13] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:21:13] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:21:13] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:21:14] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:21:14] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:21:14] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:21:14] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:21:15] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:21:15] TypeError: First argument must be a string or Buffer
+[2018/09/08 - 03:21:41] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:21:41] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:21:41] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:21:41] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:21:42] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:21:42] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:21:42] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:21:42] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:21:43] Running server...
+[2018/09/08 - 03:21:43] Connecting to DB...
+[2018/09/08 - 03:21:43] Connected to DB!
+[2018/09/08 - 03:21:44] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:21:44] TypeError: First argument must be a string or Buffer
+[2018/09/08 - 03:22:03] Running server...
+[2018/09/08 - 03:22:03] Connecting to DB...
+[2018/09/08 - 03:22:03] Connected to DB!
+[2018/09/08 - 03:22:04] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:22:04] TypeError: First argument must be a string or Buffer
+[2018/09/08 - 03:22:31] Running server...
+[2018/09/08 - 03:22:32] Connecting to DB...
+[2018/09/08 - 03:22:32] Connected to DB!
+[2018/09/08 - 03:22:32] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:22:32] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:22:32] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:22:32] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:22:32] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:22:32] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:22:33] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:22:33] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:22:36] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:23:02] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:23:02] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:23:02] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:23:02] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:23:02] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:23:02] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:23:02] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:23:04] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:23:04] bad input
+[2018/09/08 - 03:23:06] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:23:06] bad input
+[2018/09/08 - 03:23:07] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:23:07] bad input
+[2018/09/08 - 03:24:00] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:24:00] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:24:00] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:24:00] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:24:00] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:24:00] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:24:00] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:24:10] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:24:10] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:24:10] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:24:10] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:24:10] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:24:10] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:28:00] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:28:00] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:28:00] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:28:00] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:28:00] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:28:00] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:28:48] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:28:48] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:28:48] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:28:48] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:28:48] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:28:48] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:28:53] hewwo we have a request from ::1 for path: /registerGuest
+[2018/09/08 - 03:28:53] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:28:54] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:28:58] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:28:58] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:28:58] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:28:58] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:28:58] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:28:58] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:29:12] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:29:12] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:29:12] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:29:12] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:29:12] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:29:12] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:29:52] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:29:52] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:29:52] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:29:52] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:29:52] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:29:53] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:30:12] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:30:13] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:30:13] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:30:13] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:30:13] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:30:13] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:30:15] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:30:15] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:30:15] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:30:15] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:30:16] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:30:16] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:31:57] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:31:57] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:31:57] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:31:57] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:31:58] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:31:58] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:32:00] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:32:00] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:32:00] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:32:00] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:32:00] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:32:00] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:32:01] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:32:01] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:32:01] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:32:19] Running server...
+[2018/09/08 - 03:32:19] Connecting to DB...
+[2018/09/08 - 03:32:19] Connected to DB!
+[2018/09/08 - 03:32:22] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:32:22] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:32:22] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:32:22] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:32:22] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:32:22] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:32:22] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:32:31] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:32:31] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:32:31] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:32:31] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:32:32] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:32:32] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:32:32] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:32:38] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:32:38] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:32:38] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:32:38] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:32:39] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:32:39] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:32:39] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:32:55] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:32:55] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:32:56] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:32:56] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:32:56] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:32:56] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:32:56] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:33:00] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:33:00] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:33:00] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:33:00] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:33:00] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:33:00] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:33:00] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:33:16] hewwo we have a request from ::1 for path: /registerGuest
+[2018/09/08 - 03:33:16] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:33:48] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:33:48] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:33:48] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:33:48] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:33:48] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:33:48] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:33:48] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:33:48] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:33:57] hewwo we have a request from ::1 for path: /registerGuest
+[2018/09/08 - 03:33:57] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:33:58] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:34:00] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:34:00] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:34:00] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:34:00] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:34:01] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:34:01] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:34:01] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:34:02] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:34:02] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:34:02] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:34:02] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:34:03] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:34:03] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:34:03] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:34:18] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:34:18] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:34:18] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:34:18] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:34:18] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:34:18] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:34:18] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:34:55] hewwo we have a request from ::1 for path: /registerGuest
+[2018/09/08 - 03:34:55] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:35:04] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:35:47] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:35:47] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:35:47] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:35:47] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:35:47] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:35:47] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:35:47] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:35:49] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:35:49] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:35:49] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:35:49] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:35:49] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:35:49] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:35:49] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:36:00] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:36:00] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:36:00] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:36:00] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:36:00] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:36:00] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:36:00] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:38:47] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:38:47] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:38:47] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:38:47] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:38:47] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:39:00] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:39:00] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:39:00] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:39:00] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:39:00] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:39:01] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:39:01] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:39:01] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:39:01] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:39:01] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:39:03] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:39:03] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:39:03] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:39:03] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:39:03] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:39:04] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:39:04] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:39:04] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:39:04] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:39:04] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:39:04] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:39:04] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:39:04] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:39:04] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:39:04] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:39:11] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:39:11] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:39:11] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:39:11] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:39:11] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:39:12] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:39:12] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:39:12] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:39:17] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:39:17] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:39:17] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:39:17] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:39:17] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:39:17] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:39:17] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:39:28] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:39:28] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:39:28] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:39:28] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:39:29] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:39:29] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:39:30] hewwo we have a request from ::1 for path: /registerGuest
+[2018/09/08 - 03:39:30] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:39:32] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:40:11] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:40:11] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:40:11] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:40:11] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:40:11] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:40:11] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:40:11] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:40:37] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:40:37] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:40:37] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:40:37] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:40:37] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:40:37] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:40:37] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:40:42] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:40:42] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:40:42] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:40:42] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:40:42] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:40:42] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:40:42] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:40:53] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:40:53] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:40:53] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:40:53] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:40:53] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:40:53] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:40:53] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:41:01] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:41:01] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:41:01] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:41:01] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:41:02] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:41:02] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:41:02] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:41:05] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:41:05] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:41:05] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:41:05] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:41:05] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:41:05] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:41:05] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:41:38] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:41:38] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:41:38] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:41:38] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:41:38] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:41:38] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:41:38] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:42:39] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:42:39] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:42:39] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:42:39] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:42:39] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:42:39] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:42:39] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:43:01] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:43:01] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:43:01] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:43:01] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:43:01] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:43:01] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:43:01] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:43:36] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:43:36] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:43:36] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:43:36] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:43:36] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:43:36] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:43:36] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:43:56] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:43:56] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:43:56] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:43:56] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:43:57] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:43:57] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:43:57] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:43:59] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:43:59] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:43:59] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:44:09] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:44:16] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:44:16] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:44:39] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:44:39] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:44:39] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:44:39] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:44:39] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:44:39] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:44:39] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:44:39] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:45:16] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:45:16] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:45:16] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:45:16] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:45:17] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:45:17] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:45:37] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:45:37] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:45:37] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:45:37] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:45:38] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:45:38] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:45:44] hewwo we have a request from ::1 for path: /registerGuest
+[2018/09/08 - 03:45:44] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:45:48] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:46:09] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:46:09] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:46:09] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:46:09] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:46:09] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:46:09] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:46:09] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:46:11] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:46:15] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:46:15] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:46:15] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:46:51] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:46:51] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:46:51] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:46:51] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:46:51] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:46:51] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 03:46:55] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:46:55] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:46:55] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:47:02] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:47:02] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:47:02] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:47:02] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:47:03] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:47:03] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:47:03] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:47:03] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:47:05] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:47:05] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:47:35] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:47:36] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:47:39] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:47:39] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:47:39] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:47:42] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:47:44] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:48:02] hewwo we have a request from ::1 for path: /registerGuest
+[2018/09/08 - 03:48:02] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:48:04] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:48:04] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:48:04] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:48:24] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:48:24] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:48:24] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:48:24] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:48:25] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:48:25] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:48:25] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:48:25] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:48:26] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:48:27] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:48:27] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:48:59] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:49:01] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:49:01] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:49:46] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:49:46] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:49:46] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:49:46] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:49:47] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:49:47] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:49:47] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:49:47] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:49:56] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:49:56] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:49:56] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:49:56] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:49:57] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:49:57] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:49:57] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:49:57] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:49:57] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:49:58] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:49:58] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:49:58] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:49:58] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:49:58] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:49:58] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:49:58] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:50:18] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:50:18] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:50:18] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:50:18] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:50:18] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:50:18] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:50:19] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:50:19] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:50:52] Running server...
+[2018/09/08 - 03:50:52] Connecting to DB...
+[2018/09/08 - 03:50:52] Connected to DB!
+[2018/09/08 - 03:50:53] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:50:53] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:50:53] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:50:53] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:50:54] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:50:54] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:50:54] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:50:54] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:51:17] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:51:17] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:51:17] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 03:51:17] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:51:17] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:51:17] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:51:17] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:51:17] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:51:34] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:51:34] TypeError: con.query is not a function
+[2018/09/08 - 03:51:45] Running server...
+[2018/09/08 - 03:51:45] Connecting to DB...
+[2018/09/08 - 03:51:45] Connected to DB!
+[2018/09/08 - 03:51:47] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:51:47] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:51:47] hewwo we have a request from ::ffff:127.0.0.1 for path: /vue.js
+[2018/09/08 - 03:51:47] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:51:47] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:51:47] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:51:47] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:51:47] hewwo we have a request from ::ffff:127.0.0.1 for path: /getJoinedRooms
+[2018/09/08 - 03:51:48] hewwo we have a request from ::ffff:127.0.0.1 for path: /joinRoom
+[2018/09/08 - 03:51:48] Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1
+[2018/09/08 - 03:51:58] Running server...
+[2018/09/08 - 03:51:58] Connecting to DB...
+[2018/09/08 - 03:51:58] Connected to DB!
+[2018/09/08 - 03:51:58] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 03:51:58] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 03:51:58] hewwo we have a request from ::ffff:127.0.0.1 for path: /vue.js
+[2018/09/08 - 03:51:58] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 03:51:58] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 03:51:58] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 03:51:58] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:51:58] hewwo we have a request from ::ffff:127.0.0.1 for path: /getJoinedRooms
+[2018/09/08 - 03:52:00] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:52:01] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:52:01] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:52:02] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:52:03] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:52:03] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 03:52:20] hewwo we have a request from ::1 for path: /registerGuest
+[2018/09/08 - 03:52:20] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:52:21] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 03:52:22] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 03:52:22] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 04:00:02] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 04:00:02] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 04:00:03] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 04:00:04] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 04:00:04] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 04:00:05] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 04:00:05] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 04:00:05] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 04:00:05] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 04:00:05] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 04:00:05] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 04:00:05] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 04:00:06] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 04:00:07] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 04:00:07] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 04:00:09] hewwo we have a request from ::1 for path: /registerGuest
+[2018/09/08 - 04:00:09] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 04:00:10] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 04:00:11] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 04:00:11] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 04:00:22] Running server...
+[2018/09/08 - 04:00:22] Connecting to DB...
+[2018/09/08 - 04:00:22] Connected to DB!
+[2018/09/08 - 04:00:23] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 04:00:23] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 04:00:23] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 04:00:23] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 04:00:23] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 04:00:23] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 04:00:24] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 04:00:25] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 04:00:25] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 04:00:28] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 04:00:31] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 04:00:31] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 04:00:31] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 04:00:31] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 04:00:31] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 04:00:31] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 04:00:31] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 04:00:32] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 04:00:32] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 04:00:35] Running server...
+[2018/09/08 - 04:00:36] Connecting to DB...
+[2018/09/08 - 04:00:36] Connected to DB!
+[2018/09/08 - 04:00:36] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 04:00:36] room is full
+[2018/09/08 - 04:17:51] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 04:17:51] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 04:17:51] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 04:17:51] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 04:17:51] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 04:17:51] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 04:17:51] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 04:17:53] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 04:17:53] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 04:17:54] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 04:17:54] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 04:17:56] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 04:17:56] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 04:17:57] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 04:17:58] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 04:17:58] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 04:18:00] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 04:18:00] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 14:44:03] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 14:44:03] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 14:44:21] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 14:44:21] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 14:53:23] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 14:53:23] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 14:53:50] hewwo we have a request from ::1 for path: /
+[2018/09/08 - 14:53:50] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 14:53:50] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/08 - 14:53:50] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/08 - 14:53:51] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 14:53:51] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 14:53:51] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/08 - 14:54:17] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 14:54:17] room is full
+[2018/09/08 - 14:54:19] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 14:54:19] room is full
+[2018/09/08 - 14:54:20] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/08 - 14:54:20] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/08 - 14:54:20] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/08 - 14:54:27] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 14:54:27] room is full
+[2018/09/08 - 14:54:28] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 14:54:28] room is full
+[2018/09/08 - 16:41:40] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 16:41:40] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 16:41:41] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/08 - 16:41:41] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 16:41:41] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 16:41:42] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 16:41:42] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 16:41:43] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 16:41:45] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 16:41:45] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 16:41:46] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 16:41:46] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/08 - 16:41:55] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/08 - 16:41:55] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:23:56] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:23:56] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:23:56] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:23:56] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:23:57] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:24:03] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/09 - 00:24:03] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/09 - 00:24:04] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/09 - 00:24:04] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/09 - 00:24:04] hewwo we have a request from ::1 for path: /register
+[2018/09/09 - 00:24:04] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:24:06] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:24:07] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:24:07] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:24:29] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:24:29] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:24:29] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:24:29] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:24:29] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:24:29] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:24:29] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:24:29] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:24:29] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:24:29] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:24:29] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:24:29] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:24:29] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/09 - 00:24:59] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:24:59] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:24:59] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:24:59] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:24:59] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:24:59] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:24:59] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/09 - 00:25:04] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:25:04] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:25:04] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:25:04] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:25:04] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:25:04] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:25:04] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/09 - 00:25:15] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:25:16] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:25:16] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:25:34] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:25:34] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:25:34] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:25:34] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:25:34] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:25:34] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/09 - 00:25:37] hewwo we have a request from ::1 for path: /login
+[2018/09/09 - 00:25:37] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:26:16] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:26:16] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:26:16] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:26:16] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:26:16] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:26:16] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/09 - 00:26:19] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/09 - 00:26:19] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/09 - 00:26:19] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/09 - 00:26:21] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/09 - 00:26:22] hewwo we have a request from ::1 for path: /register
+[2018/09/09 - 00:26:22] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:26:23] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:26:23] room is full
+[2018/09/09 - 00:26:24] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:26:24] room is full
+[2018/09/09 - 00:26:25] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:26:26] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:26:26] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:27:14] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:27:14] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:27:14] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:27:14] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:27:14] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:27:14] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:27:14] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/09 - 00:27:16] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:27:16] room is full
+[2018/09/09 - 00:28:28] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:28:28] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:28:28] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:28:28] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:28:29] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:28:29] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:28:29] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/09 - 00:28:30] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:28:30] room is full
+[2018/09/09 - 00:28:34] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:28:34] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 00:28:34] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 00:28:48] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:28:48] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:28:48] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:28:48] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:28:48] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 00:28:48] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 00:28:48] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:28:48] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:28:49] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:28:49] room is full
+[2018/09/09 - 00:29:19] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:29:19] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:29:19] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:29:19] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:29:19] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 00:29:19] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 00:29:19] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:29:19] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:29:20] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:29:21] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:29:21] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:29:23] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:29:23] room is full
+[2018/09/09 - 00:29:24] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:29:24] room is full
+[2018/09/09 - 00:31:07] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:31:07] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:31:07] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:31:07] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:31:07] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 00:31:07] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 00:31:07] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:31:07] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:31:10] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:31:10] room is full
+[2018/09/09 - 00:31:33] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:31:33] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:31:33] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:31:33] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:31:34] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 00:31:34] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 00:31:34] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:31:34] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:31:34] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:31:34] room is full
+[2018/09/09 - 00:31:35] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:31:35] room is full
+[2018/09/09 - 00:31:55] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:31:55] room is full
+[2018/09/09 - 00:31:55] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:31:55] room is full
+[2018/09/09 - 00:31:59] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:31:59] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:31:59] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:31:59] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:31:59] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 00:31:59] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 00:32:00] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:32:00] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:32:02] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:32:02] room is full
+[2018/09/09 - 00:32:05] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:32:05] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 00:32:05] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 00:33:17] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:33:17] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:33:17] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:33:17] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:33:17] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 00:33:17] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 00:33:17] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:33:17] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:33:20] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:33:21] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:33:21] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:33:21] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:33:21] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:33:21] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:33:21] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/09 - 00:33:22] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:33:22] room is full
+[2018/09/09 - 00:33:27] hewwo we have a request from ::1 for path: /login
+[2018/09/09 - 00:33:27] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:33:30] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:33:30] room is full
+[2018/09/09 - 00:33:31] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:33:31] room is full
+[2018/09/09 - 00:33:32] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:33:32] room is full
+[2018/09/09 - 00:33:33] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:33:33] room is full
+[2018/09/09 - 00:33:34] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:33:34] room is full
+[2018/09/09 - 00:33:34] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:33:34] room is full
+[2018/09/09 - 00:33:44] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:33:44] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:33:46] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:33:46] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:33:48] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:33:48] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:34:07] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:34:07] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:34:07] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:34:07] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:34:07] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:34:07] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:34:07] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/09 - 00:34:09] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:34:09] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:34:09] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:34:09] room is full
+[2018/09/09 - 00:34:11] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:34:11] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:34:12] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:34:12] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:35:44] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:35:44] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:35:44] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:35:44] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:35:44] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:35:44] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:35:44] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/09 - 00:35:46] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:35:46] room is full
+[2018/09/09 - 00:35:46] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:35:46] room is full
+[2018/09/09 - 00:36:08] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:36:08] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:36:08] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:36:08] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:36:08] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:36:08] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:36:08] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/09 - 00:36:10] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:36:10] room is full
+[2018/09/09 - 00:36:25] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:36:25] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:36:25] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:36:25] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:36:26] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:36:26] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:36:26] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/09 - 00:36:27] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:36:27] room is full
+[2018/09/09 - 00:36:28] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:36:28] room is full
+[2018/09/09 - 00:36:29] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:36:29] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:36:29] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:36:29] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:36:30] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:36:30] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:36:30] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/09 - 00:36:30] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:36:30] room is full
+[2018/09/09 - 00:36:31] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:36:31] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:36:31] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:36:31] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:36:31] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:36:31] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:36:31] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/09 - 00:36:31] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:36:31] room is full
+[2018/09/09 - 00:36:52] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:36:52] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:36:52] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:36:52] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:36:52] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:36:52] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:36:52] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/09 - 00:36:53] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:36:53] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 00:36:53] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 00:37:01] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:37:01] room is full
+[2018/09/09 - 00:37:12] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:37:12] room is full
+[2018/09/09 - 00:37:17] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:37:17] room is full
+[2018/09/09 - 00:37:22] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:37:22] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:37:22] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:37:22] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:37:23] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 00:37:23] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 00:37:23] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:37:23] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:37:29] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:37:29] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:37:29] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:37:29] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:37:30] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 00:37:30] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 00:37:30] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:37:30] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:37:30] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:37:30] room is full
+[2018/09/09 - 00:39:00] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:39:00] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:39:00] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:39:00] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:39:01] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 00:39:01] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 00:39:01] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:39:01] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:39:06] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:39:06] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:39:06] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:39:06] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:39:06] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 00:39:06] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 00:39:06] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:39:31] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:39:31] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:39:31] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:39:31] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:39:32] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 00:39:32] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 00:39:32] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:39:41] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:39:41] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:39:41] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:39:41] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:39:42] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 00:39:42] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 00:39:42] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:40:04] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:40:04] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:40:04] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:40:04] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:40:05] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 00:40:05] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 00:40:05] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:42:16] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:42:16] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:42:16] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:42:16] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:42:17] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 00:42:17] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 00:42:17] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:42:24] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:42:24] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:42:24] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:42:24] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:42:24] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 00:42:24] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 00:42:24] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:42:43] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:42:43] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:42:43] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:42:43] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:42:43] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 00:42:43] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 00:42:43] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:42:56] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:42:56] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:42:56] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:42:56] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:42:56] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 00:42:56] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 00:42:56] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:43:29] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:43:29] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:43:29] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:43:29] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:43:29] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 00:43:29] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 00:43:29] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:43:33] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:43:34] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:43:34] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:43:34] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:43:34] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 00:43:34] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 00:43:34] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:43:37] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:43:37] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:43:37] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:43:37] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:43:38] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 00:43:38] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 00:43:38] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:43:43] hewwo we have a request from ::1 for path: /login
+[2018/09/09 - 00:43:43] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:44:06] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:44:07] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:44:07] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:44:07] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:44:07] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 00:44:07] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 00:44:07] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:44:56] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:44:56] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:44:56] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:44:56] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:44:56] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:44:56] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/09 - 00:45:04] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:45:04] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:45:04] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:45:04] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:45:04] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:45:04] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/09 - 00:45:07] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:45:07] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:45:07] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:45:07] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:45:08] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:45:08] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/09 - 00:45:50] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:45:50] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:45:50] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:45:50] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:45:51] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:45:51] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/09 - 00:48:00] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:48:00] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:48:00] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:48:00] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:48:00] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:48:00] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/09 - 00:57:48] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:57:48] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:57:48] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:57:48] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:57:48] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:57:48] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:57:48] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/09 - 00:57:58] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:57:58] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:57:58] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:57:58] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:57:59] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:57:59] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/09 - 00:58:14] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:58:14] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 00:58:14] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 00:58:20] hewwo we have a request from ::1 for path: /login
+[2018/09/09 - 00:58:20] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:58:22] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:58:22] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:58:25] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:58:25] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:58:30] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:58:30] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:58:30] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:58:30] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:58:30] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:58:30] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:58:30] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/09 - 00:58:30] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:58:30] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:58:32] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:58:32] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:58:33] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:58:33] room is full
+[2018/09/09 - 00:58:34] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:58:34] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:59:35] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 00:59:35] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:59:35] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 00:59:35] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 00:59:35] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:59:35] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:59:35] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/09 - 00:59:36] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 00:59:36] room is full
+[2018/09/09 - 00:59:39] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 00:59:39] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 00:59:45] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 00:59:45] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 00:59:45] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 01:01:12] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 01:01:12] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 01:01:12] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 01:01:12] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 01:01:12] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 01:01:12] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 01:01:12] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 01:01:12] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 01:01:14] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 01:01:14] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 01:01:16] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 01:01:16] room is full
+[2018/09/09 - 01:01:19] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 01:01:19] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 01:01:54] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 01:01:54] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 01:01:54] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 01:01:54] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 01:01:55] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 01:01:55] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 01:01:55] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 01:01:55] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 01:02:02] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 01:02:03] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 01:02:03] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 01:02:03] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 01:02:03] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 01:02:03] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 01:02:03] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 01:02:03] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 01:02:08] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 01:02:09] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 01:02:09] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 01:02:09] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 01:02:09] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 01:02:09] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 01:02:09] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 01:02:09] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 01:02:17] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 01:02:17] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 01:02:17] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 01:02:17] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 01:02:18] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 01:02:18] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 01:02:18] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 01:02:18] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 01:02:25] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 01:02:25] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 01:02:25] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 01:02:25] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 01:02:26] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 01:02:26] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 01:02:26] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 01:02:26] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 01:02:33] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 01:02:33] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 01:02:33] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 01:02:33] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 01:02:34] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 01:02:34] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 01:02:34] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 01:02:34] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 01:02:38] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 01:02:38] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 01:02:38] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 01:02:38] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 01:02:38] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 01:02:38] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 01:02:39] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 01:02:39] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 01:02:40] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 01:02:40] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 01:02:41] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 01:02:41] room is full
+[2018/09/09 - 01:02:42] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 01:02:42] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 01:02:51] hewwo we have a request from ::1 for path: /createRoom
+[2018/09/09 - 01:02:51] Created room with id 9
+[2018/09/09 - 01:02:51] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 01:06:27] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 01:06:28] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 01:06:28] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 01:06:28] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 01:06:28] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 01:06:28] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 01:07:25] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 01:07:25] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 01:07:25] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 01:07:25] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 01:07:25] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 01:07:25] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 01:07:25] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 01:07:25] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 01:07:39] Running server...
+[2018/09/09 - 01:07:40] Connecting to DB...
+[2018/09/09 - 01:07:40] Connected to DB!
+[2018/09/09 - 01:07:41] hewwo we have a request from ::ffff:127.0.0.1 for path: /createRoom
+[2018/09/09 - 01:07:41] bye
+[2018/09/09 - 01:07:51] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 01:07:51] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 01:07:51] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 01:07:51] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 01:07:51] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 01:07:51] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 01:07:51] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 01:07:51] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 01:07:53] hewwo we have a request from ::1 for path: /createRoom
+[2018/09/09 - 01:07:53] bye
+[2018/09/09 - 01:08:31] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 01:08:31] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 01:08:31] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 01:08:31] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 01:08:31] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 01:08:31] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 01:08:31] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 01:08:31] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 01:08:33] hewwo we have a request from ::1 for path: /createRoom
+[2018/09/09 - 01:08:33] bye
+[2018/09/09 - 01:12:41] hewwo we have a request from ::1 for path: /createRoom
+[2018/09/09 - 01:12:41] bye
+[2018/09/09 - 01:12:46] Connecting to DB...
+[2018/09/09 - 01:12:46] Running server...
+[2018/09/09 - 01:12:46] Connected to DB!
+[2018/09/09 - 01:12:48] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 01:12:48] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 01:12:48] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 01:12:48] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 01:12:48] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/09 - 01:12:48] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/09 - 01:12:49] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 01:12:49] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 01:12:50] hewwo we have a request from ::1 for path: /createRoom
+[2018/09/09 - 01:12:50] Created room with id 10
+[2018/09/09 - 01:12:50] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 01:12:53] hewwo we have a request from ::1 for path: /createRoom
+[2018/09/09 - 01:12:53] Created room with id 11
+[2018/09/09 - 01:12:53] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 01:12:55] hewwo we have a request from ::1 for path: /createRoom
+[2018/09/09 - 01:12:55] Created room with id 12
+[2018/09/09 - 01:12:55] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 01:13:43] hewwo we have a request from ::1 for path: /
+[2018/09/09 - 01:13:43] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/09 - 01:13:43] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/09 - 01:13:43] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/09 - 01:13:44] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 01:13:44] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 01:13:44] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/09 - 01:21:53] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 01:21:54] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 01:21:54] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 01:21:57] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 01:21:57] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 01:21:57] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 01:22:16] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/09 - 01:22:17] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/09 - 01:22:17] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 01:22:22] hewwo we have a request from ::1 for path: /createRoom
+[2018/09/09 - 01:22:22] Created room with id 13
+[2018/09/09 - 01:22:22] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/09 - 01:22:24] hewwo we have a request from ::1 for path: /createRoom
+[2018/09/09 - 01:22:24] Created room with id 14
+[2018/09/09 - 01:22:24] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:25:00] Running server...
+[2018/09/10 - 20:25:00] Connecting to DB...
+[2018/09/10 - 20:25:21] Running server...
+[2018/09/10 - 20:25:21] Connecting to DB...
+[2018/09/10 - 20:25:21] Connected to DB!
+[2018/09/10 - 20:25:22] hewwo we have a request from ::1 for path: /
+[2018/09/10 - 20:25:22] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 20:25:22] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/10 - 20:25:22] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/10 - 20:25:22] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:25:22] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:25:22] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/10 - 20:25:25] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/10 - 20:25:26] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:25:26] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:25:27] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:25:27] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:25:37] hewwo we have a request from ::1 for path: /
+[2018/09/10 - 20:25:37] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 20:25:37] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/10 - 20:25:37] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/10 - 20:25:37] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:25:37] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:25:37] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/10 - 20:25:39] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:25:39] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:26:28] hewwo we have a request from ::1 for path: /
+[2018/09/10 - 20:26:28] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 20:26:28] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/10 - 20:26:28] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/10 - 20:26:29] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:26:29] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:26:29] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/10 - 20:26:30] hewwo we have a request from ::1 for path: /
+[2018/09/10 - 20:26:30] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 20:26:30] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/10 - 20:26:30] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/10 - 20:26:30] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:26:30] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:26:30] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/10 - 20:26:34] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/10 - 20:26:35] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:26:35] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:28:07] hewwo we have a request from ::1 for path: /registerGuest
+[2018/09/10 - 20:28:07] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:28:08] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/10 - 20:28:09] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:28:09] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:32:18] hewwo we have a request from ::1 for path: /
+[2018/09/10 - 20:32:18] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 20:32:18] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/10 - 20:32:18] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/10 - 20:32:18] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:32:18] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:32:18] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/10 - 20:32:27] hewwo we have a request from ::1 for path: /
+[2018/09/10 - 20:32:27] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 20:32:27] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/10 - 20:32:27] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/10 - 20:32:27] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:32:27] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:32:27] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/10 - 20:32:54] hewwo we have a request from ::1 for path: /
+[2018/09/10 - 20:32:54] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 20:32:55] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/10 - 20:32:55] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/10 - 20:32:55] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:32:55] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:32:55] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/10 - 20:33:14] hewwo we have a request from ::1 for path: /
+[2018/09/10 - 20:33:14] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 20:33:14] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/10 - 20:33:14] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/10 - 20:33:15] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:33:15] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:33:15] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/10 - 20:33:50] hewwo we have a request from ::1 for path: /
+[2018/09/10 - 20:33:50] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 20:33:50] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/10 - 20:33:50] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/10 - 20:33:51] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:33:51] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:33:51] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/10 - 20:34:07] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/10 - 20:34:07] room is full
+[2018/09/10 - 20:35:24] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 20:35:24] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/10 - 20:35:24] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/10 - 20:37:18] hewwo we have a request from ::1 for path: /
+[2018/09/10 - 20:37:18] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 20:37:18] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/10 - 20:37:18] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/10 - 20:37:18] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/10 - 20:37:18] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/10 - 20:37:19] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:37:19] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:37:23] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 20:37:23] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/10 - 20:37:23] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/10 - 20:37:32] hewwo we have a request from ::1 for path: /
+[2018/09/10 - 20:37:32] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 20:37:32] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/10 - 20:37:32] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/10 - 20:37:32] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/10 - 20:37:32] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/10 - 20:37:32] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:37:32] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:39:25] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 20:39:25] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/10 - 20:39:25] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/10 - 20:42:59] hewwo we have a request from ::1 for path: /
+[2018/09/10 - 20:42:59] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 20:42:59] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/10 - 20:42:59] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/10 - 20:42:59] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/10 - 20:42:59] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/10 - 20:42:59] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:42:59] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:43:05] Running server...
+[2018/09/10 - 20:43:05] Connecting to DB...
+[2018/09/10 - 20:43:05] Connected to DB!
+[2018/09/10 - 20:43:07] hewwo we have a request from ::1 for path: /
+[2018/09/10 - 20:43:07] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 20:43:07] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/10 - 20:43:07] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/10 - 20:43:07] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/10 - 20:43:07] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/10 - 20:43:07] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:43:07] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:43:14] hewwo we have a request from ::1 for path: /
+[2018/09/10 - 20:43:14] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 20:43:14] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/10 - 20:43:14] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/10 - 20:43:14] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/10 - 20:43:14] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/10 - 20:43:14] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:43:14] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:43:36] hewwo we have a request from ::1 for path: /
+[2018/09/10 - 20:43:36] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 20:43:36] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/10 - 20:43:36] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/10 - 20:43:36] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/10 - 20:43:36] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/10 - 20:43:36] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:43:36] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:43:54] hewwo we have a request from ::1 for path: /
+[2018/09/10 - 20:43:54] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 20:43:54] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/10 - 20:43:54] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/10 - 20:43:54] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/10 - 20:43:54] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/10 - 20:43:54] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:43:54] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:45:52] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:45:52] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:45:56] hewwo we have a request from ::1 for path: /
+[2018/09/10 - 20:45:56] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 20:45:56] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/10 - 20:45:56] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/10 - 20:45:56] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:45:56] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:45:56] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/10 - 20:45:59] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:45:59] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:46:25] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:46:25] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:46:39] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:46:39] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:47:07] hewwo we have a request from ::1 for path: /
+[2018/09/10 - 20:47:07] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 20:47:07] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/10 - 20:47:07] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/10 - 20:47:07] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:47:07] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:47:07] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/10 - 20:51:34] hewwo we have a request from ::1 for path: /
+[2018/09/10 - 20:51:34] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 20:51:34] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/10 - 20:51:34] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/10 - 20:51:35] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:51:35] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:51:35] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/10 - 20:51:55] hewwo we have a request from ::1 for path: /
+[2018/09/10 - 20:51:55] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 20:51:55] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/10 - 20:51:55] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/10 - 20:51:55] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:51:55] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:51:55] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/10 - 20:51:58] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 20:51:58] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/10 - 20:51:58] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/10 - 20:52:13] hewwo we have a request from ::1 for path: /
+[2018/09/10 - 20:52:13] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 20:52:13] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/10 - 20:52:13] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/10 - 20:52:13] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/10 - 20:52:13] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/10 - 20:52:14] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:52:14] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:52:31] hewwo we have a request from ::1 for path: /
+[2018/09/10 - 20:52:31] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 20:52:31] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/10 - 20:52:31] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/10 - 20:52:31] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/10 - 20:52:31] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/10 - 20:52:31] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:52:31] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:52:44] hewwo we have a request from ::1 for path: /
+[2018/09/10 - 20:52:44] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 20:52:44] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/10 - 20:52:44] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/10 - 20:52:45] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:52:45] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:52:45] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/10 - 20:52:53] hewwo we have a request from ::1 for path: /
+[2018/09/10 - 20:52:53] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 20:52:53] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/10 - 20:52:53] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/10 - 20:52:53] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:52:53] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:52:53] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/10 - 20:53:09] hewwo we have a request from ::1 for path: /
+[2018/09/10 - 20:53:09] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 20:53:09] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/10 - 20:53:09] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/10 - 20:53:09] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:53:09] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/10 - 20:53:09] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/10 - 20:53:49] hewwo we have a request from ::1 for path: /
+[2018/09/10 - 20:53:49] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/10 - 20:53:49] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/10 - 20:53:49] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/10 - 20:53:49] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/10 - 20:53:49] hewwo we have a request from ::1 for path: /favicon.ico

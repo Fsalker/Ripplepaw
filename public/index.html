@@ -7,13 +7,37 @@
     <!--<script src="polyfill.min.js"></script>-->
 
     <style>
-        table>tbody>tr:nth-child(n+2){
+        .fade-enter-active, .fade-leave-active {
+            transition: opacity .5s;
+        }
+        .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+            opacity: 0;
+        }
+
+        .joinableRoom{
+            transition: 0.3s;
+            cursor: pointer;
+        }
+        .joinableRoom:hover{
+            background-color: #375a7f;
+        }
+
+        .unjoinableRoom{
+            transition: 0.3s;
+            cursor: not-allowed;
+        }
+
+        .unjoinableRoom:hover{
+            background-color: #E74C3C;
+        }
+
+        /*table>tbody>tr:nth-child(n+2){
             transition: 0.3s;
             cursor: pointer;
         }
         table>tbody>tr:hover:nth-child(n+2){
             background-color: #375a7f;
-        }
+        }*/
     </style>
 </head>
 
@@ -73,81 +97,96 @@
             <template v-else>
                 <div class="ml-auto">
                     <span class="mr-1">Logged in as {{nickname}}</span>
-                    <button class="btn btn-info" @click="logout">Logout</button>
+                    <button class="btn btn-info" @click="logout" :disabled="roomId">Logout</button>
                 </div>
             </template>
         </nav>
 
         <div class="container my-4">
-            <div>
-                <nav class="navbar navbar-dark">
-                    <h1 style="display: inline-block; margin: 0">Lobbies</h1>
-                    
-                    <div class="ml-auto">
-                        <button class="btn btn-info" @click="getRoomList">Refresh</button>
-                        <b-btn class="btn btn-info ml-1" :disabled="!loggedin" v-b-modal.create-lobby-modal>Create lobby</b-btn>
+            <template v-if="!roomId">
+                <div>
+                    <nav class="navbar navbar-dark">
+                        <h1 style="display: inline-block; margin: 0">Lobbies</h1>
 
-                        <b-modal id="create-lobby-modal" title="Lobby configuration" ok-title="Create" ok-variant="success" @ok="createRoom">
-                            <alert-object :data="createRoomData"></alert-object>
-                            <div class="form-row mb-1">
-                                <label class="col-3 col-form-label" for="room_name">Name</label>
-                                <input id="room_name" class="form-control col-6" @keydown.enter="createRoom" v-model="randomRoomName" maxlength="30">
-                                <button class="btn btn-info ml-1" @click="changeRoomName"><i class="fa fa-repeat"></i></button>
-                            </div>
-                            <div class="form-row mb-1">
-                                <label class="col-3 col-form-label" for="room_maxPlayers">Players</label>
-                                <input class="form-control col-6" id="room_maxPlayers" type="number" min="4" max="16" value="4" @keydown.enter="createRoom">
-                            </div>
-                            <div class="form-row mb-1">
-                                <label class="col-3 col-form-label" for="room_name">Board Width</label>
-                                <input class="form-control col-6" id="room_boardWidth" type="number" min="2" max="10" value="5" @keydown.enter="createRoom">
-                            </div>
-                            <div class="form-row mb-1">
-                                <label class="col-3 col-form-label" for="room_name">Board Height</label>
-                                <input class="form-control col-6" id="room_boardHeight" type="number" min="2" max="10" value="5" @keydown.enter="createRoom">
-                            </div>
-                            <div class="form-row mb-1">
-                                <label class="col-3 col-form-label" for="room_password">Password</label>
-                                <input class="form-control col-6" id="room_password" placeholder="Your password" @keydown.enter="createRoom">
-                            </div>
-                            <div class="form-row">
-                                <label class="col-3 col-form-label" for="room_name">Language</label>
-                                <select id="room_language" name="language" class="form-control col-6">
-                                    <option value="english">English</option>
-                                    <option value="romanian">Română</option>
-                                </select>
-                            </div>
-                        </b-modal>
-                    </div>
-                </nav>
-            </div>
+                        <div class="ml-auto">
+                            <button class="btn btn-info" @click="getRoomList">Refresh</button>
+                            <b-btn class="btn btn-info ml-1" :disabled="!loggedin" @click="changeCreatedRoomName" v-b-modal.create-lobby-modal>Create lobby</b-btn>
 
-            <alert-object :data="lobbyListData"></alert-object>
+                            <b-modal id="create-lobby-modal" title="Lobby configuration" ok-title="Create" ok-variant="success" @ok="createRoom">
+                                <alert-object :data="createRoomData"></alert-object>
+                                <div class="form-row mb-1">
+                                    <label class="col-3 col-form-label" for="room_name">Name</label>
+                                    <input id="room_name" class="form-control col-6" @keydown.enter="createRoom" v-model="randomRoomName" maxlength="30">
+                                    <button class="btn btn-info ml-1" @click="changeCreatedRoomName"><i class="fa fa-repeat"></i></button>
+                                </div>
+                                <div class="form-row mb-1">
+                                    <label class="col-3 col-form-label" for="room_maxPlayers">Players</label>
+                                    <input class="form-control col-6" id="room_maxPlayers" type="number" min="4" max="16" value="4" @keydown.enter="createRoom">
+                                </div>
+                                <div class="form-row mb-1">
+                                    <label class="col-3 col-form-label" for="room_name">Board Width</label>
+                                    <input class="form-control col-6" id="room_boardWidth" type="number" min="2" max="10" value="5" @keydown.enter="createRoom">
+                                </div>
+                                <div class="form-row mb-1">
+                                    <label class="col-3 col-form-label" for="room_name">Board Height</label>
+                                    <input class="form-control col-6" id="room_boardHeight" type="number" min="2" max="10" value="5" @keydown.enter="createRoom">
+                                </div>
+                                <div class="form-row mb-1">
+                                    <label class="col-3 col-form-label" for="room_password">Password</label>
+                                    <input class="form-control col-6" id="room_password" placeholder="Your password" @keydown.enter="createRoom">
+                                </div>
+                                <div class="form-row">
+                                    <label class="col-3 col-form-label" for="room_name">Language</label>
+                                    <select id="room_language" name="language" class="form-control col-6">
+                                        <option value="english">English</option>
+                                        <option value="romanian">Română</option>
+                                    </select>
+                                </div>
+                            </b-modal>
+                        </div>
+                    </nav>
+                </div>
 
-            <template v-if="roomArr.length > 0">
-                <table class="table my-4" style="text-align: center">
-                    <tr>
-                        <th width="5%" hidden>{{roomColumns[0]}}</th>
-                        <th width="5%">{{roomColumns[1]}}</th>
-                        <th width="20%">{{roomColumns[2]}}</th>
-                        <th width="10%">{{roomColumns[3]}}</th>
-                        <th width="10%">{{roomColumns[4]}}</th>
-                        <th width="10%">{{roomColumns[5]}}</th>
-                        <th width="10%">{{roomColumns[6]}}</th>
-                        <th width="5%">{{roomColumns[7]}}</th>
-                    </tr>
-                        <tr v-for="room in roomArr">
-                            {{room}}
-                            <td v-for="col of roomColumns" v-bind:style="{display: col != roomColumns[0] ? 'table-cell' : 'none'}">
-                                {{room[col]}}
-                            </td>
+                <alert-object :data="lobbyData"></alert-object>
+
+                <template v-if="loggedin && joinedRooms && joinedRooms.length > 0">
+                    <span>Currently joined lobbies:</span>
+                    <button v-for="room in joinedRooms" class="btn btn-primary mr-1 mb-1" @click="displayRoom" :room-id="room.id">
+                        [#{{room.id}}] {{room.name}}
+                    </button>
+                </template>
+
+                <template v-if="roomArr.length > 0">
+                    <table class="table my-4" style="text-align: center">
+                        <tr>
+                            <th v-for="col in roomColumns">
+                                {{col}}
+                            </th>
+                            <!--<th width="10%">{{roomColumns[0]}}</th>
+                            <th width="10%">{{roomColumns[1]}}</th>
+                            <th width="40%">{{roomColumns[2]}}</th>
+                            <th width="20%">{{roomColumns[3]}}</th>
+                            <th width="20%">{{roomColumns[4]}}</th>
+                            <th width="20%">{{roomColumns[5]}}</th>
+                            <th width="20%">{{roomColumns[6]}}</th>
+                            <th width="10%">{{roomColumns[7]}}</th>-->
                         </tr>
-                </table>
+                            <tr v-for="room in roomArr" @click="joinRoom" v-bind:class="{'joinableRoom': roomIsJoinable(room), 'unjoinableRoom': !roomIsJoinable(room)}">
+                                <td v-for="col of roomColumns" v-bind:style="{display: col != 1 || roomColumns[0] ? 'table-cell' : 'none'}">
+                                    {{room[col]}}
+                                </td>
+                            </tr>
+                    </table>
+                </template>
+                <template v-else>
+                    <div style="text-align: center">
+                        <p>Unfortunately, there are no open lobbies right now. Go ahead and create your own room!</p>
+                    </div>
+                </template>
             </template>
             <template v-else>
-                <div style="text-align: center">
-                    <p>Unfortunately, there are no open lobbies right now. Go ahead and create your own room!</p>
-                </div>
+                <h1 style="display: inline-block; margin: 0">{{roomName}}</h1>
+                <button class="btn btn-primary" @click="closeRoom">Return to lobbies</btn>
             </template>
         </div>
     </div>
@@ -163,8 +202,11 @@
 
         //
         function setAlertData(alertData, variant, text){
-            alertData.variant = variant
-            alertData.text = text
+            alertData.text = ""
+            setTimeout(() => { // Hacks! Ineffective hack for making the alerts "refreshable" lol
+                alertData.variant = variant
+                alertData.text = text
+            }, 10)
         }
 
         function resetAlertData(alertData){
@@ -202,42 +244,51 @@
             resetAlertData(app.registerData)
             resetAlertData(app.loginData)
             resetAlertData(app.registerGuestData)
+            app.getJoinedRooms()
         }
 
         // Vue
         Vue.component("alert-object", {
             props: ["data"],
-            template: `<b-alert :show="data.text!=''" :variant="data.variant">
-                            {{data.text}}
-                       </b-alert>`
+            template: `
+                    <b-alert :show="data.text!=''" :variant="data.variant">
+                        {{data.text}}
+                    </b-alert>
+                `
         })
 
         var app = new Vue({
             el: "#app",
             data: {
+                // Local Storage
                 nickname: localStorage.getItem("nickname") || sessionStorage.getItem("nickname"),
                 userId: localStorage.getItem("userId") || sessionStorage.getItem("userId"),
                 sessionHash: localStorage.getItem("sessionHash") || sessionStorage.getItem("sessionHash"),
-                /*nickname: getCookie("nickname"),
-                userId: getCookie("userId"),
-                sessionHash: getCookie("sessionHash"),*/
-                guestMode: false,
 
+                // Configure, more or less
                 roomColumns: ["Id", "Passworded", "Name", "Owner", "Players", "Board Width", "Board Height", "Language"],
-                roomArr: [],
 
+                // Initialise
+                roomArr: [],
+                guestMode: false,
+                roomId: undefined, //localStorage.getItem("roomId"),
+                roomName: undefined, //localStorage.getItem("roomName"),
+                randomRoomName: undefined,
+                joinedRooms: undefined,
+
+                // Alert Data
                 registerData: {variant: "", text: ""},
                 registerGuestData: {variant: "", text: ""},
                 loginData: {variant: "", text: ""},
                 createRoomData: {variant: "", text: ""},
-                lobbyListData: {variant: "", text: ""},
-
-                randomRoomName: undefined
+                lobbyData: {variant: "", text: ""}
             },
             mounted: function() {
-                //this.randomRoomName = this.generateRoomName()
-                this.changeRoomName()
+                //this.changeCreatedRoomName()
                 this.getRoomList()
+                if(this.loggedin) {
+                    this.getJoinedRooms()
+                }
             },
             computed: {
                 loggedin: function() {
@@ -303,17 +354,20 @@
                     localStorage.removeItem("userId")
                     localStorage.removeItem("sessionHash")
                     localStorage.removeItem("nickname")
+                    sessionStorage.removeItem("userId")
+                    sessionStorage.removeItem("sessionHash")
+                    sessionStorage.removeItem("nickname")
                     /*deleteCookie("userId")
                     deleteCookie("sessionHash")
                     deleteCookie("nickname")*/
                     app.userId = undefined
                     app.sessionHash = undefined
+                    app.joinedRooms = undefined
                 },
 
                 getRoomList: () => {
                     let successCallback = (data) => {
                         data = JSON.parse(data);
-                        resetAlertData(app.lobbyListData)
                         app.roomArr = []
                         for(room of data) {
                             crtRoom = {}
@@ -325,17 +379,79 @@
                             crtRoom["Board Width"] = room.boardWidth
                             crtRoom["Board Height"] = room.boardHeight
                             crtRoom["Language"] = room.language.charAt(0).toUpperCase() + room.language.slice(1)
+
                             app.roomArr.push(crtRoom)
                         }
                     }
-                    let failureCallback = () => setAlertData(app.lobbyListData, "danger", "An error has occurred when fetching the room lobbies.")
+                    let failureCallback = () => setAlertData(app.lobbyData, "danger", "An error has occurred when fetching the lobby lobbies.")
                     ajaxRequest("viewRooms", {}, successCallback, failureCallback)
                 },
 
-                joinRoom: () => {
+                getJoinedRooms() {
+                    let data = {
+                        userId: this.userId,
+                        hash: this.sessionHash
+                    }
+                    let successCallback = (data) => {
+                        data = JSON.parse(data);
+                        app.joinedRooms = data
+                    }
+                    let failureCallback = () => {
+                        setAlertData(app.lobbyData, "danger", "An error has occurred when fetching the list of joined lobbies.")
+                    }
+                    ajaxRequest("getJoinedRooms", data, successCallback, failureCallback)
+                },
+
+                displayRoom: (arg) => {
+                    let roomId;
+                    if(typeof(arg) == "number")
+                        roomId = arg
+                    else // getting an object = MouseEvent
+                        roomId = arg.target.getAttribute("room-id")
+
+                    console.log("Opening room "+roomId)
+                    app.roomId = roomId
+                    //localStorage.setItem("roomId", roomId)
+                    //localStorage.setItem("roomName", roomName)
+                    setAlertData(app.lobbyData, "", "")
+                },
+
+                closeRoom: (arg) => {
+                    app.roomId = undefined
+                    //localStorage.removeItem("roomId")
+                    //localStorage.removeItem("roomName")
+                    app.getJoinedRooms()
+                    app.getRoomList()
+                },
+
+                joinRoom: (e) => {
+                    if(!app.userId) return setAlertData(app.lobbyData, "warning", "You must be logged in in order to join lobbies. Please register or play as a guest!")
+
+                    let targetRow = e.target.parentElement
+
+                    let playersVal = targetRow.children[app.roomColumns.indexOf("Players")].innerText
+                    let players = playersVal.split("/")[0]
+                    let maxPlayers = playersVal.split("/")[1]
+
+                    if(players >= maxPlayers) return setAlertData(app.lobbyData, "danger", "Lobby is full!")
+
+                    let roomId = parseInt(targetRow.children[app.roomColumns.indexOf("Id")].innerText)
+
+                    let data = {
+                        userId: app.userId,
+                        hash: app.sessionHash,
+                        roomId: roomId
+                    }
+                    let successCallback = (data) => {
+                        app.displayRoom(roomId)
+                    }
+                    let failureCallback = () => setAlertData(app.lobbyData, "danger", "An error occurred when joining the lobby.")
+                    ajaxRequest("joinRoom", data, successCallback, failureCallback)
+
                 },
 
                 createRoom (event) {
+                    event.preventDefault()
                     let data = {
                         userId: app.userId,
                         hash: app.sessionHash,
@@ -352,8 +468,8 @@
                     else if(data.boardWidth < 1 || data.boardWidth > 10) errorMsg = "Board width must be between 2 and 10."
                     else if(data.boardHeight < 1 || data.boardHeight > 10) errorMsg = "Board height must be between 2 and 10."
                     if(errorMsg) {
-                        if(event && event.preventDefault)
-                            event.preventDefault()
+                        /*if(event && event.preventDefault)
+                            event.preventDefault()*/
 
                         return setAlertData(app.createRoomData, "warning", errorMsg)
                     }
@@ -361,9 +477,10 @@
                     let successCallback = (data) => {
                         data = JSON.parse(data);
                         app.getRoomList()
-                        app.changeRoomName()
+                        setAlertData(app.createRoomData, "", "")
+                        app.$root.$emit("bv::hide::modal", "create-lobby-modal")
                     }
-                    let failureCallback = () => setAlertData(app.loginData, "danger", "Authentification failed.")
+                    let failureCallback = () => setAlertData(app.createRoomData, "danger", "An error has occurred when creating the lobby. Please try again.")
 
                     ajaxRequest("createRoom", data, successCallback, failureCallback)
                 },
@@ -384,8 +501,15 @@
                     return `${word_1} ${adjectiveList[index_2]} ${nounList[index_3]}`
                 },
 
-                changeRoomName () {
+                changeCreatedRoomName () {
                     this.randomRoomName = this.generateRoomName()
+                },
+
+                roomIsJoinable(room){
+                    if(!this.loggedin) return false
+                    let players = parseInt(room["Players"].split("/")[0])
+                    let maxPlayers = parseInt(room["Players"].split("/")[1])
+                    return players < maxPlayers
                 }
             }
         })

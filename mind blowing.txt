@@ -28,3 +28,45 @@ this causes the focus to be set on Register (the leftmost button, top button in 
 
 #2 inputs appear before bootstrap-vue.js has been loaded. so, it takes about half a second before
 the inputs move where they should be. damn...
+
+
+
+        300 iq bugs
+#1 first, read the following code:
+
+joinRoom: async(con, res, data) => {
+    validate_input(data, ["userId", "hash", "roomId"])
+    await validate_auth(con, data.userId, data.hash)
+
+    remainingSlots = (await query(con, "SELECT (SELECT maxplayers FROM Rooms WHERE id = ?) - COUNT(*) as `remainingSlots` FROM UserToRoom WHERE roomId = ?", [data.roomId, data.roomId]))[0]["remainingSlots"]
+    if(remainingSlots == 0) throw "room is full"
+
+    r = await query(con, "SELECT COUNT(*) FROM UserToRoom WHERE userId = ? AND roomId = ?", [data.userId, data.roomId])
+    if(r[0]["COUNT(*)"] > 0) return res.end()
+
+    await query(con, "INSERT INTO UserToRoom(userId, roomId) VALUES (?,?)", [data.userId, data.roomId])
+
+    res.end()
+},
+
+    notice anything weird? you probably shouldn't, because it's not visible here.
+    imagine TWO users simultaneously got past the `remainingSlots` check. that is, the room has 3 out of 4 players
+  and both of them join
+    then what? neither of them is in the room, so they both get inserted into the room
+    BANG
+    BANG
+    BANG
+    BANG
+    the room now has 5 out of a maximum of 4 players
+
+    how??? well, it's simple: non-blocking api. yep.
+
+    how to deal with it? i figured out a solution: add constraints in the mysql table.
+    add a Foreign Key CHECK constraint based on a FUNCTION that selects the count(*) of users currently in the room
+
+    BANG
+
+    $$$$$$$$$$$$$$
+
+    ...but is there any less painful solution?
+            no, i haven't fixed it yet. bog off
