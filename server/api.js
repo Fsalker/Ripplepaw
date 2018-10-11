@@ -1,15 +1,21 @@
 const fs = require("fs")
 const log = require("./log.js").log
 const crypto = require("crypto")
+
+// My functions!! :D
 const generateHash = require("./utils.js").generateHash
 const query = require("./utils.js").query
+
+// Configurable, more or less
 const BANNED_FRONTEND_CHARACTERS_REGEX = /[^a-zA-Z0-9]/
 const BANNED_FRONTEND_CHARACTERS_ALLOW_SPACES_REGEX = /[^a-zA-Z0-9 ]/
 const ALLOWED_ROOM_LANGUAGES = "english romanian".split(" ")
 
+// Quite useful functions
 function validate_auth(con, userId, hash){
+    //console.log("hash = "+hash)
     return new Promise( async(resolve, reject) => {
-        let err;
+            let err;
         r = await query(con, "SELECT COUNT(*) FROM Sessions WHERE userId = ? AND hash = ?", [userId, hash]).catch(e => err = e)
         if(err) return reject(err)
         if(r[0]["COUNT(*)"] == 0) return reject("auth invalid")
@@ -230,18 +236,6 @@ module.exports = {
         r = await query(con, "DELETE FROM UserToRoom WHERE userId = ? AND roomId = ?", [data.userId, data.roomId])
 
         res.end()
-    },
-
-    // userId, hash, roomId
-    //  (user must already be in that room)
-    getRoomData: async(con, res, data) => {
-        /*validate_input(data, ["userId", "hash", "roomId"])
-        await validate_auth(con, data.userId, data.hash)
-
-        words = await query(`SELECT c.word, a.color FROM
-                            (SELECT * FROM WordToRoom WHERE roomId = ?) a
-                            JOIN Words c ON a.wordId = c.id`, data.roomId)
-        */
     },
 
     // userId, hash

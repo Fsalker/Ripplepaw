@@ -7,6 +7,14 @@
     <!--<script src="polyfill.min.js"></script>-->
 
     <style>
+        .logo{
+            transition: 0.6s;
+        }
+
+        .logo:hover{
+            transform: rotate(360deg);
+        }
+
         .lobbyCol{
             cursor: pointer;
             transition: 0.3s;
@@ -53,7 +61,12 @@
 <body>
     <div id="app">
         <nav class="navbar navbar-dark bg-primary">
-            <a class="navbar-brand" href="#">Ripplepaw</a>
+            <a class="navbar-brand logo" href="#">Ripplepaw</a>
+            <template v-if="roomId">
+                <button class="btn btn-primary">
+                    [#{{roomId}}] {{roomName}}
+                </div>
+            </template>
 
             <template v-if="!loggedin">
                 <div class="ml-auto">
@@ -111,7 +124,7 @@
             </template>
         </nav>
 
-        <div class="container my-4">
+        <div class="container-fluid my-4">
             <template v-if="!roomId">
                 <div>
                     <nav class="navbar navbar-dark">
@@ -160,7 +173,7 @@
 
                 <template v-if="loggedin && joinedRooms && joinedRooms.length > 0">
                     <span>Currently joined lobbies:</span>
-                    <button v-for="room in joinedRooms" class="btn btn-primary mr-1 mb-1" @click="displayRoom" :room-id="room.id">
+                    <button v-for="room in joinedRooms" class="btn btn-primary mr-1 mb-1" @click="displayRoom" :room-id="room.id" :room-name="room.name">
                         [#{{room.id}}] {{room.name}}
                     </button>
                 </template>
@@ -194,8 +207,20 @@
                 </template>
             </template>
             <template v-else>
-                <h1 style="display: inline-block; margin: 0">{{roomName}}</h1>
-                <button class="btn btn-primary" @click="closeRoom">Return to lobbies</btn>
+                <!--<h1 style="display: inline-block; margin: 0">{{roomName}}</h1>-->
+                <button class="btn btn-primary" @click="closeRoom">Return to lobbies</button>
+
+                <div class="row mt-2" style="height: 700px">
+                    <div class="col-9" style="background: orangered">
+
+                    </div>
+                    <div class="col-3" style="background: gray">
+                        <div style="height: 93%; background: greenyellow">
+                        </div>
+                        <div style="height: 7%; background: lime">
+                        </div>
+                    </div>
+                </div>
             </template>
         </div>
     </div>
@@ -203,11 +228,7 @@
     <script src="/socket.io/socket.io.js"></script>
     <script>
         // Socket IO
-        var socket = io();
-
-        socket.on("swag", (x) => {
-            //console.log("Got swag: "+x)
-        })
+        var socket;
 
         //
         function setAlertData(alertData, variant, text){
@@ -286,6 +307,10 @@
                 joinedRooms: undefined,
                 sortedCol: undefined,
 
+                // Game data
+                role: undefined,
+                expectingSocketClose: false,
+
                 // Alert Data
                 registerData: {variant: "", text: ""},
                 registerGuestData: {variant: "", text: ""},
@@ -329,12 +354,12 @@
                     if(data.nickname.length <= 3 || data.nickname.length > 20 || data.nickname.match(/[^a-zA-Z0-9]/)) return setAlertData(app.registerGuestData, "warning", "Nickname must contain between 4 and 20 alphanumeric characters.")
 
                     let successCallback = (data) => {
-                        data = JSON.parse(data); 
-                        loginFrontend(data.userId, data.hash, data.nickname, "session"); 
+                        data = JSON.parse(data);
+                        loginFrontend(data.userId, data.hash, data.nickname, "session");
                         app.guestMode = true
                     }
                     let failureCallback = () => setAlertData(app.registerGuestData, "danger", "Failed to create guest account.")
-                    ajaxRequest("registerGuest", data, successCallback, failureCallback)  
+                    ajaxRequest("registerGuest", data, successCallback, failureCallback)
                 },
 
                 login: () => {
@@ -383,7 +408,7 @@
                         for(room of data) {
                             crtRoom = {}
                             crtRoom["Id"] = room.id
-                            crtRoom["Passworded"] = room.hasPassword ? "Yes" : "No"
+                            crtRoom["Passworded"] = room.hasPassword == "yes" ? "Yes" : "No"
                             crtRoom["Name"] = room.name
                             crtRoom["Owner"] = room.owner
                             crtRoom["Players"] = room.players+" / "+room.maxplayers
@@ -416,26 +441,93 @@
                     ajaxRequest("getJoinedRooms", data, successCallback, failureCallback)
                 },
 
-                displayRoom: (arg) => {
+                displayRoom: async(arg, p_roomName = undefined) => { // arg = MouseEvent or roomId. if it's roomId, roomName must also be specified
                     let roomId;
-                    if(typeof(arg) == "number")
+                    let roomName;
+                    if(typeof(arg) == "number") { // roomId and roomName are passed
                         roomId = arg
-                    else // getting an object = MouseEvent
+                        roomName = p_roomName
+                    }
+                    else { // just a mouseEvent is passed, so we have to look into roomId and roomName
                         roomId = arg.target.getAttribute("room-id")
+                        roomName = arg.target.getAttribute("room-name")
+                    }
 
                     console.log("Opening room "+roomId)
                     app.roomId = roomId
+                    app.roomName = roomName
                     //localStorage.setItem("roomId", roomId)
                     //localStorage.setItem("roomName", roomName)
                     setAlertData(app.lobbyData, "", "")
+
+                    // Open socket
+                    socket = io()
+                    let auth = {
+                        userId: app.userId,
+                        hash: app.sessionHash,
+                        roomId: app.roomId
+                    }
+
+                    socket.on("connect", () => {
+                        console.log("Connected!")
+                        socket.emit("join room", auth)
+                    })
+
+                    socket.on("joined room", () => {
+                        console.log("Joined room succesfully! Getting room data...")
+                        let auth = {
+                            userId: app.userId,
+                            hash: app.sessionHash,
+                            roomId: app.roomId
+                        }
+                        socket.emit("get room data", auth)
+                    })
+
+                    socket.on("received room data", (data) => {
+                        console.log("Got room data succesfully!")
+                        console.log(data)
+
+                        // Now we can play!
+                        socket.on("broadcasting message to room", (data) => {
+                        console.log(data)
+                            // Append message to chat...
+                        })
+
+                        socket.on("new words", (data) => { // Game room's words have been reset
+
+                        })
+
+                        socket.on("game started", (data) => { // Game has started
+
+                        })
+
+                        socket.on("game finished", (data) => { // Game has finished
+
+                        })
+
+                        socket.on("word revealed", (data) => { // A player has revealed a word
+
+                        })
+                    })
+
+                    socket.on("disconnect", () => {
+                        console.log("Got disconnected!")
+                        app.roomId = undefined
+                        if(app.expectingSocketClose) // This is an arbitrary socket closure
+                            app.expectingSocketClose = false
+                        else // We have been suddenly disconnected!
+                            setAlertData(app.lobbyData, "danger", "Connection to the lobby has been lost. Please try reconnecting.")
+                    })
                 },
 
                 closeRoom: (arg) => {
                     app.roomId = undefined
+                    app.expectingSocketClose = true
                     //localStorage.removeItem("roomId")
                     //localStorage.removeItem("roomName")
                     app.getJoinedRooms()
                     app.getRoomList()
+                    socket.close()
                 },
 
                 joinRoom: (e) => {
@@ -450,6 +542,7 @@
                     if(players >= maxPlayers) return setAlertData(app.lobbyData, "danger", "Lobby is full!")
 
                     let roomId = parseInt(targetRow.children[app.roomColumns.indexOf("Id")].innerText)
+                    let roomName = targetRow.children[app.roomColumns.indexOf("Name")].innerText
 
                     let data = {
                         userId: app.userId,
@@ -457,7 +550,7 @@
                         roomId: roomId
                     }
                     let successCallback = (data) => {
-                        app.displayRoom(roomId)
+                        app.displayRoom(roomId, roomName)
                     }
                     let failureCallback = () => setAlertData(app.lobbyData, "danger", "An error occurred when joining the lobby.")
                     ajaxRequest("joinRoom", data, successCallback, failureCallback)
@@ -535,13 +628,23 @@
                     let SECRET_PREFIX = "____"
 
                     if(this.sortedCol == undefined || this.sortedCol == SECRET_PREFIX + col) {
-                        this.roomArr = this.roomArr.sort((a, b) => a[col].localeCompare(b[col]))
+                        this.roomArr = this.roomArr.sort((a, b) => a[col].toString().localeCompare(b[col].toString()))
                         this.sortedCol = col
                     }
                     else {
                         this.sortedCol = SECRET_PREFIX + col
-                        this.roomArr = this.roomArr.sort((a, b) => b[col].localeCompare(a[col]))
+                        this.roomArr = this.roomArr.sort((b, a) => a[col].toString().localeCompare(b[col].toString()))
                     }
+                },
+
+                sendRoomMessage(msg){
+                    data = {
+                        userId: app.userId,
+                        hash: app.sessionHash,
+                        roomId: app.roomId,
+                        msg: msg
+                    }
+                    socket.emit("message room", data)
                 }
             }
         })
