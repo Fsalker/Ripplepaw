@@ -7,6 +7,62 @@
     <!--<script src="polyfill.min.js"></script>-->
 
     <style>
+        .systemMessage{
+            color: #ccc;
+            font-style: italic;
+        }
+
+        .chat{
+            background: #666;
+            border: 3px solid black;
+            overflow: auto;
+        }
+
+        .verticalCenterHack{
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .wordBubble{
+            display: inline-block;
+            width: 150px;
+            height: 75px;
+            line-height: 75px;
+            background: #666;
+            text-align: center;
+            vertical-align: middle;
+            margin: 2px;
+            cursor: pointer;
+            transition: 0.3s;
+            overflow: hidden;
+        }
+
+        .wordBubble:hover{
+            background: #888
+        }
+
+        .selectSpymaster{
+            transition: 0.3s;
+        }
+
+        .selectSpymaster:hover{
+            background: gold;
+        }
+
+        .selectTeam{
+            transition: 0.3s;
+        }
+
+        .selectTeam:hover{
+            background: #666;
+            cursor:pointer;
+        }
+
+        .cannotSelectTeam{
+            cursor: not-allowed;
+        }
+
         .logo{
             transition: 0.6s;
         }
@@ -62,10 +118,10 @@
     <div id="app">
         <nav class="navbar navbar-dark bg-primary">
             <a class="navbar-brand logo" href="#">Ripplepaw</a>
-            <template v-if="roomId">
-                <button class="btn btn-primary">
-                    [#{{roomId}}] {{roomName}}
-                </div>
+            <template v-if="connectedToRoom">
+                <button class="btn btn-primary">[#{{roomId}}] {{roomName}}</button>
+                <button class="btn btn-info" @click="closeRoom">Return to Lobbies</button>
+                <button class="ml-2 btn btn-danger" @click="leaveLobby">Leave Lobby</button>
             </template>
 
             <template v-if="!loggedin">
@@ -85,15 +141,15 @@
 
                         <div class="form-row mb-1">
                             <label class="col-4 col-form-label" for="register_nick">Nickname</label>
-                            <input id="register_nick" type="text" class="col form-control" @keydown.enter="register">
+                            <input id="register_nick" type="text" class="col form-control" @keydown.enter="register" placeholder="Your Nickname...">
                         </div>
                         <div class="form-row mb-1">
                             <label class="col-4 col-form-label" for="register_user">Username</label>
-                            <input id="register_user" type="text" class="col form-control" @input="register_username_changed" @keydown.enter="register">
+                            <input id="register_user" type="text" class="col form-control" @input="register_username_changed" @keydown.enter="register"  placeholder="Your Username...">
                         </div>
                         <div class="form-row">
                             <label class="col-4 col-form-label" for="register_pass">Password</label>
-                            <input id="register_pass" type="password" class="col form-control" @keydown.enter="register">
+                            <input id="register_pass" type="password" class="col form-control" @keydown.enter="register"  placeholder="Your Password...">
                         </div>
                         <div class="mt-2">
                             <button class="btn btn-success" @click="register">Register</button>
@@ -104,11 +160,11 @@
                         <alert-object :data="loginData"></alert-object>
                         <div class="form-row mb-1">
                             <label class="col-4 col-form-label" for="login_user">Username</label>
-                            <input id="login_user" type="text" class="col form-control" @keydown.enter="login">
+                            <input id="login_user" type="text" class="col form-control" @keydown.enter="login"  placeholder="Your Username...">
                         </div>
                         <div class="form-row">
                             <label class="col-4 col-form-label" for="login_pass">Password</label>
-                            <input id="login_pass" type="password" class="col form-control" @keydown.enter="login">
+                            <input id="login_pass" type="password" class="col form-control" @keydown.enter="login"  placeholder="Your Password...">
                         </div>
                         <div class="mt-2">
                             <button class="btn btn-success" @click="login">Login</button>
@@ -124,8 +180,8 @@
             </template>
         </nav>
 
-        <div class="container-fluid my-4">
-            <template v-if="!roomId">
+        <div class="container-fluid my-2">
+            <template v-if="!connectedToRoom">
                 <div>
                     <nav class="navbar navbar-dark">
                         <h1 style="display: inline-block; margin: 0">Lobbies</h1>
@@ -208,16 +264,46 @@
             </template>
             <template v-else>
                 <!--<h1 style="display: inline-block; margin: 0">{{roomName}}</h1>-->
-                <button class="btn btn-primary" @click="closeRoom">Return to lobbies</button>
 
-                <div class="row mt-2" style="height: 700px">
-                    <div class="col-9" style="background: orangered">
-
-                    </div>
-                    <div class="col-3" style="background: gray">
-                        <div style="height: 93%; background: greenyellow">
+                <div class="mx-4 mt-0">
+                    <div class="row m-0 my-2">
+                        <div class="col-9" style="text-align: center">
+                            <div v-for="row in roomData.boardHeight">
+                                <span class="wordBubble" v-for="col in roomData.boardWidth">
+                                    {{getRoomWordInMatrix(row, col)}}
+                                </span>
+                            </div>
                         </div>
-                        <div style="height: 7%; background: lime">
+                        <div class="col-3">
+                            <ul id="roomChatroom" class="chat p-2 mb-2" style="list-style: none; padding: 0; height: 300px">
+                                <li class="systemMessage">This is the chatroom. Your messages and the other players' messages will be displayed here!</li>
+                            </ul>
+                            <input id="roomMsg" class="form-control mb-2" type="text" @keydown.enter="sendRoomMessage" placeholder="Type a message and press Enter...">
+                        </div>
+                    </div>
+
+                    <div class="mb-4" style="background: #444; font-weight: bold; font-size: 20px;">
+                        <div class="px-2 selectTeam" style="color: red" @click="changeRole('red')">
+                            Red Players -
+                            <span style="color: white" v-for="nickname in roomRedPlayers">{{nickname}}</span>
+                            <!--<div style="display: inline-block; text-align: right" class="selectSpymaster" @click="changeRole('red spymaster')">Spymaster: {{redSpymaster}}</div>-->
+                        </div>
+                        <div class="px-2 selectTeam" style="color: red" @click="changeRole('red spymaster')">
+                            Red Spymaster:
+                            <span style="color: white">{{redSpymaster}}</span>
+                        </div>
+                        <div class="px-2 selectTeam" style="color: deepskyblue" @click="changeRole('blue')">
+                            Blue Players -
+                            <span style="color: white" v-for="nickname in roomBluePlayers">{{nickname}}</span>
+                            <!--<span class="selectSpymaster" style="float: right;" @click="changeRole('blue spymaster')">Spymaster: {{blueSpymaster}}</span>-->
+                        </div>
+                        <div class="px-2 selectTeam" style="color: deepskyblue" @click="changeRole('blue spymaster')">
+                            Blue Spymaster:
+                            <span style="color: white">{{blueSpymaster}}</span>
+                        </div>
+                        <div class="px-2 selectTeam" @click="changeRole('spectator')">
+                            Spectators -
+                            <span style="color: white" v-for="nickname in roomSpectators">{{nickname}}</span>
                         </div>
                     </div>
                 </div>
@@ -232,10 +318,18 @@
 
         //
         function setAlertData(alertData, variant, text){
-            alertData.text = ""
+            /*let d = new Date()
+            let hours = d.getHours()
+            let minutes = d.getMinutes()
+            let seconds = d.getSeconds()
+            if(hours <= 9) hours = "0" + hours
+            if(minutes <= 9) minutes  = "0" + minutes
+            if(seconds <= 9) seconds  = "0" + seconds
+            alertData.text = `[${hours}:${minutes}:${seconds}] `*/
+            alertData.text = ''
             setTimeout(() => { // Hacks! Ineffective hack for making the alerts "refreshable" lol
                 alertData.variant = variant
-                alertData.text = text
+                alertData.text += text
             }, 10)
         }
 
@@ -277,6 +371,14 @@
             app.getJoinedRooms()
         }
 
+        function addMessageToLobbyChat(authorNickname, msg){
+            let chat = document.getElementById("roomChatroom")
+            if(authorNickname == "(system)")
+                chat.innerHTML += `<li class="systemMessage">${msg}</li>`
+            else
+                chat.innerHTML += `<li><b>${authorNickname}:</b> ${msg}</li>`
+        }
+
         // Vue
         Vue.component("alert-object", {
             props: ["data"],
@@ -306,10 +408,11 @@
                 randomRoomName: undefined,
                 joinedRooms: undefined,
                 sortedCol: undefined,
+                connectedToRoom: false,
 
                 // Game data
-                role: undefined,
                 expectingSocketClose: false,
+                roomData: undefined,
 
                 // Alert Data
                 registerData: {variant: "", text: ""},
@@ -330,7 +433,27 @@
                 loggedin: function() {
                     let ans = (this.userId && this.sessionHash) ? true : false
                     return ans
-                }
+                },
+
+                redSpymaster: function() {
+                    return this.getRoomNicknamesByRole("red spymaster")
+                },
+
+                blueSpymaster: function() {
+                    return this.getRoomNicknamesByRole("blue spymaster")
+                },
+
+                roomRedPlayers: function() {
+                    return this.getRoomNicknamesByRole("red")
+                },
+
+                roomBluePlayers: function() {
+                    return this.getRoomNicknamesByRole("blue")
+                },
+
+                roomSpectators: function() {
+                    return this.getRoomNicknamesByRole("spectator")
+                },
             },
             methods: {
                 register: () => {
@@ -483,14 +606,34 @@
                         socket.emit("get room data", auth)
                     })
 
+                    socket.on("userlist updated", () => {
+
+                    })
+
                     socket.on("received room data", (data) => {
                         console.log("Got room data succesfully!")
-                        console.log(data)
+                        app.roomData = data
 
                         // Now we can play!
+                        app.connectedToRoom = true
+
                         socket.on("broadcasting message to room", (data) => {
-                        console.log(data)
-                            // Append message to chat...
+                            /*let li_node = document.createElement("li");
+                            let text_node = document.createTextNode(`${data.userNickname}: ${data.msg}`)
+                            li_node.appendChild(text_node)
+                            document.getElementById("roomChatroom").appendChild(li_node)*/
+                            let chat = document.getElementById("roomChatroom")
+                            let isScrolledToBottom = chat.scrollHeight - chat.clientHeight <= chat.scrollTop + 1;
+                            addMessageToLobbyChat(data.userNickname, data.msg)
+                            if(isScrolledToBottom) // If we're already scrolled at the bottom, automatically scroll down again! Clever.
+                                chat.scrollTop = chat.scrollHeight - chat.clientHeight
+                        })
+
+                        socket.on("users updated", (newUsers) => { // Users update - someone joins, leaves, changes their role etc
+                            console.log(newUsers)
+                            app.roomData.users = newUsers
+                            //addMessageToLobbyChat("(system)", "Someone has changed their role!")
+                            addMessageToLobbyChat("(system)", "Users have been updated!")
                         })
 
                         socket.on("new words", (data) => { // Game room's words have been reset
@@ -512,16 +655,19 @@
 
                     socket.on("disconnect", () => {
                         console.log("Got disconnected!")
+                        app.connectedToRoom = false
                         app.roomId = undefined
                         if(app.expectingSocketClose) // This is an arbitrary socket closure
                             app.expectingSocketClose = false
                         else // We have been suddenly disconnected!
                             setAlertData(app.lobbyData, "danger", "Connection to the lobby has been lost. Please try reconnecting.")
+                        socket.close()
                     })
                 },
 
                 closeRoom: (arg) => {
                     app.roomId = undefined
+                    app.roomData = undefined
                     app.expectingSocketClose = true
                     //localStorage.removeItem("roomId")
                     //localStorage.removeItem("roomName")
@@ -530,7 +676,7 @@
                     socket.close()
                 },
 
-                joinRoom: (e) => {
+                joinRoom: (e) => { // Joined by clicking a row: e = MouseEvent
                     if(!app.userId) return setAlertData(app.lobbyData, "warning", "You must be logged in in order to join lobbies. Please register or play as a guest!")
 
                     let targetRow = e.target.parentElement
@@ -627,24 +773,100 @@
                         col = e
                     let SECRET_PREFIX = "____"
 
+                    function sortArr(arr, col, inverse = false){
+                        return arr.sort((a, b) => {
+                            if(inverse) [a, b] = [b, a]
+                            if(typeof(a[col]) == "number" && typeof(b[col]) == "number"){
+                                /*console.log("Comparing numbers")
+                                console.log(a)
+                                console.log(b)*/
+                                if(a[col]<b[col]) return -1;
+                                else if(a[col]==b[col]) return 0;
+                                else return 1;
+                            }
+                            else if(typeof(a[col]) == "string" && typeof(b[col]) == "string"){
+                                //console.log("Comparing strings")
+                                return a[col].localeCompare(b[col])
+                            }
+                            else {
+                                //console.log("Comparing... something")
+                                return a[col].toString().localeCompare(b[col].toString())
+                            }
+                        })
+                    }
+
                     if(this.sortedCol == undefined || this.sortedCol == SECRET_PREFIX + col) {
-                        this.roomArr = this.roomArr.sort((a, b) => a[col].toString().localeCompare(b[col].toString()))
+                        this.roomArr = sortArr(this.roomArr, col)
                         this.sortedCol = col
                     }
                     else {
                         this.sortedCol = SECRET_PREFIX + col
-                        this.roomArr = this.roomArr.sort((b, a) => a[col].toString().localeCompare(b[col].toString()))
+                        this.roomArr = this.roomArr = sortArr(this.roomArr, col, true)
                     }
                 },
 
-                sendRoomMessage(msg){
+                sendRoomMessage(){
                     data = {
                         userId: app.userId,
                         hash: app.sessionHash,
                         roomId: app.roomId,
-                        msg: msg
+                        msg: document.getElementById("roomMsg").value
                     }
-                    socket.emit("message room", data)
+                    document.getElementById("roomMsg").value = ""
+
+                    if(data.msg) // Don't send "" messages (empty messages)
+                        socket.emit("message room", data)
+                },
+
+                changeRole(newRole){ // newRole = red / blue / spectator / red spymaster / blue spymaster
+                    let data = {
+                        userId: app.userId,
+                        hash: app.sessionHash,
+                        roomId: app.roomId,
+                        role: newRole
+                    }
+                    socket.emit("change role", data)
+                },
+
+                getRoomNicknamesByRole(role){
+                    if(this.roomData == undefined) return ""
+
+                    ans = []
+                    for(user of app.roomData.users)
+                        //if(user.role.indexOf(role) != -1)
+                        if(user.role == role)
+                            ans.push(user.nickname)
+
+                    ansStr = ans.join(", ")
+
+                    //if(role.indexOf("spymaster") != -1) // Looking for the spymaster
+                    if(ansStr.length == 0)
+                        ansStr = "..." // Inform the players that the spot is open!
+
+                    //console.log(role+"||||"+ansStr)
+                    return ansStr
+                },
+
+                getRoomWordInMatrix(row, col){
+                    let index = (row-1) * this.roomData.boardWidth + col-1
+                    let word = this.roomData.words[index].word
+                    //word = word.toUpperCase()
+                    word = word[0].toUpperCase() + word.slice(1).toLowerCase()
+                    return word
+                },
+
+                leaveLobby(){
+                    let data = {
+                        userId: this.userId,
+                        hash: this.sessionHash,
+                        roomId: this.roomId
+                    }
+
+                    let successCallback = () => {
+                        this.closeRoom()
+                    }
+                    let failureCallback = () => console.log("An error has occurred when leaving the lobby.")
+                    ajaxRequest("leaveRoom", data, successCallback, failureCallback)
                 }
             }
         })

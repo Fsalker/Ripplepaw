@@ -15,5 +15,7 @@ module.exports = {
                 resolve(res)
             })
         })
-    }
+    },
+
+    VALID_ROLES: ["red", "blue", "spectator", "red spymaster", "blue spymaster"]
 }
