@@ -14,19 +14,35 @@ async function validate_socket_auth(con, data){ // Checks that there's a Session
 }
 
 async function getRoomUsers(con, roomId){ // Gets a room's users
-    try {
-        let users = await query(con, `SELECT a.id, a.nickname, b.role FROM Users a 
-                                     JOIN UserToRoom b ON a.id = b.userId
-                                     WHERE b.roomId = ?`, roomId)
+    //try {
+    return await query(con, `SELECT a.id, a.nickname, b.role FROM Users a 
+                             JOIN UserToRoom b ON a.id = b.userId
+                             WHERE b.roomId = ?`, roomId)
+    //} catch(e) {log(e)}
+}
 
-        return users
-    } catch(e) {log(e)}
+async function getRoomWords(con, roomId, userId){ // Gets a room's words. If the role includes "spymaster", we also let them know all colors :D
+    //try {
+    let words = await query(con, `SELECT a.id, c.word, a.color, a.revealed FROM
+                             (SELECT * FROM WordToRoom WHERE roomId = ?) a
+                             JOIN Words c ON a.wordId = c.id`, roomId)
+    console.log(roomId+" "+userId)
+    let role = (await query(con, "SELECT role FROM UserToRoom WHERE userId = ? AND roomId = ?", [userId, roomId]))[0]["role"]
+
+    if(role.indexOf("spymaster") == -1) // Not a spymaster, so we don't show every word's color
+        for(let word of words)
+            if(word.revealed == "false") // Word isn't revealed, so we hide this color
+                delete word.color
+
+    return words
+    //} catch(e) {log(e)}
 }
 
 async function refreshUsersInRoom(con, io, roomId){ // Lets the clients that joined room 'roomId' know that the users (might) have changed, refreshing the front end
     try{
         let users = await getRoomUsers(con, roomId)
-        io.to(`room ${roomId}`).emit("users updated", users)
+        let roomOwnerId = (await query(con, "SELECT ownerId FROM Rooms WHERE id = ?", roomId))[0]["ownerId"]
+        io.to(`room ${roomId}`).emit("users updated", {users: users, roomOwnerId: roomOwnerId})
     } catch(e) {log(e)}
 }
 
@@ -34,12 +50,12 @@ module.exports = {
     handleSocket(con, io){
         let connections = [] // {userId, roomId, socketId}
 
-        setInterval(() => {
+        /*setInterval(() => {
             let x = connections.map(elem => {
                 return {userId: elem.userId, roomId: elem.roomId}
             })
             console.log(x)
-        }, 4000)
+        }, 4000)*/
 
         io.on("connection", (socket) => {
             try{
@@ -99,25 +115,13 @@ module.exports = {
                         await validate_socket_auth(con, data)
 
                         let users = await getRoomUsers(con, data.roomId)
+                        let words = await getRoomWords(con, data.roomId, data.userId)
+                        let room = (await query(con, "SELECT ownerId, boardWidth, boardHeight FROM Rooms WHERE id = ?", data.roomId))[0]
+                        let boardWidth = room["boardWidth"]
+                        let boardHeight = room["boardHeight"]
+                        let ownerId = room["ownerId"]
 
-                        let role = users.filter( user => user.id == data.userId)[0].role
-                        if(role == undefined) throw "Role is undefined, but I don't know how this is possible!"
-                        console.log(role)
-
-                        let words = await query(con, `SELECT a.id, c.word, a.color, a.revealed FROM
-                                            (SELECT * FROM WordToRoom WHERE roomId = ?) a
-                                            JOIN Words c ON a.wordId = c.id`, data.roomId)
-
-                        let room = await query(con, "SELECT boardWidth, boardHeight FROM Rooms WHERE id = ?", data.roomId)
-                        let boardWidth = room[0]["boardWidth"]
-                        let boardHeight = room[0]["boardHeight"]
-
-                        if(role.indexOf("spymaster") == -1) // Not a spymaster, so we don't show every word's color
-                            for(let word of words)
-                                if(word.revealed == "false") // Word isn't revealed, so we hide this color
-                                    delete word.color
-
-                        socket.emit("received room data", {users: users, words: words, boardWidth: boardWidth, boardHeight: boardHeight})
+                        socket.emit("received room data", {users: users, words: words, boardWidth: boardWidth, boardHeight: boardHeight, ownerId: room["ownerId"]})
                     } catch(e) {
                         log("Failed to get room data: "+e)
                         socket.disconnect()
@@ -153,7 +157,6 @@ module.exports = {
                             if(roleIsTaken != 0)
                                 throw "Role is taken!"
                         }
-
 
                         await query(con, "UPDATE UserToRoom SET role=? WHERE userId = ? AND roomId = ?", [data.role, data.userId, data.roomId])
                         refreshUsersInRoom(con, io, data.roomId)

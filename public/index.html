@@ -187,6 +187,7 @@
                         <h1 style="display: inline-block; margin: 0">Lobbies</h1>
 
                         <div class="ml-auto">
+                            <input id="password" placeholder="Lobby password..." class="form-control" style="width: 196px; display: inline-block; padding-top: 2px;">
                             <button class="btn btn-info" @click="getRoomList">Refresh</button>
                             <b-btn class="btn btn-info ml-1" :disabled="!loggedin" @click="changeCreatedRoomName" v-b-modal.create-lobby-modal>Create lobby</b-btn>
 
@@ -373,10 +374,13 @@
 
         function addMessageToLobbyChat(authorNickname, msg){
             let chat = document.getElementById("roomChatroom")
+            let isScrolledToBottom = chat.scrollHeight - chat.clientHeight <= chat.scrollTop + 1;
             if(authorNickname == "(system)")
                 chat.innerHTML += `<li class="systemMessage">${msg}</li>`
             else
                 chat.innerHTML += `<li><b>${authorNickname}:</b> ${msg}</li>`
+            if(isScrolledToBottom) // If we're already scrolled at the bottom, automatically scroll down again! Clever.
+                chat.scrollTop = chat.scrollHeight - chat.clientHeight
         }
 
         // Vue
@@ -576,7 +580,6 @@
                         roomName = arg.target.getAttribute("room-name")
                     }
 
-                    console.log("Opening room "+roomId)
                     app.roomId = roomId
                     app.roomName = roomName
                     //localStorage.setItem("roomId", roomId)
@@ -622,18 +625,19 @@
                             let text_node = document.createTextNode(`${data.userNickname}: ${data.msg}`)
                             li_node.appendChild(text_node)
                             document.getElementById("roomChatroom").appendChild(li_node)*/
-                            let chat = document.getElementById("roomChatroom")
-                            let isScrolledToBottom = chat.scrollHeight - chat.clientHeight <= chat.scrollTop + 1;
+
                             addMessageToLobbyChat(data.userNickname, data.msg)
-                            if(isScrolledToBottom) // If we're already scrolled at the bottom, automatically scroll down again! Clever.
-                                chat.scrollTop = chat.scrollHeight - chat.clientHeight
                         })
 
-                        socket.on("users updated", (newUsers) => { // Users update - someone joins, leaves, changes their role etc
-                            console.log(newUsers)
+                        socket.on("users updated", (data) => { // Users update - someone joins, leaves, changes their role etc
+                            if(app.roomData.ownerId != data.roomOwnerId)
+                                addMessageToLobbyChat("(system)", "Lobby owner has been changed.")
+                            app.roomData.ownerId = data.roomOwnerId
+                            let newUsers = data.users
+                            let oldUsers = app.roomData.users
                             app.roomData.users = newUsers
                             //addMessageToLobbyChat("(system)", "Someone has changed their role!")
-                            addMessageToLobbyChat("(system)", "Users have been updated!")
+                            //addMessageToLobbyChat("(system)", "Users have been updated!")
                         })
 
                         socket.on("new words", (data) => { // Game room's words have been reset
@@ -659,8 +663,11 @@
                         app.roomId = undefined
                         if(app.expectingSocketClose) // This is an arbitrary socket closure
                             app.expectingSocketClose = false
-                        else // We have been suddenly disconnected!
+                        else { // We have been suddenly disconnected!
+                            app.getJoinedRooms()
+                            app.getRoomList()
                             setAlertData(app.lobbyData, "danger", "Connection to the lobby has been lost. Please try reconnecting.")
+                        }
                         socket.close()
                     })
                 },
@@ -681,24 +688,36 @@
 
                     let targetRow = e.target.parentElement
 
+                    let roomId = parseInt(targetRow.children[app.roomColumns.indexOf("Id")].innerText)
+                    let roomName = targetRow.children[app.roomColumns.indexOf("Name")].innerText
+
+                    if(app.joinedRooms.filter(room => room.id == roomId).length > 0) // Room already joined
+                        return app.displayRoom(roomId, roomName)
+
                     let playersVal = targetRow.children[app.roomColumns.indexOf("Players")].innerText
                     let players = parseInt(playersVal.split("/")[0])
                     let maxPlayers = parseInt(playersVal.split("/")[1])
 
                     if(players >= maxPlayers) return setAlertData(app.lobbyData, "danger", "Lobby is full!")
 
-                    let roomId = parseInt(targetRow.children[app.roomColumns.indexOf("Id")].innerText)
-                    let roomName = targetRow.children[app.roomColumns.indexOf("Name")].innerText
-
                     let data = {
                         userId: app.userId,
                         hash: app.sessionHash,
-                        roomId: roomId
+                        roomId: roomId,
+                        password: document.getElementById("password").value
                     }
                     let successCallback = (data) => {
                         app.displayRoom(roomId, roomName)
                     }
-                    let failureCallback = () => setAlertData(app.lobbyData, "danger", "An error occurred when joining the lobby.")
+                    let failureCallback = (data) => {
+                        console.log(data)
+                        if(data == "banned")
+                            setAlertData(app.lobbyData, "danger", "You have been banned from joining this lobby.")
+                        else if(data == "bad password")
+                            setAlertData(app.lobbyData, "danger", "Password is incorrect.")
+                        else
+                            setAlertData(app.lobbyData, "danger", "An error occurred when joining the lobby.")
+                    }
                     ajaxRequest("joinRoom", data, successCallback, failureCallback)
 
                 },
@@ -760,6 +779,9 @@
 
                 roomIsJoinable(room){
                     if(!this.loggedin) return false
+                    let roomId = parseInt(room["Id"])
+                    if(app.joinedRooms.filter(room => room.id == roomId).length > 0) // Room already joined
+                        return true;
                     let players = parseInt(room["Players"].split("/")[0])
                     let maxPlayers = parseInt(room["Players"].split("/")[1])
                     return players < maxPlayers
@@ -832,10 +854,13 @@
                     if(this.roomData == undefined) return ""
 
                     ans = []
-                    for(user of app.roomData.users)
-                        //if(user.role.indexOf(role) != -1)
-                        if(user.role == role)
-                            ans.push(user.nickname)
+                    for(user of app.roomData.users) {
+                        let nick = user.nickname
+                        if(user.id == app.roomData.ownerId)
+                            nick = `${nick} (lobby owner)`
+                        if (user.role == role)
+                            ans.push(nick)
+                    }
 
                     ansStr = ans.join(", ")
 

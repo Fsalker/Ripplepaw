@@ -210,14 +210,26 @@ module.exports = {
         res.end(JSON.stringify(r))
     },
 
-    // userId, hash, roomId
-    // -> 200 / 500
+    // userId, hash, roomId, _password
+    // -> 200 / 500 / 403 (if the user is banned from joining this room, they get a 403)
     joinRoom: async(con, res, data) => {
         validate_input(data, ["userId", "hash", "roomId"])
         await validate_auth(con, data.userId, data.hash)
 
+        roomPassword = (await query(con, "SELECT password FROM Rooms WHERE id = ?", data.roomId))[0]["password"]
+        if(roomPassword != "" && roomPassword != data.password){
+            res.writeHead(401)
+            return res.end("bad password")
+        }
+
         remainingSlots = (await query(con, "SELECT (SELECT maxplayers FROM Rooms WHERE id = ?) - COUNT(*) as `remainingSlots` FROM UserToRoom WHERE roomId = ?", [data.roomId, data.roomId]))[0]["remainingSlots"]
         if(remainingSlots <= 0) throw "room is full"
+
+        r = await query(con, "SELECT banned FROM UserToRoom WHERE userId = ? AND roomId = ?", [data.userId, data.roomId])
+        if(r.length > 0 && r[0]["banned"] == 'true'){
+            res.writeHead(403)
+            return res.end("banned")
+        }
 
         r = await query(con, "SELECT COUNT(*) FROM UserToRoom WHERE userId = ? AND roomId = ?", [data.userId, data.roomId])
         if(r[0]["COUNT(*)"] > 0) return res.end()
@@ -234,6 +246,16 @@ module.exports = {
         await validate_auth(con, data.userId, data.hash)
 
         r = await query(con, "DELETE FROM UserToRoom WHERE userId = ? AND roomId = ?", [data.userId, data.roomId])
+        let roomOwnerId = (await query(con, "SELECT ownerId FROM Rooms WHERE id = ?", data.roomId))[0]["ownerId"]
+        if(data.userId == roomOwnerId) { // Room owner leaves the room, so we pass the ownership to someone else. If there's no one, kill the lobby! :D
+            if((await query(con, "SELECT COUNT(*) FROM UserToRoom WHERE roomId = ?", data.roomId))[0]["COUNT(*)"] > 0){ // Pass the ownership
+                let newOwnerId = (await query(con, "SELECT userId FROM UserToRoom WHERE roomId = ? LIMIT 1", data.roomId))[0]["userId"]
+                await query(con, "UPDATE Rooms SET ownerId = ? WHERE id = ?", [newOwnerId, data.roomId])
+            }
+            else { // Destroy the room
+                await query(con, "UPDATE Rooms SET closed='true' WHERE id = ?", data.roomId)
+            }
+        }
 
         res.end()
     },
@@ -247,4 +269,35 @@ module.exports = {
         rooms = await query(con, "SELECT a.id, a.name FROM Rooms a JOIN UserToRoom b ON a.id = b.roomId WHERE b.userId = ?", data.userId)
         res.end(JSON.stringify(rooms))
     },
+
+    // userId, hash, roomId, targetUserId
+    kick: async(con, res, data) => {
+        validate_input(data, "userId hash roomId targetUserId".split(" "))
+        await validate_auth(con, data.userId, data.hash)
+        if((await query(con, "SELECT ownerId FROM Rooms WHERE id=?", data.roomId))[0]["ownerId"] != data.userId) throw "user isn't the room's owner!"
+
+        await query(con, "DELETE FROM UserToRoom WHERE userId = ? AND roomId = ?", [data.userId, data.roomId])
+        res.end()
+    },
+
+    // userId, hash, roomId, targetUserId
+    ban: async(con, res, data) => {
+        validate_input(data, "userId hash roomId targetUserId".split(" "))
+        await validate_auth(con, data.userId, data.hash)
+        if((await query(con, "SELECT ownerId FROM Rooms WHERE id=?", data.roomId))[0]["ownerId"] != data.userId) throw "user isn't the room's owner!"
+
+        await query(con, `DELETE FROM UserToRoom WHERE userId = ? AND roomId = ?;
+                          INSERT INTO UserToRoom(userId, roomId, banned) VALUES(?, ?, 'true')`, [data.userId, data.roomId, data.userId, data.roomId])
+        res.end()
+    },
+
+    // userId, hash, roomId, targetUserId
+    passOwnership: async(con, res, data) => {
+        validate_input(data, "userId hash roomId targetUserId".split(" "))
+        await validate_auth(con, data.userId, data.hash)
+        if((await query(con, "SELECT ownerId FROM Rooms WHERE id=?", data.roomId))[0]["ownerId"] != data.userId) throw "user isn't the room's owner!"
+
+        await query(con, "UPDATE Rooms SET ownerId = ? WHERE id = ?", [data.targetUserId, data.userId])
+        res.end()
+    }
 }

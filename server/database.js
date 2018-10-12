@@ -8,7 +8,7 @@ module.exports = {
         sql += `DROP TABLE IF EXISTS Rooms;`
         sql += `DROP TABLE IF EXISTS Words;`
         sql += `DROP TABLE IF EXISTS Sessions;`
-        sql += `DROP TABLE IF EXISTS GameState;`
+        //sql += `DROP TABLE IF EXISTS GameState;`
         sql += `DROP TABLE IF EXISTS UserToRoom;`
         sql += `DROP TABLE IF EXISTS WordToRoom;`
 
@@ -35,7 +35,10 @@ module.exports = {
                     password varchar(30) NOT NULL,
                     language varchar(30) NOT NULL /* Romanian, English */,
                     closed varchar(10) DEFAULT 'false',
-                    ts datetime DEFAULT CURRENT_TIMESTAMP
+                    gameStarted varchar(10) DEFAULT 'false',
+                    teamColorTurn varchar(20) DEFAULT 'none', /* none, red, blue - the team which currently has to take a turn */
+                    ts datetime DEFAULT CURRENT_TIMESTAMP,
+                    ts_updated datetime ON UPDATE CURRENT_TIMESTAMP
         );`
 
         sql += `CREATE TABLE Words(
@@ -55,15 +58,16 @@ module.exports = {
                     id int PRIMARY KEY AUTO_INCREMENT,
                     userId int NOT NULL,
                     roomId int NOT NULL,
-                    role varchar(30) DEFAULT 'spectator' /* spectator, red player, red spymaster, blue player, blue spymaster */
+                    role varchar(30) DEFAULT 'spectator', /* spectator, red player, red spymaster, blue player, blue spymaster */
+                    banned varchar(10) DEFAULT 'false'
         );`
 
-        sql += `CREATE TABLE GameState(
-                    id int PRIMARY KEY AUTO_INCREMENT,
-                    roomId int NOT NULL,
-                    gameStarted varchar(10) DEFAULT 'false',
-                    teamColorTurn varchar(20) DEFAULT 'none' /* none, red, blue - the team which currently has to take a turn */
-        );`
+        // sql += `CREATE TABLE GameState(
+        //             id int PRIMARY KEY AUTO_INCREMENT,
+        //             roomId int NOT NULL,
+        //             gameStarted varchar(10) DEFAULT 'false',
+        //             teamColorTurn varchar(20) DEFAULT 'none' /* none, red, blue - the team which currently has to take a turn */
+        // );`
 
         sql += `CREATE TABLE WordToRoom(
                     id int PRIMARY KEY AUTO_INCREMENT,

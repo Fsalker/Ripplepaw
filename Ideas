@@ -2,3 +2,6 @@
 >let people edit their public profile
 >view other public profiles
 >spectator mode
+
+    Improvements
+>when an user joins / leaves / changes role, send the specific user id and event rather than the WHOLE user list. dummy!
