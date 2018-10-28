@@ -21641,3 +21641,9 @@
 [2018/09/28 - 19:14:27] User ::1 disconnected!
 [2018/09/28 - 19:14:27] hewwo we have a request from ::1 for path: /getJoinedRooms
 [2018/09/28 - 19:14:27] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 19:15:56] hewwo we have a request from ::1 for path: /createRoom
+[2018/09/28 - 19:15:56] Created room with id 24
+[2018/09/28 - 19:15:56] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/28 - 19:15:56] id = o6MsOTTCaevrMU9qAAAN
+[2018/09/28 - 19:15:56] User ::1 connected
+[2018/09/28 - 19:15:56] User 9 joined room 24
