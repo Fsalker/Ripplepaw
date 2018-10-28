@@ -1,6 +1,7 @@
 const fs = require("fs")
 const log = require("./log.js").log
 const crypto = require("crypto")
+const assignWordsToRoom = require("./utils.js").assignWordsToRoom
 
 // My functions!! :D
 const generateHash = require("./utils.js").generateHash
@@ -159,52 +160,7 @@ module.exports = {
             [data.userId, data.name, data.maxplayers, data.boardWidth, data.boardHeight, data.password, data.language])
         roomId = r[1][0]["LAST_INSERT_ID()"]
 
-        // Assign Words
-        words = await query(con, "SELECT id FROM Words WHERE language = ? ORDER BY RAND() LIMIT ?", [data.language, data.boardWidth * data.boardHeight])
-
-        let numBlueCards = parseInt(words.length * 0.32);
-        let numRedCards = numBlueCards;
-        let numBlackCards = 1;
-        let numGrayCards = words.length - numBlueCards - numRedCards - numBlackCards
-
-        if(words.length != numBlueCards + numRedCards + numBlackCards + numGrayCards) throw "invalid amount of cards lol"
-
-        let wordsToRoom = words.map( (word, index) => {
-            let wordId = word["id"]
-            let color;
-            let position = index / words.length // the word's position from 1 to 25 (default) in % => ie: index 5 => position 20%
-
-            if(numBlueCards){
-                color = "Blue"
-                --numBlueCards
-            }
-            else if(numRedCards){
-                color = "Red"
-                --numRedCards
-            }
-            else if(numBlackCards){
-                color = "Black"
-                --numBlackCards
-            }
-            else if(numGrayCards){
-                color = "Gray"
-                --numGrayCards
-            }
-
-            return [wordId, roomId, color]
-        })
-        if(numBlueCards || numRedCards || numBlackCards || numGrayCards) throw "There still are cards to fill in..."
-
-        // Shuffle these words :D
-        for(let index = wordsToRoom.length - 1; index > 0; --index){
-            let randomIndex = parseInt(Math.random() * index); // [0, index]
-            let aux = wordsToRoom[index]
-            wordsToRoom[index] = wordsToRoom[randomIndex]
-            wordsToRoom[randomIndex] = aux
-            //[wordsToRoom[randomIndex], wordsToRoom[index]] = [wordsToRoom[index], wordsToRoom[randomIndex]]
-        }
-
-        await query(con, "INSERT INTO WordToRoom(wordId, roomId, color) VALUES ?", [wordsToRoom])
+        await assignWordsToRoom(con, roomId, data.language, data.boardWidth, data.boardHeight)
 
         log("Created room with id "+roomId)
 

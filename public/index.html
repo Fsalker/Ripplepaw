@@ -647,8 +647,7 @@
                             app.roomArr.push(crtRoom)
                         }
                         app.sortedCol = undefined
-                        app.sortRooms("Players")
-                        app.sortRooms("Players") // Descending
+                        app.sortRoomsDescending("Id")
                     }
                     let failureCallback = () => setAlertData(app.lobbyData, "danger", "An error has occurred when fetching the lobby lobbies.")
                     ajaxRequest("viewRooms", {}, successCallback, failureCallback)
@@ -795,7 +794,7 @@
                             console.log(app)
                             console.log(app.roomData)
                             app.roomData.gameStarted = 'false'
-                            //app.roomData.winningTeam = data.winningTeam
+                            app.roomData.winningTeam = data.winningTeam
                         })
 
                         socket.on("other team plays now", (data) => { // Player has passed their team's turn OR they have depleted their amount of guesses
@@ -950,6 +949,11 @@
                     return players < maxPlayers
                 },
 
+                sortRoomsDescending(e){
+                    sortRooms(e);
+                    sortRooms(e)
+                },
+
                 sortRooms(e){
                     let col;
                     if(e.target) // Triggered by click
@@ -1065,11 +1069,11 @@
                         roomId: this.roomId
                     }
 
-                    /* [Debug] Uncomment this for release
+                    // [Debug] Uncomment this for release
                     if(app.roomRedPlayers == "...") return setAlertData(this.insideLobbyData, "warning", "There must be at least a Red Player before starting the game!")
                     if(app.redSpymaster == "...") return setAlertData(this.insideLobbyData, "warning", "There must be a Red Spymaster before starting the game!")
                     if(app.roomBluePlayers == "...") return setAlertData(this.insideLobbyData, "warning", "There must be at least a Blue Player before starting the game!")
-                    if(app.blueSpymaster == "...") return setAlertData(this.insideLobbyData, "warning", "There must be a Blue Spymaster before starting the game!")*/
+                    if(app.blueSpymaster == "...") return setAlertData(this.insideLobbyData, "warning", "There must be a Blue Spymaster before starting the game!")
 
                     socket.emit("start game", data)
                 },

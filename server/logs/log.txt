@@ -21035,3 +21035,609 @@
 [2018/09/28 - 07:38:12] User 1 sent to room 7 message: -joki
 [2018/09/28 - 07:38:13] User 1 sent to room 7 message: ???
 [2018/09/28 - 07:38:27] Game has started in room 7
+[2018/09/28 - 17:54:51] Running server...
+[2018/09/28 - 17:54:52] Connecting to DB...
+[2018/09/28 - 17:59:18] Connecting to DB...
+[2018/09/28 - 17:59:18] Running server...
+[2018/09/28 - 17:59:18] Connected to DB!
+[2018/09/28 - 17:59:19] hewwo we have a request from ::1 for path: /
+[2018/09/28 - 17:59:19] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 17:59:19] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/28 - 17:59:19] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/28 - 17:59:20] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 17:59:20] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 17:59:20] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/28 - 17:59:32] hewwo we have a request from ::1 for path: /
+[2018/09/28 - 17:59:32] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 17:59:32] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/28 - 17:59:32] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/28 - 17:59:32] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 17:59:32] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 17:59:42] hewwo we have a request from ::1 for path: /
+[2018/09/28 - 17:59:42] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 17:59:42] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/28 - 17:59:42] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/28 - 17:59:43] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 17:59:49] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 17:59:49] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 17:59:50] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 17:59:50] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 17:59:50] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 17:59:50] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 17:59:50] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 17:59:51] hewwo we have a request from ::1 for path: /register
+[2018/09/28 - 17:59:51] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:00:07] hewwo we have a request from ::1 for path: /
+[2018/09/28 - 18:00:07] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 18:00:07] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/28 - 18:00:07] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/28 - 18:00:07] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:00:07] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:00:49] hewwo we have a request from ::1 for path: /
+[2018/09/28 - 18:00:50] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 18:00:50] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/28 - 18:00:50] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/28 - 18:00:50] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:00:50] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/28 - 18:01:12] hewwo we have a request from ::1 for path: /
+[2018/09/28 - 18:01:12] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 18:01:12] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/28 - 18:01:12] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/28 - 18:01:12] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:01:12] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/28 - 18:01:20] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:01:20] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:01:21] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:01:21] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:01:21] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:01:21] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:01:21] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:01:21] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:01:21] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:01:22] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:01:22] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:01:23] hewwo we have a request from ::1 for path: /register
+[2018/09/28 - 18:01:23] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:01:32] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:01:32] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:01:32] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:01:32] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:01:32] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:01:32] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:01:32] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:01:36] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:01:37] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:01:39] hewwo we have a request from ::1 for path: /register
+[2018/09/28 - 18:01:39] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:02:20] hewwo we have a request from ::1 for path: /createRoom
+[2018/09/28 - 18:02:20] Created room with id 8
+[2018/09/28 - 18:02:20] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/28 - 18:02:20] id = jh9tWFlRgKjCLHtiAAAA
+[2018/09/28 - 18:02:20] User ::1 connected
+[2018/09/28 - 18:02:20] User 1 joined room 8
+[2018/09/28 - 18:02:24] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:03:35] hewwo we have a request from ::1 for path: /
+[2018/09/28 - 18:03:35] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 18:03:35] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/28 - 18:03:35] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/28 - 18:03:35] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:03:43] hewwo we have a request from ::1 for path: /login
+[2018/09/28 - 18:03:43] invalid auth for user alibaba1
+[2018/09/28 - 18:03:44] hewwo we have a request from ::1 for path: /login
+[2018/09/28 - 18:03:44] invalid auth for user alibaba
+[2018/09/28 - 18:03:57] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:03:57] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:03:57] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:03:58] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:03:58] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:03:58] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:03:58] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:03:59] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:03:59] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:03:59] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:03:59] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:03:59] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:03:59] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:03:59] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 18:04:00] hewwo we have a request from ::1 for path: /register
+[2018/09/28 - 18:04:00] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:04:03] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/28 - 18:04:03] id = c6Mr6sjOIChG9PRdAAAB
+[2018/09/28 - 18:04:03] User ::1 connected
+[2018/09/28 - 18:04:03] User 7 joined room 8
+[2018/09/28 - 18:04:09] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/28 - 18:04:09] id = puJWPYwHs-wSGWBFAAAC
+[2018/09/28 - 18:04:09] User ::1 connected
+[2018/09/28 - 18:04:09] User 5 joined room 7
+[2018/09/28 - 18:04:13] hewwo we have a request from ::1 for path: /leaveRoom
+[2018/09/28 - 18:04:13] User ::1 disconnected!
+[2018/09/28 - 18:04:13] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:04:13] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:04:13] hewwo we have a request from ::1 for path: /
+[2018/09/28 - 18:04:13] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 18:04:13] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/28 - 18:04:13] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/28 - 18:04:14] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:04:14] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:04:14] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/28 - 18:04:16] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/28 - 18:04:16] User ::1 connected
+[2018/09/28 - 18:04:16] id = fVdzfex377LzBA_TAAAD
+[2018/09/28 - 18:04:16] User 5 joined room 8
+[2018/09/28 - 18:04:20] hewwo we have a request from ::1 for path: /
+[2018/09/28 - 18:04:20] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 18:04:20] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/28 - 18:04:20] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/28 - 18:04:20] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:04:20] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:04:20] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/28 - 18:04:21] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/28 - 18:04:21] User ::1 connected
+[2018/09/28 - 18:04:21] id = o8vAFj5uZmTnsIiiAAAE
+[2018/09/28 - 18:04:21] User 6 joined room 8
+[2018/09/28 - 18:04:29] Game has started in room 8
+[2018/09/28 - 18:04:36] Sending game over to room 8 with winning team = blue
+[2018/09/28 - 18:04:39] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 18:04:39] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/28 - 18:04:39] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/28 - 18:04:56] Game has started in room 8
+[2018/09/28 - 18:04:58] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 18:04:58] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/28 - 18:04:58] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/28 - 18:05:15] hewwo we have a request from ::1 for path: /leaveRoom
+[2018/09/28 - 18:05:15] User ::1 disconnected!
+[2018/09/28 - 18:05:15] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:05:15] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:17:14] hewwo we have a request from ::1 for path: /
+[2018/09/28 - 18:17:14] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 18:17:14] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/28 - 18:17:14] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/28 - 18:17:15] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:17:15] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:17:15] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/28 - 18:18:18] Running server...
+[2018/09/28 - 18:18:18] Connecting to DB...
+[2018/09/28 - 18:18:18] Connected to DB!
+[2018/09/28 - 18:18:19] hewwo we have a request from ::1 for path: /
+[2018/09/28 - 18:18:20] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 18:18:20] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/28 - 18:18:20] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/28 - 18:18:20] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:18:20] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:18:20] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/28 - 18:18:20] hewwo we have a request from ::1 for path: /
+[2018/09/28 - 18:18:20] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 18:18:20] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/28 - 18:18:20] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/28 - 18:18:20] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:18:20] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:18:20] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/28 - 18:18:22] User ::1 connected
+[2018/09/28 - 18:18:22] id = j99dOCwQ9laHhQlvAAAA
+[2018/09/28 - 18:18:22] User 1 joined room 6
+[2018/09/28 - 18:18:23] hewwo we have a request from ::1 for path: /leaveRoom
+[2018/09/28 - 18:18:23] User ::1 disconnected!
+[2018/09/28 - 18:18:23] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:18:23] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:18:25] hewwo we have a request from ::1 for path: /createRoom
+[2018/09/28 - 18:18:25] ReferenceError: query is not defined
+[2018/09/28 - 18:18:43] Running server...
+[2018/09/28 - 18:18:43] Connecting to DB...
+[2018/09/28 - 18:18:43] Connected to DB!
+[2018/09/28 - 18:18:44] hewwo we have a request from ::1 for path: /
+[2018/09/28 - 18:18:44] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 18:18:44] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/28 - 18:18:44] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/28 - 18:18:44] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:18:44] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:18:44] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/28 - 18:18:46] hewwo we have a request from ::1 for path: /createRoom
+[2018/09/28 - 18:18:46] TypeError: query is not a function
+[2018/09/28 - 18:18:58] Running server...
+[2018/09/28 - 18:18:58] Connecting to DB...
+[2018/09/28 - 18:18:58] Connected to DB!
+[2018/09/28 - 18:19:00] hewwo we have a request from ::1 for path: /
+[2018/09/28 - 18:19:00] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 18:19:00] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/28 - 18:19:00] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/28 - 18:19:01] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:19:01] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:19:01] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/28 - 18:19:02] hewwo we have a request from ::1 for path: /createRoom
+[2018/09/28 - 18:19:02] ReferenceError: query is not defined
+[2018/09/28 - 18:19:19] Running server...
+[2018/09/28 - 18:19:20] Connecting to DB...
+[2018/09/28 - 18:19:20] Connected to DB!
+[2018/09/28 - 18:19:21] hewwo we have a request from ::1 for path: /createRoom
+[2018/09/28 - 18:19:21] TypeError: query is not a function
+[2018/09/28 - 18:19:45] Running server...
+[2018/09/28 - 18:19:45] Connecting to DB...
+[2018/09/28 - 18:19:45] Connected to DB!
+[2018/09/28 - 18:19:47] hewwo we have a request from ::1 for path: /createRoom
+[2018/09/28 - 18:19:47] TypeError: query is not a function
+[2018/09/28 - 18:19:59] hewwo we have a request from ::1 for path: /createRoom
+[2018/09/28 - 18:19:59] TypeError: query is not a function
+[2018/09/28 - 18:20:02] Running server...
+[2018/09/28 - 18:20:02] Connecting to DB...
+[2018/09/28 - 18:20:02] Connected to DB!
+[2018/09/28 - 18:20:03] hewwo we have a request from ::1 for path: /createRoom
+[2018/09/28 - 18:20:03] ReferenceError: wordsToRoom is not defined
+[2018/09/28 - 18:20:33] Running server...
+[2018/09/28 - 18:20:33] Connecting to DB...
+[2018/09/28 - 18:20:33] Connected to DB!
+[2018/09/28 - 18:20:34] hewwo we have a request from ::1 for path: /createRoom
+[2018/09/28 - 18:20:34] Created room with id 16
+[2018/09/28 - 18:20:34] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/28 - 18:20:35] User ::1 connected
+[2018/09/28 - 18:20:35] id = abuv8vRYk27tbt9OAAAA
+[2018/09/28 - 18:20:35] User 1 joined room 16
+[2018/09/28 - 18:27:58] hewwo we have a request from ::1 for path: /
+[2018/09/28 - 18:27:58] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 18:27:58] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/28 - 18:27:58] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/28 - 18:27:58] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:27:58] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:28:00] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/28 - 18:28:00] User ::1 connected
+[2018/09/28 - 18:28:00] id = 1HlsFBo6p1YqhkibAAAB
+[2018/09/28 - 18:28:00] User 7 joined room 16
+[2018/09/28 - 18:31:21] Running server...
+[2018/09/28 - 18:31:22] Connecting to DB...
+[2018/09/28 - 18:31:22] Connected to DB!
+[2018/09/28 - 18:31:22] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:31:22] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:31:22] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:31:22] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:31:24] hewwo we have a request from ::1 for path: /
+[2018/09/28 - 18:31:24] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 18:31:24] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/28 - 18:31:24] hewwo we have a request from ::ffff:127.0.0.1 for path: /bootstrap-vue.js
+[2018/09/28 - 18:31:25] hewwo we have a request from ::ffff:127.0.0.1 for path: /viewRooms
+[2018/09/28 - 18:31:25] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:31:25] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/28 - 18:31:27] hewwo we have a request from ::1 for path: /createRoom
+[2018/09/28 - 18:31:27] Error: ER_SP_UNDECLARED_VAR: Undeclared variable: NaN
+[2018/09/28 - 18:32:06] Running server...
+[2018/09/28 - 18:32:06] Connecting to DB...
+[2018/09/28 - 18:32:06] Connected to DB!
+[2018/09/28 - 18:32:07] hewwo we have a request from ::1 for path: /
+[2018/09/28 - 18:32:07] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 18:32:07] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/28 - 18:32:07] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/28 - 18:32:07] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:32:07] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:32:07] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/28 - 18:32:08] hewwo we have a request from ::1 for path: /createRoom
+[2018/09/28 - 18:32:08] Created room with id 18
+[2018/09/28 - 18:32:08] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/28 - 18:32:08] User ::1 connected
+[2018/09/28 - 18:32:08] id = y7inW56AAlW4khsPAAAA
+[2018/09/28 - 18:32:08] User 1 joined room 18
+[2018/09/28 - 18:32:12] hewwo we have a request from ::1 for path: /
+[2018/09/28 - 18:32:12] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 18:32:12] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/28 - 18:32:12] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/28 - 18:32:12] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:32:12] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:32:13] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/28 - 18:32:13] id = m-jk1tH9xIPyGQlSAAAB
+[2018/09/28 - 18:32:13] User ::1 connected
+[2018/09/28 - 18:32:13] User 7 joined room 18
+[2018/09/28 - 18:32:17] hewwo we have a request from ::1 for path: /
+[2018/09/28 - 18:32:17] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 18:32:17] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/28 - 18:32:17] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/28 - 18:32:17] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:32:17] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:32:17] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/28 - 18:32:19] hewwo we have a request from ::1 for path: /
+[2018/09/28 - 18:32:19] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 18:32:19] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/28 - 18:32:19] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/28 - 18:32:19] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:32:19] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:32:19] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/28 - 18:32:20] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/28 - 18:32:20] User ::1 connected
+[2018/09/28 - 18:32:20] id = ZU2zGr01xDAoo_COAAAC
+[2018/09/28 - 18:32:20] User 6 joined room 18
+[2018/09/28 - 18:32:31] Error when changing role: Role is taken!
+[2018/09/28 - 18:32:42] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:32:42] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:32:43] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/28 - 18:32:43] User ::1 connected
+[2018/09/28 - 18:32:43] id = 2KgpmYCQNb26QPbHAAAD
+[2018/09/28 - 18:32:43] User 5 joined room 18
+[2018/09/28 - 18:32:50] Error when starting game: TypeError: con.query is not a function
+[2018/09/28 - 18:32:54] Error when starting game: TypeError: con.query is not a function
+[2018/09/28 - 18:33:45] Running server...
+[2018/09/28 - 18:33:45] Connecting to DB...
+[2018/09/28 - 18:33:45] Connected to DB!
+[2018/09/28 - 18:33:45] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:33:45] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:33:45] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:33:45] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:33:45] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:33:45] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:33:45] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:33:45] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:33:46] hewwo we have a request from ::1 for path: /
+[2018/09/28 - 18:33:46] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 18:33:46] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/28 - 18:33:46] hewwo we have a request from ::ffff:127.0.0.1 for path: /bootstrap-vue.js
+[2018/09/28 - 18:33:47] hewwo we have a request from ::ffff:127.0.0.1 for path: /viewRooms
+[2018/09/28 - 18:33:47] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:33:47] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/28 - 18:33:48] hewwo we have a request from ::1 for path: /createRoom
+[2018/09/28 - 18:33:48] Created room with id 19
+[2018/09/28 - 18:33:48] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/28 - 18:33:48] User ::1 connected
+[2018/09/28 - 18:33:48] id = aRmL9XMW98NQxgKFAAAA
+[2018/09/28 - 18:33:48] User 1 joined room 19
+[2018/09/28 - 18:33:48] Game has started in room 19
+[2018/09/28 - 18:33:52] hewwo we have a request from ::ffff:127.0.0.1 for path: /leaveRoom
+[2018/09/28 - 18:33:52] User ::1 disconnected!
+[2018/09/28 - 18:33:52] hewwo we have a request from ::ffff:127.0.0.1 for path: /getJoinedRooms
+[2018/09/28 - 18:33:52] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:33:54] User ::1 connected
+[2018/09/28 - 18:33:54] id = MXn3LzcgQovWRe3fAAAB
+[2018/09/28 - 18:33:54] User 1 joined room 18
+[2018/09/28 - 18:33:56] Game has started in room 19
+[2018/09/28 - 18:34:19] Running server...
+[2018/09/28 - 18:34:19] Connecting to DB...
+[2018/09/28 - 18:34:19] Connected to DB!
+[2018/09/28 - 18:34:19] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:34:19] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:34:38] hewwo we have a request from ::1 for path: /createRoom
+[2018/09/28 - 18:34:38] Created room with id 20
+[2018/09/28 - 18:34:38] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/28 - 18:34:38] User ::1 connected
+[2018/09/28 - 18:34:38] id = mXE8fB7J0t35Vo-_AAAA
+[2018/09/28 - 18:34:38] User 1 joined room 20
+[2018/09/28 - 18:34:40] Error when starting game: TypeError: con.query is not a function
+[2018/09/28 - 18:35:08] Running server...
+[2018/09/28 - 18:35:08] Connecting to DB...
+[2018/09/28 - 18:35:08] Connected to DB!
+[2018/09/28 - 18:35:08] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:35:08] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:35:09] hewwo we have a request from ::1 for path: /
+[2018/09/28 - 18:35:09] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 18:35:09] hewwo we have a request from ::ffff:127.0.0.1 for path: /bootstrap-vue.js
+[2018/09/28 - 18:35:09] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/28 - 18:35:10] hewwo we have a request from ::ffff:127.0.0.1 for path: /viewRooms
+[2018/09/28 - 18:35:10] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:35:10] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/28 - 18:35:11] User ::1 connected
+[2018/09/28 - 18:35:11] id = Kh5_yddzym6tJ-ZbAAAA
+[2018/09/28 - 18:35:11] User 1 joined room 18
+[2018/09/28 - 18:35:16] User ::1 connected
+[2018/09/28 - 18:35:16] id = sV4-j5l-0H4c_y4IAAAB
+[2018/09/28 - 18:35:16] User 7 joined room 18
+[2018/09/28 - 18:35:18] User ::1 connected
+[2018/09/28 - 18:35:18] id = HSEwqag3rqlenQ9pAAAC
+[2018/09/28 - 18:35:18] User 5 joined room 18
+[2018/09/28 - 18:35:19] id = lfP47rWlovWd-OozAAAD
+[2018/09/28 - 18:35:19] User ::1 connected
+[2018/09/28 - 18:35:19] User 6 joined room 18
+[2018/09/28 - 18:35:59] Error when sending guess: wrong team sent the play
+[2018/09/28 - 18:36:19] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 18:36:19] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/28 - 18:36:19] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/28 - 18:36:23] User ::1 disconnected!
+[2018/09/28 - 18:36:24] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:36:24] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:36:24] id = n-eU-ke41CTvvZEUAAAE
+[2018/09/28 - 18:36:24] User ::1 connected
+[2018/09/28 - 18:36:24] User 1 joined room 18
+[2018/09/28 - 18:36:27] hewwo we have a request from ::1 for path: /
+[2018/09/28 - 18:36:27] User ::1 disconnected!
+[2018/09/28 - 18:36:27] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 18:36:27] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/28 - 18:36:27] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/28 - 18:36:27] hewwo we have a request from ::1 for path: /bootstrap-vue.js.map
+[2018/09/28 - 18:36:27] Error: ENOENT: no such file or directory, open 'C:\Users\Andrei\Desktop\Ripplepaw\public\bootstrap-vue.js.map'
+[2018/09/28 - 18:36:27] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:36:27] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:36:28] User ::1 connected
+[2018/09/28 - 18:36:28] id = SHw2jDOdcLQVvLWlAAAF
+[2018/09/28 - 18:36:28] User 1 joined room 18
+[2018/09/28 - 18:56:38] Error when sending guess: wrong team sent the play
+[2018/09/28 - 18:56:39] Error when sending guess: wrong team sent the play
+[2018/09/28 - 18:56:43] Sending game over to room 18 with winning team = blue
+[2018/09/28 - 18:56:45] Error when starting game: ReferenceError: roomId is not defined
+[2018/09/28 - 18:57:06] Running server...
+[2018/09/28 - 18:57:06] Connecting to DB...
+[2018/09/28 - 18:57:06] Connected to DB!
+[2018/09/28 - 18:57:06] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:57:06] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:57:06] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:57:06] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:57:06] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:57:06] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:57:06] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:57:06] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:57:07] User ::1 connected
+[2018/09/28 - 18:57:07] id = kOXalY8gE_uBws4MAAAA
+[2018/09/28 - 18:57:07] User 1 joined room 18
+[2018/09/28 - 18:57:09] Error when starting game: ReferenceError: roomId is not defined
+[2018/09/28 - 18:57:38] Running server...
+[2018/09/28 - 18:57:38] Connecting to DB...
+[2018/09/28 - 18:57:38] Connected to DB!
+[2018/09/28 - 18:57:38] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 18:57:38] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 18:58:50] Running server...
+[2018/09/28 - 18:58:50] Connecting to DB...
+[2018/09/28 - 18:58:50] Connected to DB!
+[2018/09/28 - 18:58:51] id = xwRNsb-uRnQS1wFFAAAA
+[2018/09/28 - 18:58:51] User ::1 connected
+[2018/09/28 - 18:58:51] User 1 joined room 18
+[2018/09/28 - 18:58:51] Error when starting game: ReferenceError: roomId is not defined
+[2018/09/28 - 19:00:47] Running server...
+[2018/09/28 - 19:00:47] Connecting to DB...
+[2018/09/28 - 19:00:47] Connected to DB!
+[2018/09/28 - 19:00:48] User ::ffff:127.0.0.1 connected
+[2018/09/28 - 19:00:48] id = ekooNCr_HsLIuf4IAAAA
+[2018/09/28 - 19:00:48] User 1 joined room 18
+[2018/09/28 - 19:00:51] Game has started in room 18
+[2018/09/28 - 19:01:42] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 19:01:42] User ::ffff:127.0.0.1 disconnected!
+[2018/09/28 - 19:01:42] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 19:01:43] User ::1 connected
+[2018/09/28 - 19:01:43] id = QP6TlZbWUYAEKg0KAAAB
+[2018/09/28 - 19:01:43] User 1 joined room 18
+[2018/09/28 - 19:02:08] hewwo we have a request from ::1 for path: /leaveRoom
+[2018/09/28 - 19:02:08] User ::1 disconnected!
+[2018/09/28 - 19:02:08] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 19:02:08] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 19:02:17] hewwo we have a request from ::1 for path: /
+[2018/09/28 - 19:02:18] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 19:02:18] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/28 - 19:02:18] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/28 - 19:02:18] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 19:02:18] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 19:02:18] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/28 - 19:02:23] hewwo we have a request from ::1 for path: /createRoom
+[2018/09/28 - 19:02:23] Created room with id 21
+[2018/09/28 - 19:02:23] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/28 - 19:02:23] User ::1 connected
+[2018/09/28 - 19:02:23] id = TINI8RNP4tczoBJAAAAC
+[2018/09/28 - 19:02:23] User 1 joined room 21
+[2018/09/28 - 19:02:30] User ::1 disconnected!
+[2018/09/28 - 19:02:30] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 19:02:30] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 19:02:34] User ::1 connected
+[2018/09/28 - 19:02:34] id = H83dAYy9D8Mq_NNHAAAD
+[2018/09/28 - 19:02:35] User 1 joined room 21
+[2018/09/28 - 19:02:36] hewwo we have a request from ::1 for path: /leaveRoom
+[2018/09/28 - 19:02:36] User ::1 disconnected!
+[2018/09/28 - 19:02:36] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 19:02:36] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 19:03:05] hewwo we have a request from ::1 for path: /login
+[2018/09/28 - 19:03:05] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 19:03:08] hewwo we have a request from ::1 for path: /createRoom
+[2018/09/28 - 19:03:08] Created room with id 22
+[2018/09/28 - 19:03:08] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/28 - 19:03:09] User ::1 connected
+[2018/09/28 - 19:03:09] id = VKdJRotTvEuvnhOwAAAE
+[2018/09/28 - 19:03:09] User 1 joined room 22
+[2018/09/28 - 19:03:10] User ::1 disconnected!
+[2018/09/28 - 19:03:10] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 19:03:10] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 19:03:19] hewwo we have a request from ::1 for path: /createRoom
+[2018/09/28 - 19:03:19] Created room with id 23
+[2018/09/28 - 19:03:19] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/28 - 19:03:19] User ::1 connected
+[2018/09/28 - 19:03:19] id = 3bI3iLbBA7fma85MAAAF
+[2018/09/28 - 19:03:19] User 1 joined room 23
+[2018/09/28 - 19:03:24] User ::1 disconnected!
+[2018/09/28 - 19:03:24] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 19:03:24] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 19:03:26] hewwo we have a request from ::1 for path: /
+[2018/09/28 - 19:03:26] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 19:03:26] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/28 - 19:03:26] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/28 - 19:03:27] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 19:03:27] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 19:03:29] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/28 - 19:03:31] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/28 - 19:03:31] User ::1 connected
+[2018/09/28 - 19:03:31] id = FDT9rgSTPK2SC7SaAAAG
+[2018/09/28 - 19:03:31] User 7 joined room 23
+[2018/09/28 - 19:03:33] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 19:03:35] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/28 - 19:03:35] User ::1 connected
+[2018/09/28 - 19:03:35] id = bKNNtUFyvyXBiTR3AAAH
+[2018/09/28 - 19:03:35] User 5 joined room 23
+[2018/09/28 - 19:03:40] User ::1 disconnected!
+[2018/09/28 - 19:03:40] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 19:03:40] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 19:03:52] hewwo we have a request from ::1 for path: /
+[2018/09/28 - 19:03:52] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 19:03:52] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/28 - 19:03:52] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/28 - 19:03:52] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 19:03:52] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 19:03:52] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/28 - 19:04:00] hewwo we have a request from ::1 for path: /login
+[2018/09/28 - 19:04:00] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 19:04:02] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/28 - 19:04:04] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/28 - 19:04:04] User ::1 connected
+[2018/09/28 - 19:04:04] id = Eu9D7WVdAKuDF1rEAAAI
+[2018/09/28 - 19:04:04] User 6 joined room 23
+[2018/09/28 - 19:04:10] hewwo we have a request from ::1 for path: /
+[2018/09/28 - 19:04:10] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 19:04:10] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/28 - 19:04:10] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/28 - 19:04:11] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 19:04:11] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 19:04:11] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/28 - 19:04:16] User ::1 connected
+[2018/09/28 - 19:04:16] id = M680Zk5MRt2lsbyaAAAJ
+[2018/09/28 - 19:04:16] User 1 joined room 23
+[2018/09/28 - 19:04:17] hewwo we have a request from ::1 for path: /leaveRoom
+[2018/09/28 - 19:04:17] User ::1 disconnected!
+[2018/09/28 - 19:04:17] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 19:04:17] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 19:04:55] hewwo we have a request from ::1 for path: /
+[2018/09/28 - 19:04:55] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 19:04:55] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/28 - 19:04:55] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/28 - 19:04:55] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 19:04:56] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/28 - 19:05:33] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 19:05:33] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 19:05:33] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 19:05:33] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 19:05:43] hewwo we have a request from ::1 for path: /register
+[2018/09/28 - 19:05:43] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 19:05:53] hewwo we have a request from ::1 for path: /login
+[2018/09/28 - 19:05:53] invalid auth for user alexandro
+[2018/09/28 - 19:05:55] hewwo we have a request from ::1 for path: /login
+[2018/09/28 - 19:05:55] invalid auth for user Alexandro
+[2018/09/28 - 19:06:01] hewwo we have a request from ::1 for path: /login
+[2018/09/28 - 19:06:01] invalid auth for user alexandro
+[2018/09/28 - 19:06:08] hewwo we have a request from ::1 for path: /login
+[2018/09/28 - 19:06:08] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 19:06:48] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 19:06:48] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 19:06:48] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 19:06:48] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 19:06:48] username Alex is not available
+[2018/09/28 - 19:07:10] hewwo we have a request from ::1 for path: /usernameAvailable
+[2018/09/28 - 19:07:11] hewwo we have a request from ::1 for path: /register
+[2018/09/28 - 19:07:11] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 19:07:18] hewwo we have a request from ::1 for path: /
+[2018/09/28 - 19:07:18] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/09/28 - 19:07:18] hewwo we have a request from ::1 for path: /vue.js
+[2018/09/28 - 19:07:18] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/09/28 - 19:07:18] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 19:07:18] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 19:07:18] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/09/28 - 19:08:07] hewwo we have a request from ::1 for path: /joinRoom
+[2018/09/28 - 19:08:07] User ::1 connected
+[2018/09/28 - 19:08:07] id = 9qd8vmjHbBQoS-DHAAAK
+[2018/09/28 - 19:08:07] User 9 joined room 23
+[2018/09/28 - 19:08:13] User ::1 connected
+[2018/09/28 - 19:08:13] id = DJ2GhkCSxLH4-_LfAAAL
+[2018/09/28 - 19:08:13] User 7 joined room 23
+[2018/09/28 - 19:08:22] User 7 sent to room 23 message: come in
+[2018/09/28 - 19:08:26] User 5 sent to room 23 message: let's play!
+[2018/09/28 - 19:08:36] User 6 sent to room 23 message: join us, Alexandro
+[2018/09/28 - 19:09:12] Game has started in room 23
+[2018/09/28 - 19:09:16] User ::1 disconnected!
+[2018/09/28 - 19:09:16] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 19:09:16] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/28 - 19:09:17] User ::1 connected
+[2018/09/28 - 19:09:17] id = jfH4N4_DV3U7T92ZAAAM
+[2018/09/28 - 19:09:17] User 7 joined room 23
+[2018/09/28 - 19:10:10] User 9 sent to room 23 message: sure! i'm here.
+[2018/09/28 - 19:11:41] Received hint in room 23: cosmic, 2
+[2018/09/28 - 19:12:54] Received hint in room 23: mancare, 2
+[2018/09/28 - 19:13:20] Error when sending guess: wrong team sent the play
+[2018/09/28 - 19:14:02] Received hint in room 23: geografie, 1
+[2018/09/28 - 19:14:10] Sending game over to room 23 with winning team = blue
+[2018/09/28 - 19:14:27] hewwo we have a request from ::1 for path: /leaveRoom
+[2018/09/28 - 19:14:27] User ::1 disconnected!
+[2018/09/28 - 19:14:27] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/28 - 19:14:27] hewwo we have a request from ::1 for path: /viewRooms

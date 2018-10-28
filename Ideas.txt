@@ -4,8 +4,9 @@
 >spectator mode
 
     Improvements
-[ ] >when an user joins / leaves / changes role, send the specific user id and event rather than the WHOLE user list. dummy!
+>when an user joins / leaves / changes role, send the specific user id and event rather than the WHOLE user list. dummy!
   ^thinking about it... it may cause desync issues, but with a permanently connected socket it wouldn't happen, right?
+>better alerts (show in / fade out, remain for about 5 seconds)
 
     Polish
 [v] >"red is taking their turn" - make it look better

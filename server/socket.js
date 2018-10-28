@@ -4,13 +4,13 @@ const VALID_ROLES = require("./utils.js").VALID_ROLES
 
 async function endGame(con, data, io, winningTeam){
     await query(con, "UPDATE Rooms SET winningTeam = ?, gameStarted='false' WHERE id=?", [winningTeam, data.roomId])
+    log(`Sending game over to room ${data.roomId} with winning team = ${winningTeam}`)
     io.to(`room ${data.roomId}`).emit("game over", {winningTeam: winningTeam})
 }
 
 async function change_playing_team(con, data, io){ // Passes the turn to the other team.
     let teamColorTurn = (await query(con, "SELECT teamColorTurn FROM Rooms WHERE id=?", data.roomId))[0]["teamColorTurn"]
     let otherTeamColor = teamColorTurn=='red' ? 'blue' : 'red'
-    console.log("other team color = "+otherTeamColor)
     await query(con, "UPDATE Rooms SET teamColorTurn=?, teamRoleTurn='spymaster' WHERE id=?", [otherTeamColor, data.roomId])
 
     io.to(`room ${data.roomId}`).emit("other team plays now", {otherTeamColor: otherTeamColor})
@@ -24,6 +24,16 @@ async function validate_socket_auth(con, data){ // Checks that there's a Session
 async function validate_socket_room_ownership(con, userId, roomId){
     if((await query(con, "SELECT ownerId FROM Rooms WHERE id=?", roomId))[0]["ownerId"] != userId)
         throw "user isn't the room's owner!"
+}
+
+async function validate_room_has_two_spymasters_and_players_on_both_teams(con, roomId){
+    let r = await query(con, "SELECT DISTINCT role FROM UserToRoom WHERE roomId = ?", roomId)
+    let roles = r.map(elem => elem.role)
+
+    if(roles.indexOf("red spymaster") == -1) throw "red spymaster missing"
+    if(roles.indexOf("red player") == -1) throw "red player missing"
+    if(roles.indexOf("blue spymaster") == -1) throw "blue spymaster missing"
+    if(roles.indexOf("blue player") == -1) throw "blue player missing"
 }
 
 async function validate_socket_play(con, data){ // validates a player's play - hint, guess, pass turn, ... If the game has started and it's their turn, they may make their play
@@ -75,13 +85,6 @@ async function refreshUsersInRoom(con, io, roomId){ // Lets the clients that joi
 module.exports = {
     handleSocket(con, io){
         let connections = [] // {userId, roomId, socketId}
-
-        /*setInterval(() => {
-            let x = connections.map(elem => {
-                return {userId: elem.userId, roomId: elem.roomId}
-            })
-            console.log(x)
-        }, 4000)*/
 
         io.on("connection", (socket) => {
             try{
@@ -146,7 +149,6 @@ module.exports = {
                         res.words = words
                         for(key in room)
                             res[key] = room[key]
-                        console.log(res)
 
                         socket.emit("received room data", res)
                     } catch(e) {
@@ -192,16 +194,25 @@ module.exports = {
                 // --> broadcasts game started
                 socket.on("start game", async(data) => {
                     try{
+                        console.log(`roomId = ${data.roomId}`)
                         await validate_socket_auth(con, data)
                         await validate_socket_room_ownership(con, data.userId, data.roomId)
+                        await validate_room_has_two_spymasters_and_players_on_both_teams(con, data.roomId) // [debug] uncomment me for production
 
                         if((await query(con, "SELECT gameStarted FROM Rooms WHERE id=?", data.roomId))[0]["gameStarted"] == 'true') throw "game is already started"
 
-                        let startingTeam = 'red'
+                        /*let winningTeam = (await query(con, `SELECT winningTeam FROM Rooms WHERE id = ?`, data.roomId))[0]["winningTeam"]
+                        if(winningTeam) {
+                            console
+                            let r = (await query(con, `SELECT language, boardWidth, boardHeight FROM Rooms WHERE id = ?`, data.roomId))[0]
+                            await assignWordsToRoom(con, data.roomId, r["language"], r["boardWidth"], r["boardHeight"])
+                        }*/
+
+                        let startingTeam = Math.random() > 0.5 ? "red" : "blue"
                         await query(con, "UPDATE Rooms SET winningTeam=NULL, gameStarted='true', teamColorTurn=?, teamRoleTurn='spymaster' WHERE id=?", [startingTeam, data.roomId])
 
                         io.to(`room ${data.roomId}`).emit("started game", {teamColorTurn: startingTeam})
-                        log(`Game has started in room ${roomId}`)
+                        log(`Game has started in room ${data.roomId}`)
                     } catch(e) {log("Error when starting game: "+e)}
                 })
 
@@ -215,6 +226,7 @@ module.exports = {
                         await query(con, "UPDATE Rooms SET teamRoleTurn='player', teamGuessesLeft = ?, hintWord = ? WHERE id=?", [data.maxGuesses, data.hint, data.roomId])
 
                         io.to(`room ${data.roomId}`).emit("received hint", {maxGuesses: data.maxGuesses, hint: data.hint})
+                        log(`Received hint in room ${roomId}: ${data.hint}, ${data.maxGuesses}`)
                     } catch(e) {log("Error when sending hint: "+e)}
                 })
 
@@ -230,10 +242,8 @@ module.exports = {
 
                         await query(con, "UPDATE WordToRoom SET revealed = 'true' WHERE id=?", data.wordId)
 
-                        console.log("1")
                         let teamColorTurn = (await query(con, "SELECT teamColorTurn FROM Rooms WHERE id=?", data.roomId))[0]["teamColorTurn"]
                         let otherTeamColor = teamColorTurn=='red' ? 'blue' : 'red'
-                        console.log(`word color = ${word.color}`)
                         if(word.color == 'Black'){ // we picked the assasin - game over
                             await endGame(con, data, io, otherTeamColor)
                         }
@@ -246,7 +256,6 @@ module.exports = {
                             if(wordsLeft == 0)
                                 await endGame(teamColorTurn)
                             else{
-                                console.log(`my color = ${teamColorTurn}, word color = ${word.color}`)
                                 if(word.color.toLowerCase() != teamColorTurn.toLowerCase())
                                     await change_playing_team(con, data, io)
                                 else {
@@ -277,7 +286,6 @@ module.exports = {
                 // userId, hash, roomId
                 // --> broadcasts words to user, if they're they spymaster and the game has started
                 socket.on("receive spymaster words", async(data) => {
-                    console.log("Attempting to give spymaster words...")
                     try{
                         await validate_socket_auth(con, data)
                         if((await query(con, "SELECT role FROM UserToRoom WHERE roomId = ? AND userId = ?", [data.roomId, data.userId]))[0]["role"].indexOf("spymaster") == -1) throw "user isn't the spymaster"
