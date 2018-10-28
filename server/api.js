@@ -12,8 +12,12 @@ const BANNED_FRONTEND_CHARACTERS_ALLOW_SPACES_REGEX = /[^a-zA-Z0-9 ]/
 const ALLOWED_ROOM_LANGUAGES = "english romanian".split(" ")
 
 // Quite useful functions
+async function validate_room_ownership(con, userId, roomId){
+    if((await query(con, "SELECT ownerId FROM Rooms WHERE id=?", roomId))[0]["ownerId"] != userId)
+        throw "user isn't the room's owner!"
+}
+
 function validate_auth(con, userId, hash){
-    //console.log("hash = "+hash)
     return new Promise( async(resolve, reject) => {
             let err;
         r = await query(con, "SELECT COUNT(*) FROM Sessions WHERE userId = ? AND hash = ?", [userId, hash]).catch(e => err = e)
@@ -191,6 +195,15 @@ module.exports = {
         })
         if(numBlueCards || numRedCards || numBlackCards || numGrayCards) throw "There still are cards to fill in..."
 
+        // Shuffle these words :D
+        for(let index = wordsToRoom.length - 1; index > 0; --index){
+            let randomIndex = parseInt(Math.random() * index); // [0, index]
+            let aux = wordsToRoom[index]
+            wordsToRoom[index] = wordsToRoom[randomIndex]
+            wordsToRoom[randomIndex] = aux
+            //[wordsToRoom[randomIndex], wordsToRoom[index]] = [wordsToRoom[index], wordsToRoom[randomIndex]]
+        }
+
         await query(con, "INSERT INTO WordToRoom(wordId, roomId, color) VALUES ?", [wordsToRoom])
 
         log("Created room with id "+roomId)
@@ -216,8 +229,10 @@ module.exports = {
         validate_input(data, ["userId", "hash", "roomId"])
         await validate_auth(con, data.userId, data.hash)
 
+        let roomOwnerId = (await query(con, "SELECT ownerId FROM Rooms WHERE id = ?", data.roomId))[0]["ownerId"]
+
         roomPassword = (await query(con, "SELECT password FROM Rooms WHERE id = ?", data.roomId))[0]["password"]
-        if(roomPassword != "" && roomPassword != data.password){
+        if(data.userId != roomOwnerId && roomPassword != "" && roomPassword != data.password){ // Not the owner & password is incorrect
             res.writeHead(401)
             return res.end("bad password")
         }
@@ -274,7 +289,7 @@ module.exports = {
     kick: async(con, res, data) => {
         validate_input(data, "userId hash roomId targetUserId".split(" "))
         await validate_auth(con, data.userId, data.hash)
-        if((await query(con, "SELECT ownerId FROM Rooms WHERE id=?", data.roomId))[0]["ownerId"] != data.userId) throw "user isn't the room's owner!"
+        await validate_room_ownership(con, data.userId, data.roomId)
 
         await query(con, "DELETE FROM UserToRoom WHERE userId = ? AND roomId = ?", [data.userId, data.roomId])
         res.end()
@@ -284,7 +299,7 @@ module.exports = {
     ban: async(con, res, data) => {
         validate_input(data, "userId hash roomId targetUserId".split(" "))
         await validate_auth(con, data.userId, data.hash)
-        if((await query(con, "SELECT ownerId FROM Rooms WHERE id=?", data.roomId))[0]["ownerId"] != data.userId) throw "user isn't the room's owner!"
+        await validate_room_ownership(con, data.userId, data.roomId)
 
         await query(con, `DELETE FROM UserToRoom WHERE userId = ? AND roomId = ?;
                           INSERT INTO UserToRoom(userId, roomId, banned) VALUES(?, ?, 'true')`, [data.userId, data.roomId, data.userId, data.roomId])
@@ -295,7 +310,7 @@ module.exports = {
     passOwnership: async(con, res, data) => {
         validate_input(data, "userId hash roomId targetUserId".split(" "))
         await validate_auth(con, data.userId, data.hash)
-        if((await query(con, "SELECT ownerId FROM Rooms WHERE id=?", data.roomId))[0]["ownerId"] != data.userId) throw "user isn't the room's owner!"
+        await validate_room_ownership(con, data.userId, data.roomId)
 
         await query(con, "UPDATE Rooms SET ownerId = ? WHERE id = ?", [data.targetUserId, data.userId])
         res.end()

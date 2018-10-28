@@ -7,6 +7,40 @@
     <!--<script src="polyfill.min.js"></script>-->
 
     <style>
+        .redWordBubble_dark{ /* "dark" = revealed to the spymaster, who already sees these bubbles */
+            background-color: #b23529 !important;
+        }
+        .blueWordBubble_dark{
+            background-color: #246d9e !important;
+        }
+        .grayWordBubble_dark{
+            background-color: #777 !important;
+        }
+        .blackWordBubble_dark{
+            border: 2px solid white;
+            background-color: #000 !important;
+        }
+        .redWordBubble{ /* revealed word bubble colors! */
+            background-color: #E74C3C !important;
+        }
+        .blueWordBubble{
+            background-color: #3498DB !important;
+        }
+        .grayWordBubble{
+            background-color: #AAA !important;
+        }
+        .blackWordBubble{
+            background-color: #000 !important;
+        }
+
+        .redText{
+            color: #E74C3C;
+        }
+
+        .blueText{
+            color: #3498DB;
+        }
+
         .systemMessage{
             color: #ccc;
             font-style: italic;
@@ -16,6 +50,7 @@
             background: #666;
             border: 3px solid black;
             overflow: auto;
+            word-break: break-word;
         }
 
         .verticalCenterHack{
@@ -120,8 +155,9 @@
             <a class="navbar-brand logo" href="#">Ripplepaw</a>
             <template v-if="connectedToRoom">
                 <button class="btn btn-primary">[#{{roomId}}] {{roomName}}</button>
-                <button class="btn btn-info" @click="closeRoom">Return to Lobbies</button>
-                <button class="ml-2 btn btn-danger" @click="leaveLobby">Leave Lobby</button>
+                <button class="btn btn-danger" @click="leaveLobby">Leave Lobby</button>
+                <button class="ml-2 btn btn-info" @click="closeRoom">Return to Lobbies</button>
+                <button class="ml-2 btn btn-success" v-if="roomData.ownerId == userId && roomData.gameStarted == 'false'" @click="startGame">Start Game</button>
             </template>
 
             <template v-if="!loggedin">
@@ -187,7 +223,7 @@
                         <h1 style="display: inline-block; margin: 0">Lobbies</h1>
 
                         <div class="ml-auto">
-                            <input id="password" placeholder="Lobby password..." class="form-control" style="width: 196px; display: inline-block; padding-top: 2px;">
+                            <input id="password" placeholder="Joined lobby password..." class="form-control" style="width: 196px; display: inline-block; padding-top: 2px;">
                             <button class="btn btn-info" @click="getRoomList">Refresh</button>
                             <b-btn class="btn btn-info ml-1" :disabled="!loggedin" @click="changeCreatedRoomName" v-b-modal.create-lobby-modal>Create lobby</b-btn>
 
@@ -241,14 +277,6 @@
                             <th v-for="col in roomColumns" @click="sortRooms($event)" class="lobbyCol">
                                 {{col}}
                             </th>
-                            <!--<th width="10%">{{roomColumns[0]}}</th>
-                            <th width="10%">{{roomColumns[1]}}</th>
-                            <th width="40%">{{roomColumns[2]}}</th>
-                            <th width="20%">{{roomColumns[3]}}</th>
-                            <th width="20%">{{roomColumns[4]}}</th>
-                            <th width="20%">{{roomColumns[5]}}</th>
-                            <th width="20%">{{roomColumns[6]}}</th>
-                            <th width="10%">{{roomColumns[7]}}</th>-->
                         </tr>
                             <tr v-for="room in roomArr" @click="joinRoom" v-bind:class="{'joinableRoom': roomIsJoinable(room), 'unjoinableRoom': !roomIsJoinable(room)}">
                                 <td v-for="col of roomColumns" v-bind:style="{display: col != 1 || roomColumns[0] ? 'table-cell' : 'none'}">
@@ -259,23 +287,53 @@
                 </template>
                 <template v-else>
                     <div style="text-align: center">
-                        <p>Unfortunately, there are no open lobbies right now. Go ahead and create your own room!</p>
+                        <p>There are no open lobbies right now. Go ahead and create your own room!</p>
                     </div>
                 </template>
             </template>
             <template v-else>
                 <!--<h1 style="display: inline-block; margin: 0">{{roomName}}</h1>-->
 
+                <alert-object :data="insideLobbyData"></alert-object>
+
                 <div class="mx-4 mt-0">
                     <div class="row m-0 my-2">
-                        <div class="col-9" style="text-align: center">
+                        <div class="col-lg-8 col-12 mt-3" style="text-align: center">
+                            <h3 v-if="roomData.winningTeam">
+                                The game is over! Winning team: <span :class="{redText: roomData.winningTeam == 'red', blueText: roomData.winningTeam == 'blue'}">{{roomData.winningTeam.charAt(0).toUpperCase() + roomData.winningTeam.slice(1)}} Team</span>
+                            </h3>
+                            <template v-else-if="roomData.teamColorTurn">
+                                <template v-if="!itsMyTurn">
+                                    <h4 v-if="roomData.teamRoleTurn == 'spymaster'"><span :class="{redText: roomData.teamColorTurn == 'red', blueText: roomData.teamColorTurn == 'blue'}">{{roomData.teamColorTurn.charAt(0).toUpperCase() + roomData.teamColorTurn.slice(1)}} {{roomData.teamRoleTurn.charAt(0).toUpperCase() + roomData.teamRoleTurn.slice(1)}}</span> is taking their turn.</h4>
+                                    <h4 v-else><span :class="{redText: roomData.teamColorTurn == 'red', blueText: roomData.teamColorTurn == 'blue'}">{{roomData.teamColorTurn.charAt(0).toUpperCase() + roomData.teamColorTurn.slice(1)}} {{roomData.teamRoleTurn.charAt(0).toUpperCase() + roomData.teamRoleTurn.slice(1)}}s</span> are guessing their words! They have {{roomData.teamGuessesLeft}} guesses left.</h4>
+                                </template>
+                                <template v-else>
+                                    <h4>It's your turn!</h4>
+                                    <template v-if="myRole == 'spymaster'">
+                                        <p>Give your team a hint and a number of words they may guess. Remember, your hint must contain a single word!</p>
+                                        <div class="mb-3 ml-4" style="text-align: middle">
+                                            Maximum number of guesses: <input v-model="hintNumGuesses" id="hint_num_guesses" style="display: inline-block; width: 60px" class="form-control mb-1" type="number" min="1" :max="roomData.boardHeight * roomData.boardWidth" placeholder="..."><br>
+                                            <div>
+                                                Word (hint):
+                                                <input @keydown.enter="sendHint"  v-model="hintWord" id="hint_word" style="display: inline-block; width: 200px; padding-top: 2px" class="form-control ml-1" placeholder="Your hint...">
+                                                <button class="btn btn-success" @click="sendHint" :disabled="!hintWord || !hintNumGuesses">Send Hint!</button>
+                                            </div>
+                                        </div>
+                                    </template>
+                                    <template v-else>
+                                        <p class="mb-2">Guess your <span :class="{redText: myTeam == 'red', blueText: myTeam == 'blue'}">team's</span> words or end the turn. The hint is: {{roomData.hintWord}}</p>
+                                        <p class="mb-2">You have {{roomData.teamGuessesLeft}} guesses left.</p>
+                                        <button class="btn btn-success mb-2" @click="endTurn">End Turn</button>
+                                    </template>
+                                </template>
+                            </template>
                             <div v-for="row in roomData.boardHeight">
-                                <span class="wordBubble" v-for="col in roomData.boardWidth">
+                                <span :class="getAdditionalWordBubbleClass(row, col)" @click="sendGuess" class="wordBubble" :id="`word ${row} ${col}`" :word-row="row" :word-col="col" v-for="col in roomData.boardWidth">
                                     {{getRoomWordInMatrix(row, col)}}
                                 </span>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-lg-4 col-12 mt-2">
                             <ul id="roomChatroom" class="chat p-2 mb-2" style="list-style: none; padding: 0; height: 300px">
                                 <li class="systemMessage">This is the chatroom. Your messages and the other players' messages will be displayed here!</li>
                             </ul>
@@ -284,25 +342,23 @@
                     </div>
 
                     <div class="mb-4" style="background: #444; font-weight: bold; font-size: 20px;">
-                        <div class="px-2 selectTeam" style="color: red" @click="changeRole('red')">
+                        <div class="px-2" :class="roomData.gameStarted == 'false' ? 'selectTeam' : ''" style="color: red" @click="roomData.gameStarted == 'false' ? changeRole('red player') : ''">
                             Red Players -
                             <span style="color: white" v-for="nickname in roomRedPlayers">{{nickname}}</span>
-                            <!--<div style="display: inline-block; text-align: right" class="selectSpymaster" @click="changeRole('red spymaster')">Spymaster: {{redSpymaster}}</div>-->
                         </div>
-                        <div class="px-2 selectTeam" style="color: red" @click="changeRole('red spymaster')">
+                        <div class="px-2" :class="roomData.gameStarted == 'false' ? 'selectTeam' : ''" style="color: red" @click="roomData.gameStarted == 'false' ? changeRole('red spymaster') : ''">
                             Red Spymaster:
                             <span style="color: white">{{redSpymaster}}</span>
                         </div>
-                        <div class="px-2 selectTeam" style="color: deepskyblue" @click="changeRole('blue')">
+                        <div class="px-2" :class="roomData.gameStarted == 'false' ? 'selectTeam' : ''" style="color: deepskyblue" @click="roomData.gameStarted == 'false' ? changeRole('blue player') : ''">
                             Blue Players -
                             <span style="color: white" v-for="nickname in roomBluePlayers">{{nickname}}</span>
-                            <!--<span class="selectSpymaster" style="float: right;" @click="changeRole('blue spymaster')">Spymaster: {{blueSpymaster}}</span>-->
                         </div>
-                        <div class="px-2 selectTeam" style="color: deepskyblue" @click="changeRole('blue spymaster')">
+                        <div class="px-2" :class="roomData.gameStarted == 'false' ? 'selectTeam' : ''" style="color: deepskyblue" @click="roomData.gameStarted == 'false' ? changeRole('blue spymaster') : ''">
                             Blue Spymaster:
                             <span style="color: white">{{blueSpymaster}}</span>
                         </div>
-                        <div class="px-2 selectTeam" @click="changeRole('spectator')">
+                        <div class="px-2" :class="roomData.gameStarted == 'false' ? 'selectTeam' : ''" style="color: #CCC" @click="roomData.gameStarted == 'false' ? changeRole('spectator') : ''">
                             Spectators -
                             <span style="color: white" v-for="nickname in roomSpectators">{{nickname}}</span>
                         </div>
@@ -314,6 +370,9 @@
 
     <script src="/socket.io/socket.io.js"></script>
     <script>
+        // Configs
+        const SYSTEM_USER = "(system)"
+
         // Socket IO
         var socket;
 
@@ -328,7 +387,7 @@
             if(seconds <= 9) seconds  = "0" + seconds
             alertData.text = `[${hours}:${minutes}:${seconds}] `*/
             alertData.text = ''
-            setTimeout(() => { // Hacks! Ineffective hack for making the alerts "refreshable" lol
+            setTimeout(() => { // [fixme] Hacks! Ineffective hack for making the alerts "refreshable" lol
                 alertData.variant = variant
                 alertData.text += text
             }, 10)
@@ -375,10 +434,20 @@
         function addMessageToLobbyChat(authorNickname, msg){
             let chat = document.getElementById("roomChatroom")
             let isScrolledToBottom = chat.scrollHeight - chat.clientHeight <= chat.scrollTop + 1;
-            if(authorNickname == "(system)")
-                chat.innerHTML += `<li class="systemMessage">${msg}</li>`
-            else
-                chat.innerHTML += `<li><b>${authorNickname}:</b> ${msg}</li>`
+            let liElement = document.createElement("LI")
+            //liElement.text = msg
+            let liText = document.createTextNode(msg)
+            if(authorNickname == SYSTEM_USER)
+                liElement.classList.add("systemMessage")
+                //chat.innerHTML += `<li class="systemMessage">${msg}</li>`
+            else{
+                let authorElement = document.createElement("B")
+                authorElement.appendChild(document.createTextNode(authorNickname+": "))
+                liElement.appendChild(authorElement)
+            }
+                //chat.innerHTML += `<li><b>${authorNickname}:</b> ${msg}</li>`
+            liElement.appendChild(liText)
+            chat.appendChild(liElement)
             if(isScrolledToBottom) // If we're already scrolled at the bottom, automatically scroll down again! Clever.
                 chat.scrollTop = chat.scrollHeight - chat.clientHeight
         }
@@ -417,13 +486,17 @@
                 // Game data
                 expectingSocketClose: false,
                 roomData: undefined,
+                hintWord: undefined,
+                hintNumGuesses: undefined,
+                winningTeam: undefined,
 
                 // Alert Data
                 registerData: {variant: "", text: ""},
                 registerGuestData: {variant: "", text: ""},
                 loginData: {variant: "", text: ""},
                 createRoomData: {variant: "", text: ""},
-                lobbyData: {variant: "", text: ""}
+                lobbyData: {variant: "", text: ""},
+                insideLobbyData: {variant: "", text: ""},
             },
             mounted: function() {
                 //this.changeCreatedRoomName()
@@ -439,6 +512,34 @@
                     return ans
                 },
 
+                getAdditionalWordBubbleClass: function(row, col){
+                    console.log(`${row} ${col}`)
+                },
+
+                myTeam: function() {
+                    if(this.roomData){
+                        let myUser = this.roomData.users.filter(user => user.id == this.userId)
+                        if(myUser.length > 0)
+                            return myUser[0].role.split(" ")[0]
+                    }
+
+                    return undefined
+                },
+
+                myRole: function() {
+                    if(this.roomData){
+                        let myUser = this.roomData.users.filter(user => user.id == this.userId)
+                        if(myUser.length > 0)
+                            return myUser[0].role.split(" ")[1]
+                    }
+
+                    return undefined
+                },
+
+                itsMyTurn: function(){
+                    return this.myRole == this.roomData.teamRoleTurn && this.myTeam == this.roomData.teamColorTurn
+                },
+
                 redSpymaster: function() {
                     return this.getRoomNicknamesByRole("red spymaster")
                 },
@@ -448,11 +549,11 @@
                 },
 
                 roomRedPlayers: function() {
-                    return this.getRoomNicknamesByRole("red")
+                    return this.getRoomNicknamesByRole("red player")
                 },
 
                 roomBluePlayers: function() {
-                    return this.getRoomNicknamesByRole("blue")
+                    return this.getRoomNicknamesByRole("blue player")
                 },
 
                 roomSpectators: function() {
@@ -609,13 +710,28 @@
                         socket.emit("get room data", auth)
                     })
 
-                    socket.on("userlist updated", () => {
-
+                    socket.on("received spymaster words", (data) => {
+                        console.log("Received spymaster words...")
+                        app.roomData.words = data.words
                     })
 
                     socket.on("received room data", (data) => {
                         console.log("Got room data succesfully!")
                         app.roomData = data
+
+                        /*app.roomData.words.forEach( (val, index) => {
+                            let col = index % app.roomData.boardWidth
+                            let row = parseInt(index / app.roomData.boardWidth)
+                            let word_html_id = `word ${row} ${col}`
+                            let word_html_elem = document.getElementById(word_html_id)
+                            //console.log(app.roomData.boardWidth)
+                            //console.log(row)
+                            //console.log(col)
+                            console.log(word_html_id)
+                            console.log(document.getElementById(word_html_id))
+                        })
+                        console.log("---")
+                        console.log(document.getElementById("word 4 4"))*/
 
                         // Now we can play!
                         app.connectedToRoom = true
@@ -631,25 +747,61 @@
 
                         socket.on("users updated", (data) => { // Users update - someone joins, leaves, changes their role etc
                             if(app.roomData.ownerId != data.roomOwnerId)
-                                addMessageToLobbyChat("(system)", "Lobby owner has been changed.")
+                                addMessageToLobbyChat(SYSTEM_USER, "Lobby owner has been changed.")
                             app.roomData.ownerId = data.roomOwnerId
                             let newUsers = data.users
                             let oldUsers = app.roomData.users
                             app.roomData.users = newUsers
-                            //addMessageToLobbyChat("(system)", "Someone has changed their role!")
-                            //addMessageToLobbyChat("(system)", "Users have been updated!")
+                            //addMessageToLobbyChat(SYSTEM_USER, "Someone has changed their role!")
+                            //addMessageToLobbyChat(SYSTEM_USER, "Users have been updated!")
                         })
 
-                        socket.on("new words", (data) => { // Game room's words have been reset
-
+                        socket.on("started game", (data) => { // Game room's words have been reset
+                            app.roomData.teamColorTurn = data.teamColorTurn
+                            app.roomData.teamRoleTurn = "spymaster"
+                            app.roomData.gameStarted = true
+                            console.log("Game started! Starting team: "+app.roomData.teamColorTurn)
+                            if(app.myRole == "spymaster") {
+                                let data = {
+                                    userId: app.userId,
+                                    hash: app.sessionHash,
+                                    roomId: roomId
+                                }
+                                console.log("Asking for spymaster words...")
+                                socket.emit("receive spymaster words", data)
+                            }
                         })
 
-                        socket.on("game started", (data) => { // Game has started
-
+                        socket.on("received hint", (data) => {
+                            console.log(data)
+                            app.hintWord = undefined
+                            app.hintNumGuesses = undefined
+                            app.roomData.teamGuessesLeft = data.maxGuesses
+                            app.roomData.hintWord = data.hint
+                            app.roomData.teamRoleTurn = "player"
                         })
 
-                        socket.on("game finished", (data) => { // Game has finished
+                        socket.on("received guess", (data) => { // data.wordId, data.color
+                            console.log()
+                            let oldWord = app.roomData.words.filter(word => word.id == data.wordId)
+                            oldWord[0].revealed = "true"
+                            oldWord[0].color = data.color
+                            --app.roomData.teamGuessesLeft
+                        })
 
+                        socket.on("game over", (data) => { // Game has finished
+                            console.log("Game is over! Winning team: "+data.winningTeam)
+                            console.log(data)
+                            console.log(app)
+                            console.log(app.roomData)
+                            app.roomData.gameStarted = 'false'
+                            //app.roomData.winningTeam = data.winningTeam
+                        })
+
+                        socket.on("other team plays now", (data) => { // Player has passed their team's turn OR they have depleted their amount of guesses
+                            console.log("The other team plays now...")
+                            app.roomData.teamRoleTurn = "spymaster"
+                            app.roomData.teamColorTurn = data.otherTeamColor
                         })
 
                         socket.on("word revealed", (data) => { // A player has revealed a word
@@ -676,6 +828,7 @@
                     app.roomId = undefined
                     app.roomData = undefined
                     app.expectingSocketClose = true
+                    resetAlertData(app.insideLobbyData)
                     //localStorage.removeItem("roomId")
                     //localStorage.removeItem("roomName")
                     app.getJoinedRooms()
@@ -683,22 +836,28 @@
                     socket.close()
                 },
 
-                joinRoom: (e) => { // Joined by clicking a row: e = MouseEvent
+                joinRoom: (e, p_roomName = undefined) => { // e = MouseEvent or roomId. If it's the room's id, then roomName must also be specified
                     if(!app.userId) return setAlertData(app.lobbyData, "warning", "You must be logged in in order to join lobbies. Please register or play as a guest!")
 
-                    let targetRow = e.target.parentElement
+                    let roomId, roomName;
+                    if(e.target) { // MouseEvent - clicked on the lobby's row
+                        let targetRow = e.target.parentElement
 
-                    let roomId = parseInt(targetRow.children[app.roomColumns.indexOf("Id")].innerText)
-                    let roomName = targetRow.children[app.roomColumns.indexOf("Name")].innerText
+                        roomId = parseInt(targetRow.children[app.roomColumns.indexOf("Id")].innerText)
+                        roomName = targetRow.children[app.roomColumns.indexOf("Name")].innerText
 
-                    if(app.joinedRooms.filter(room => room.id == roomId).length > 0) // Room already joined
-                        return app.displayRoom(roomId, roomName)
+                        if(app.joinedRooms.filter(room => room.id == roomId).length > 0) // Room already joined
+                            return app.displayRoom(roomId, roomName)
 
-                    let playersVal = targetRow.children[app.roomColumns.indexOf("Players")].innerText
-                    let players = parseInt(playersVal.split("/")[0])
-                    let maxPlayers = parseInt(playersVal.split("/")[1])
+                        let playersVal = targetRow.children[app.roomColumns.indexOf("Players")].innerText
+                        let players = parseInt(playersVal.split("/")[0])
+                        let maxPlayers = parseInt(playersVal.split("/")[1])
 
-                    if(players >= maxPlayers) return setAlertData(app.lobbyData, "danger", "Lobby is full!")
+                        if(players >= maxPlayers) return setAlertData(app.lobbyData, "danger", "Lobby is full!")
+                    } else {
+                        roomId = e
+                        roomName = p_roomName
+                    }
 
                     let data = {
                         userId: app.userId,
@@ -746,11 +905,15 @@
                         return setAlertData(app.createRoomData, "warning", errorMsg)
                     }
 
-                    let successCallback = (data) => {
-                        data = JSON.parse(data);
-                        app.getRoomList()
+                    let successCallback = (received_data) => { // data.roomId
+                        received_data = JSON.parse(received_data);
+                        //app.getRoomList()
                         setAlertData(app.createRoomData, "", "")
-                        app.$root.$emit("bv::hide::modal", "create-lobby-modal")
+                        app.$emit("bv::hide::modal", "create-lobby-modal")
+
+                        let roomId = received_data.roomId
+                        let roomName = data.name
+                        app.joinRoom(roomId, roomName)
                     }
                     let failureCallback = () => setAlertData(app.createRoomData, "danger", "An error has occurred when creating the lobby. Please try again.")
 
@@ -780,7 +943,7 @@
                 roomIsJoinable(room){
                     if(!this.loggedin) return false
                     let roomId = parseInt(room["Id"])
-                    if(app.joinedRooms.filter(room => room.id == roomId).length > 0) // Room already joined
+                    if(app.joinedRooms && app.joinedRooms.filter(room => room.id == roomId).length > 0) // Room already joined
                         return true;
                     let players = parseInt(room["Players"].split("/")[0])
                     let maxPlayers = parseInt(room["Players"].split("/")[1])
@@ -847,6 +1010,7 @@
                         roomId: app.roomId,
                         role: newRole
                     }
+
                     socket.emit("change role", data)
                 },
 
@@ -892,6 +1056,87 @@
                     }
                     let failureCallback = () => console.log("An error has occurred when leaving the lobby.")
                     ajaxRequest("leaveRoom", data, successCallback, failureCallback)
+                },
+
+                startGame(){ // socket is connected
+                    let data = {
+                        userId: this.userId,
+                        hash: this.sessionHash,
+                        roomId: this.roomId
+                    }
+
+                    /* [Debug] Uncomment this for release
+                    if(app.roomRedPlayers == "...") return setAlertData(this.insideLobbyData, "warning", "There must be at least a Red Player before starting the game!")
+                    if(app.redSpymaster == "...") return setAlertData(this.insideLobbyData, "warning", "There must be a Red Spymaster before starting the game!")
+                    if(app.roomBluePlayers == "...") return setAlertData(this.insideLobbyData, "warning", "There must be at least a Blue Player before starting the game!")
+                    if(app.blueSpymaster == "...") return setAlertData(this.insideLobbyData, "warning", "There must be a Blue Spymaster before starting the game!")*/
+
+                    socket.emit("start game", data)
+                },
+
+                sendHint(){ // Spymaster sends a hint (1 word)
+                    //console.log("Sending hint...")
+
+                    let data = {
+                        userId: this.userId,
+                        hash: this.sessionHash,
+                        roomId: this.roomId,
+                        maxGuesses: this.hintNumGuesses,
+                        hint: this.hintWord
+                    }
+
+                    if(!(this.hintNumGuesses >= 1 && this.hintNumGuesses <= this.roomData.boardHeight * this.roomData.boardWidth)) return setAlertData(this.insideLobbyData, "warning", `The number of guesses must be at least 1 and at most ${this.roomData.boardHeight * this.roomData.boardWidth}.`)
+                    if(data.hint.length <= 0 || data.hint.match(/[^a-zA-Z]/)) return setAlertData(this.insideLobbyData, "warning", "Hint must be only one word, containing only letters.")
+
+                    socket.emit("send hint", data)
+                },
+
+                sendGuess(e){ // e = MouseEvent, clicked word
+                    let row = parseInt(e.target.getAttribute("word-row"))
+                    let col = parseInt(e.target.getAttribute("word-col"))
+                    let index = (row-1) * this.roomData.boardWidth + col-1
+                    let wordId = this.roomData.words[index].id
+
+                    let data = {
+                        userId: this.userId,
+                        hash: this.sessionHash,
+                        roomId: this.roomId,
+                        wordId: wordId
+                    }
+
+                    socket.emit("send guess", data)
+                },
+
+                getAdditionalWordBubbleClass(index, col){ // Index = word index in the array. If 'col' is specified, index becomes the 'row' instead
+                    if(col)
+                        index = (index-1) * this.roomData.boardWidth + col-1
+                    let word = this.roomData.words[index]
+                    let revealed = word.revealed
+                    let color = word.color
+                    let newClass = {}
+                    let className = undefined
+                    if(color == 'Blue') className = "blueWordBubble"
+                    if(color == 'Red') className = "redWordBubble"
+                    if(color == 'Gray') className = "grayWordBubble"
+                    if(color == 'Black') className = "blackWordBubble"
+                    if(className && this.myRole == "spymaster" && revealed == 'true')
+                        className += "_dark"
+
+                    if(className)
+                        newClass[className] = true
+                    if(newClass)
+                        console.log(`Got a new class: ${newClass}, color = ${color}`)
+                    return newClass
+                },
+
+                endTurn(){
+                    let data = {
+                        userId: this.userId,
+                        hash: this.sessionHash,
+                        roomId: this.roomId
+                    }
+
+                    socket.emit("pass turn", data)
                 }
             }
         })
