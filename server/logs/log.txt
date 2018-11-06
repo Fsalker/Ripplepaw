@@ -21647,3 +21647,52 @@
 [2018/09/28 - 19:15:56] id = o6MsOTTCaevrMU9qAAAN
 [2018/09/28 - 19:15:56] User ::1 connected
 [2018/09/28 - 19:15:56] User 9 joined room 24
+[2018/09/28 - 19:36:33] User ::1 disconnected!
+[2018/09/29 - 10:33:13] User ::1 disconnected!
+[2018/09/29 - 10:33:13] User ::1 disconnected!
+[2018/09/29 - 10:33:13] User ::1 disconnected!
+[2018/09/29 - 10:33:14] Error: getaddrinfo ENOENT localhost:3306
+[2018/09/29 - 10:33:14] Error: getaddrinfo ENOENT localhost:3306
+[2018/09/29 - 10:33:14] Error: getaddrinfo ENOENT localhost:3306
+[2018/09/29 - 10:33:14] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/29 - 10:33:14] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/29 - 10:33:14] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/29 - 10:33:14] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/29 - 10:33:14] Error: getaddrinfo ENOENT localhost:3306
+[2018/09/29 - 10:33:14] Error: getaddrinfo ENOENT localhost:3306
+[2018/09/29 - 10:33:14] Error: getaddrinfo ENOENT localhost:3306
+[2018/09/29 - 10:33:14] Error: getaddrinfo ENOENT localhost:3306
+[2018/09/29 - 10:33:16] hewwo we have a request from ::1 for path: /viewRooms
+[2018/09/29 - 10:33:16] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/09/29 - 11:00:28] hewwo we have a request from ::1 for path: /restaurantRecommendationsInput?userId=67&sessionId=be8b6140bc76dd5d6a96c48f98038254&input=sunt%20smecher&radius=30&coordinates=44.442679,26.124503
+[2018/09/29 - 11:00:28] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/10/05 - 03:20:40] Running server...
+[2018/10/05 - 03:20:40] Connecting to DB...
+[2018/10/05 - 03:20:52] Running server...
+[2018/10/05 - 03:20:52] Connecting to DB...
+[2018/10/05 - 03:20:52] Connected to DB!
+[2018/10/05 - 03:20:57] hewwo we have a request from ::1 for path: /
+[2018/10/05 - 03:20:57] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/10/05 - 03:20:57] hewwo we have a request from ::1 for path: /vue.js
+[2018/10/05 - 03:20:57] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/10/05 - 03:20:57] hewwo we have a request from ::1 for path: /viewRooms
+[2018/10/05 - 03:20:57] hewwo we have a request from ::1 for path: /favicon.ico
+[2018/10/05 - 12:20:32] Running server...
+[2018/10/05 - 12:20:32] Connecting to DB...
+[2018/10/05 - 12:20:47] Running server...
+[2018/10/05 - 12:20:48] Connecting to DB...
+[2018/10/05 - 12:20:48] Connected to DB!
+[2018/10/05 - 12:20:51] hewwo we have a request from ::1 for path: /
+[2018/10/05 - 12:20:51] hewwo we have a request from ::1 for path: /bootstrap.min.css
+[2018/10/05 - 12:20:51] hewwo we have a request from ::1 for path: /vue.js
+[2018/10/05 - 12:20:51] hewwo we have a request from ::1 for path: /bootstrap-vue.js
+[2018/10/05 - 12:20:52] hewwo we have a request from ::1 for path: /viewRooms
+[2018/10/05 - 12:21:44] hewwo we have a request from ::1 for path: /registerGuest
+[2018/10/05 - 12:21:44] hewwo we have a request from ::1 for path: /getJoinedRooms
+[2018/10/05 - 12:22:04] hewwo we have a request from ::1 for path: /createRoom
+[2018/10/05 - 12:22:04] Created room with id 26
+[2018/10/05 - 12:22:04] hewwo we have a request from ::1 for path: /joinRoom
+[2018/10/05 - 12:22:04] id = _GdeoIiYcjCoxaS-AAAA
+[2018/10/05 - 12:22:04] User ::1 connected
+[2018/10/05 - 12:22:04] User 11 joined room 26
+[2018/10/05 - 19:50:53] User ::1 disconnected!
