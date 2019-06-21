@@ -2,13 +2,14 @@
 var mysql = require("mysql")
 var fs = require("fs")
 var http = require("http")
+let https = require("https")
 var socket = require("socket.io")
 const query = require("./server/utils.js").query
 const handleSocket = require("./server/socket.js").handleSocket
 
 const API_HANDLER_FUNCTIONS = require("./server/api.js")
 const init_database = require("./server/database.js").init_database
-const PORT = 80
+const PORT = 4001
 const CONNECTION_JSON = require("./server/secrets.js").CONNECTION_JSON
 const log = require("./server/log.js").log
 
@@ -71,10 +72,36 @@ function serverHandler(req, res){
 }
 
 function main(){
-    let server = http.createServer(serverHandler)
+    let server
+    let HTTPS_ENABLED = false
+    let http_options
+
+    try{
+        const CERTIFICATE_LOCATION = "/etc/letsencrypt/live/andrei-puiu.dev"
+        http_options = {
+            key: fs.readFileSync(`${CERTIFICATE_LOCATION}/privkey.pem`),
+            cert: fs.readFileSync(`${CERTIFICATE_LOCATION}/cert.pem`),
+        }
+        HTTPS_ENABLED = true
+    }catch(e){
+        console.log("Failed to acquire HTTPS certificate")
+        console.log(e)
+    }
+
+    if(HTTPS_ENABLED){
+        server = https.createServer(http_options, serverHandler)
+        server.listen(PORT)
+        console.log(`HTTPS server is running on PORT ${PORT}...`)
+    } else {
+        http.createServer(serverHandler);
+        server = http.createServer(serverHandler)
+        server.listen(PORT)
+        console.log(`HTTP server is running on PORT ${PORT}...`)
+    }
+
     con = mysql.createPool(CONNECTION_JSON)
 
-    log("Connecting to DB...")
+    log("Connecting to DB...");
     con.getConnection(async(err) => {
         if(err) {
             console.log(err)
@@ -88,8 +115,6 @@ function main(){
 
         let io = socket(server)
         handleSocket(con, io)
-
-        server.listen(PORT)
     })
 }
 
